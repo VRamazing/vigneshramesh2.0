@@ -1,0 +1,53 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+
+
+header.container-fluid{
+
+	background: #6441a5; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #6441a5, #2a0845); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #6441a5, #2a0845); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-color:#52007f;
+	height:700px;
+
+	.container .row{
+
+		padding:70px;
+		color:white;
+		font-style:italics;
+		font-family: 'Russo One', sans-serif;
+		font-size:18px;
+		
+		h3>small{
+			color:white;
+		}
+
+
+
+		.col-xs-6 {
+			i{
+			margin-top:20px;
+			font-size:25px;color:white;float:right;
+			margin-right:10px;}
+
+		
+
+			
+			
+				
+			
+
+		}
+		
+
+
+
+	}
+
+
+
+
+}
