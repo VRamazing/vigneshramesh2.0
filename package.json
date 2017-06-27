@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/VRamazing/vigneshramesh2.0#readme",
   "dependencies": {
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "materialize-css": "^0.99.0"
   }
 }
