@@ -1,7 +1,8 @@
 * {
   padding: 0px;
   margin: 0px;
-  font-size: 16px; }
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif; }
 
 nav div > a, nav div > ul > li > a {
   color: #585858; }
@@ -9,7 +10,7 @@ nav .brand-logo {
   margin-top: 10px; }
 
 #index-banner {
-  background-image: url(../images/Background5.png);
+  background-image: url(../images/Background1.jpg);
   height: 500px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -19,5 +20,18 @@ nav .brand-logo {
 
 ul.right.hide-on-med-and-down li a:hover {
   border-bottom: 2px solid black; }
+
+.section.no-pad-bot h1 {
+  font-family: 'Capriola', sans-serif;
+  text-shadow: 3px -1px 1px #000; }
+.section.no-pad-bot h4 {
+  text-shadow: 2px -1px 1px #000; }
+
+.container-fluid.quote.cyan.z-depth-1 {
+  padding: 20px; }
+  .container-fluid.quote.cyan.z-depth-1 p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic; }
 
 /*# sourceMappingURL=main.css.map */
