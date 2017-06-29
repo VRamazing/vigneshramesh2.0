@@ -30,7 +30,13 @@ ul.right.hide-on-med-and-down li a:hover {
   padding: 20px; }
   .container-fluid.quote p {
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
     font-style: italic; }
+
+.container .section.about p {
+  font-size: 20px; }
+  .container .section.about p span {
+    font-size: 20px; }
+  .container .section.about p a {
+    font-size: 20px; }
 
 /*# sourceMappingURL=main.css.map */
