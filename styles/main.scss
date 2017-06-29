@@ -31,24 +31,18 @@ ul.right.hide-on-med-and-down li a:hover{
 
 .section.no-pad-bot{
 
-	
+	text-shadow: 2px 1px 1px #000;
 
-	 h1{
+	h1{
 		
 		font-family: 'Capriola', sans-serif;
-		text-shadow: 3px -1px 1px #000;
-		}
-
-
-	h4{
-		text-shadow: 2px -1px 1px #000;
 		
-	}
+		}
 
 
 }
 
-.container-fluid.quote.cyan.z-depth-1{
+.container-fluid.quote{
 	padding:20px;
 
 	p{
