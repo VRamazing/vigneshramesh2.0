@@ -73,4 +73,16 @@ ul.right.hide-on-med-and-down li a:hover{
 	}
 }
 
-.section.technology{h4{font-size: 25px;}}
+.section.technology{
+		h4{font-size: 25px;}
+
+		.row{
+			 
+			column-width: 150px;
+			column-gap: 30px;
+		    width: 80%;
+			max-width: 1290px;
+			margin: 50px auto;
+	
+		}
+	}
