@@ -26,9 +26,9 @@ ul.right.hide-on-med-and-down li a:hover {
   .section.no-pad-bot h1 {
     font-family: 'Lobster Two', sans-serif; }
 
-.container-fluid.quote {
+.container-fluid.quote, .container-fluid.quote-con {
   padding: 20px; }
-  .container-fluid.quote p {
+  .container-fluid.quote p, .container-fluid.quote-con p {
     font-size: 20px;
     font-style: italic; }
 
@@ -53,5 +53,18 @@ ul.right.hide-on-med-and-down li a:hover {
   width: 80%;
   max-width: 1290px;
   margin: 50px auto; }
+
+.container.contact {
+  padding: 0px 80px 80px 80px; }
+
+.container-fluid.quote-con p {
+  font-weight: bold; }
+
+span.social {
+  float: right; }
+  span.social i {
+    font-size: 30px;
+    color: white;
+    padding: 2px; }
 
 /*# sourceMappingURL=main.css.map */

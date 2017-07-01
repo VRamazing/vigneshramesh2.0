@@ -86,3 +86,21 @@ ul.right.hide-on-med-and-down li a:hover{
 	
 		}
 	}
+
+.container.contact{
+	padding:0px 80px 80px 80px;
+	
+}
+.container-fluid.quote-con{
+	@extend .container-fluid.quote;
+	p{
+		font-weight: bold;
+	}
+	
+}
+
+span.social{float:right;
+	i{font-size:30px;
+		color:white;
+		padding:2px;}
+}
