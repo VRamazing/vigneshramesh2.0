@@ -91,16 +91,31 @@ ul.right.hide-on-med-and-down li a:hover{
 	padding:0px 80px 80px 80px;
 	
 }
-.container-fluid.quote-con{
-	@extend .container-fluid.quote;
-	p{
+p.center.grey-text.touch{
+	
+		font-size: 20px;
+		font-style: italic;
 		font-weight: bold;
-	}
+	
 	
 }
 
 span.social{float:right;
-	i{font-size:30px;
+	i{  
+		font-size:30px;
 		color:white;
-		padding:2px;}
+		padding:2px;
+
+		&:hover{
+			
+			color:#acacac;
+		}
+	}
+}
+
+footer li a,footer a{
+	color:white;
+	&:hover{
+		text-decoration: underline;
+	}
 }

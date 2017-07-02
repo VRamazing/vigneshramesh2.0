@@ -26,9 +26,9 @@ ul.right.hide-on-med-and-down li a:hover {
   .section.no-pad-bot h1 {
     font-family: 'Lobster Two', sans-serif; }
 
-.container-fluid.quote, .container-fluid.quote-con {
+.container-fluid.quote {
   padding: 20px; }
-  .container-fluid.quote p, .container-fluid.quote-con p {
+  .container-fluid.quote p {
     font-size: 20px;
     font-style: italic; }
 
@@ -57,7 +57,9 @@ ul.right.hide-on-med-and-down li a:hover {
 .container.contact {
   padding: 0px 80px 80px 80px; }
 
-.container-fluid.quote-con p {
+p.center.grey-text.touch {
+  font-size: 20px;
+  font-style: italic;
   font-weight: bold; }
 
 span.social {
@@ -66,5 +68,12 @@ span.social {
     font-size: 30px;
     color: white;
     padding: 2px; }
+    span.social i:hover {
+      color: #acacac; }
+
+footer li a, footer a {
+  color: white; }
+  footer li a:hover, footer a:hover {
+    text-decoration: underline; }
 
 /*# sourceMappingURL=main.css.map */
