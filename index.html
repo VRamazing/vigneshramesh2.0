@@ -372,10 +372,10 @@
 	        <div class="col l6 s12">
 
 	        
-	          <h5 class="white-text">Quote of The Day</h5>
-	          	<blockquote class="grey-text text-lighten-4">
+	          <h5 class="white-text">Inspiring Quote</h5>
+	          	<blockquote class="grey-text text-lighten-4" id="quote">
 	        		The biggest risk is not taking any risk... In a world that changing really quickly, the only strategy that is guaranteed to fail is not taking risks.
-	        	</blockquote>
+	         	</blockquote>
 	        
 
 
@@ -436,6 +436,11 @@
 		        scrollTop: $( $.attr(this, 'href') ).offset().top
 		    }, 500);
 		});
+
+		$.getJSON("https://quotes-gen.herokuapp.com/quote",function(data) {
+		       $("#quote").text(data.text + " ~ " + data.name);
+		  });
+
     </script>
 
 
