@@ -15,9 +15,15 @@ nav{
 
 }
 
-#index-banner{
+div.nav-wrapper.container.right.hide-on-med-and-down{
+	position:absolute!important;
+	top:0;
+
+}
+
+#Home{
 	background-image: url(../images/Background1.jpg);
-	height: 500px; 
+	height: 490px; 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -32,6 +38,7 @@ ul.right.hide-on-med-and-down li a:hover{
 .section.no-pad-bot{
 
 	text-shadow: 2px 1px 1px #000;
+	margin-top:40px;
 
 	h1{
 		
@@ -119,3 +126,12 @@ footer li a,footer a{
 		text-decoration: underline;
 	}
 }
+
+.nav-fixed {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-bottom: 0px;
+    z-index: 997;
+  }

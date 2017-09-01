@@ -19,32 +19,37 @@
 
   </head>
   <body>
-	  <nav class="white" role="navigation">
+	  <nav class="white nav-fixed" role="navigation">
 	    <div class="nav-wrapper container">
+
 	      <a id="logo-container" href="#" class="brand-logo"><img src="./images/vrlogo.png" height="50" weight="50"></a>
-	      <ul class="right hide-on-med-and-down">
-	      	<li><a href="#">Home</a></li>
-	        <li><a href="#About">About</a></li>
-	        <li><a href="#Portfolio">Portfolio</a></li>
-	        <li><a href="#Technology">Technology Stack</a></li>
-	        <li><a href="#Contact">Contact</a></li>
+	      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+	      <ul id="nav-mobile" class="right hide-on-med-and-down">
+	      	<li><a id = "link" href="#Home">Home</a></li>
+	        <li><a id = "link" href="#About">About</a></li>
+	        <li><a id = "link" href="#Portfolio">Portfolio</a></li>
+	        <li><a target = "_blank" href="http://www.vigneshramesh.in/blog">Blog</a></li>
+	        <li><a id = "link" href="#Contact">Contact</a></li>
 	      </ul>
 
-	      <ul id="nav-mobile" class="side-nav">
-	      `	<li><a href="#">Home</a></li>
-	        <li><a href="#About">About</a></li>
-	        <li><a href="#Portfolio">Portfolio</a></li>
-	        <li><a href="#Technology">Technology Stack</a></li>
-	        <li><a href="#Contact">Contact</a></li>
-	      </ul>
-	      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
 	    </div>
 	  </nav>
+
+
+	      <ul id="slide-out" class="side-nav">
+	      `	<li><a id = "link" href="#Home">Home</a></li>
+	        <li><a id = "link" href="#About">About</a></li>
+	        <li><a id = "link" href="#Portfolio">Portfolio</a></li>
+	        <li><a target = "_blank" href="http://www.vigneshramesh.in/blog">Blog</a></li>
+	        <li><a id = "link" href="#Contact">Contact</a></li>
+
+	      </ul>
+	      
 	
 
 
 	  <!-- Header Banner -->
-	  <div class="section no-pad-bot" id="index-banner">
+	  <div class="section no-pad-bot" id="Home">
 	    <div class="container">
 	      <br><br><br>
 	      <h1 class="header center white-text ">Vignesh Ramesh</h1>
@@ -97,7 +102,7 @@
 		    <br>
 		    <div class="row">
 	    	<!-- Row 1 -->
-	    	<div class="col l4 m6 s12">
+	    	<div class="col l4  s12">
 					  <div class="card">
 					    
 					    <div class="card-image waves-effect waves-block waves-light">
@@ -116,7 +121,7 @@
 
 					  </div>
 				</div>
-				<div class="col l4 m6 s12">
+				<div class="col l4  s12">
 					   <div class="card">
 					    
 					    <div class="card-image waves-effect waves-block waves-light">
@@ -135,7 +140,7 @@
 
 					  </div>
 				</div>
-				<div class="col l4 m6 s12">
+				<div class="col l4  s12">
 					  <div class="card">
 					    
 					    <div class="card-image waves-effect waves-block waves-light">
@@ -159,7 +164,7 @@
 
 			<!-- Row 2 -->
 	    	
-				<div class="col l4 m6 s12">
+				<div class="col l4  s12">
 					  <div class="card">
 					    
 					    <div class="card-image waves-effect waves-block waves-light">
@@ -180,7 +185,7 @@
 
 					  </div>
 				</div>
-				<div class="col l4 m6 s12">
+				<div class="col l4  s12">
 					   <div class="card">
 					    
 					    <div class="card-image waves-effect waves-block waves-light">
@@ -202,7 +207,7 @@
 					  </div>
 				</div>
 
-				<div class="col l4 m6 s12">
+				<div class="col l4  s12">
 					   <div class="card">
 					    
 					    <div class="card-image waves-effect waves-block waves-light">
@@ -228,7 +233,7 @@
 	    	<!-- Row 3 -->
 	    	
 	    	
-				<div class="col l4 m6 s12">
+				<div class="col l4  s12">
 					  <div class="card">
 					    
 					    <div class="card-image waves-effect waves-block waves-light">
@@ -252,7 +257,7 @@
 					  </div>
 				</div>
 
-				<div class="col l4 m6 s12">
+				<div class="col l4  s12">
 					   <div class="card">
 					    
 					    <div class="card-image waves-effect waves-block waves-light">
@@ -272,7 +277,7 @@
 					  </div>
 				</div>
 
-				<div class="col l4 m6 s12">
+				<div class="col l4  s12">
 					   <div class="card">
 					    
 					    <div class="card-image waves-effect waves-block waves-light">
@@ -300,7 +305,7 @@
 
 
 	  <!-- Experience-->
-	  <div class="container-fluid quote red lighten-1  z-depth-1">
+	  <div class="container-fluid quote red lighten-1   z-depth-1">
 	    <div class="row ">
 	    	<div class="col s12">
 	    		<br>
@@ -309,157 +314,7 @@
 	    </div>	
 	  </div>
 
-	  <!-- Technology Stack -->
-	
-	  <div class="container-fluid orange lighten-2" id="Technology">
-		<div class="section technology">
-	    
-		      
-		      <div class="row">
-		      <!-- Node.js -->
-		      
-		          <div class="card">
-		            <div class="card-image">
-		              <img src="images/nodejs.png" alt="node.js">
-		            </div>
-		            
-		          </div>
-		   
-
-			       	
-			      <div class="card">
-		            <div class="card-image">
-		              <img src="images/express.png" alt="express.js">
-		            </div>
-		            
-		          </div>
-		       
-
-		          
-		          <div class="card">
-		            <div class="card-image">
-		              <img src="images/ionic.png" alt="ionic">
-		            </div>
-		    
-		          </div>
-		        
-
-		        
-		          <div class="card">
-		            <div class="card-image">
-		              <img src="images/angular.png" alt="angular.js">
-		            </div>
-		         
-		          </div>
-		        
-
-		        
-		          <div class="card">
-		            <div class="card-image">
-		              <img src="images/mongo.png" alt="mongo db">
-		            </div>
-		      
-		          </div>
-		      
-
-		        
-		          <div class="card">
-		            <div class="card-image">
-		              <img src="images/sass.png" alt="sass">
-		            </div>
-		   
-		          </div>
-		        
-
-		        
-		          <div class="card">
-		            <div class="card-image">
-		              <img src="images/python.png" alt="python">
-		            </div>
-		            
-		          </div>
-		        
-
-		       
-		          <div class="card">
-		            <div class="card-image">
-		              <img src="images/photoshop.png" alt="photoshop">
-		            </div>
-		            
-		          </div>
-		        
-
-		        
-		          <div class="card">
-		            <div class="card-image">
-		              <img src="images/illustrator.png" alt="illustrator">
-		            </div>
-		            
-		          </div>
-		        
-
-		          <div class="card">
-		            <div class="card-image">
-		              <img src="images/mysql.png" alt="mysql">
-		            </div>
-		      
-		          </div>
-		       
-
-		        
-		          <div class="card">
-		            <div class="card-image">
-		              <img src="images/jquery.jpg" alt="jquery">
-		            </div>
-		       
-		          </div>
-		       
-
-		        
-		          <div class="card">
-		            <div class="card-image">
-		              <img src="images/php.png" alt="php">
-		            </div>
-		          
-		          </div>
-		        
-
-		        
-		          <div class="card">
-		            <div class="card-image">
-		              <img src="images/ajax.png" alt="ajax">
-		            </div>
-		          </div>
-
-		          <div class="card">
-		            <div class="card-image">
-		              <img src="images/JavaScript.jpg" alt="JavaScript">
-		            </div>
-		           
-		          </div>
-
-		          <div class="card">
-		            <div class="card-image">
-		              <img src="images/html.png" alt="HTML5">
-		            </div>
-		           
-		          </div>     
-
-	    	</div>
-		</div>
-	  </div>
-
-	    <!-- Command-->
-	  <div class="container-fluid quote orange accent-2  z-depth-1">
-	    <div class="row ">
-	    	<div class="col s12">
-	    		<br>
-	    		<p class="center white-text">&ldquo;  Command over varigated Technologies ranging from designing to development &rdquo; </p>
-	    	</div>
-	    </div>	
-	  </div>
-
-	
+	 
 
 	
 	  <!--contact-->
@@ -528,12 +383,12 @@
 	        <div class="col l3 offset-l3 s12">
 	          <h5 class="white-text">Quick Links</h5>
 	          <ul>
-		        <li><a href="#">Home</a></li>
-		        <li><a href="#About">About</a></li>
-		        <li><a href="#Portfolio">Portfolio</a></li>
-		        <li><a href="#Technology">Technology Stack</a></li>
-		        <li><a href="#Contact">Contact</a></li>
-	          </ul>
+		        <li><a id = "link" href="#Home">Home</a></li>
+		        <li><a id = "link" href="#About">About</a></li>
+		        <li><a id = "link" href="#Portfolio">Portfolio</a></li>
+		        <li><a target = "_blank" href="http://www.vigneshramesh.in/blog">Blog</a></li>
+		        <li><a id = "link" href="#Contact">Contact</a></li>>
+		          </ul>
 	        </div>
 	       
 	      </div>
@@ -565,7 +420,24 @@
     <script src="scripts/jquery.min.js"></script>
     <script src="scripts/materialize.min.js"></script>
     <script src="scripts/main.js"></script>
-    <script type="text/javascript">$(".button-collapse").sideNav();</script>
+    <script type="text/javascript">
+    	//Initialize Sidenav
+    	$(".button-collapse").sideNav();
+    	//Close Sidenav on link click
+    	$("ul#slide-out.side-nav > li > a").click(function(){
+    		$('.button-collapse').sideNav('hide');
+    		
+    	});
+    	//Smooth Scroll
+    	$(document).on('click', 'a#link', function(event){
+		    event.preventDefault();
+
+		    $('html, body').animate({
+		        scrollTop: $( $.attr(this, 'href') ).offset().top
+		    }, 500);
+		});
+    </script>
+
 
   </body>
 </html>
