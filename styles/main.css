@@ -1,92 +1,25 @@
-* {
-  padding: 0px;
-  margin: 0px;
-  font-size: 16px;
-  font-family: 'Lato', sans-serif; }
-
-nav div > a, nav div > ul > li > a {
-  color: #585858; }
-nav .brand-logo {
-  margin-top: 10px; }
-
-div.nav-wrapper.container.right.hide-on-med-and-down {
-  position: absolute !important;
-  top: 0; }
-
-#Home {
-  background-image: url(../images/Background1.jpg);
-  height: 490px;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-ul.right.hide-on-med-and-down li a:hover {
-  border-bottom: 2px solid black; }
-
-.section.no-pad-bot {
-  text-shadow: 2px 1px 1px #000;
-  margin-top: 40px; }
-  .section.no-pad-bot h1 {
-    font-family: 'Lobster Two', sans-serif; }
-
-.container-fluid.quote {
-  padding: 20px; }
-  .container-fluid.quote p {
-    font-size: 20px;
-    font-style: italic; }
-
-.container .section.about p {
-  font-size: 20px; }
-  .container .section.about p span {
-    font-size: 20px; }
-  .container .section.about p a {
-    font-size: 20px; }
-
-.portfolio {
-  padding: 40px 80px 60px 80px; }
-  .portfolio h5 {
-    font-size: 20px;
-    font-style: italic; }
-
-.section.technology h4 {
-  font-size: 25px; }
-.section.technology .row {
-  column-width: 150px;
-  column-gap: 30px;
-  width: 80%;
-  max-width: 1290px;
-  margin: 50px auto; }
-
-.container.contact {
-  padding: 0px 80px 80px 80px; }
-
-p.center.grey-text.touch {
-  font-size: 20px;
-  font-style: italic;
-  font-weight: bold; }
-
-span.social {
-  float: right; }
-  span.social i {
-    font-size: 30px;
-    color: white;
-    padding: 2px; }
-    span.social i:hover {
-      color: #acacac; }
-
-footer li a, footer a {
-  color: white; }
-  footer li a:hover, footer a:hover {
-    text-decoration: underline; }
-
-.nav-fixed {
-  position: fixed;
-  right: 0;
-  left: 0;
-  top: 0;
-  margin-bottom: 0px;
-  z-index: 997; }
-
-/*# sourceMappingURL=main.css.map */
+*{padding:0px;margin:0px;font-size:16px;font-family:'Lato', sans-serif;}
+nav div > a, nav div > ul > li > a{color:#585858;}
+nav .brand-logo{margin-top:10px;}
+div.nav-wrapper.container.right.hide-on-med-and-down{position:absolute !important;top:0;}
+#Home{background-image:url(../images/Background1.jpg);height:490px;background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover;}
+ul.right.hide-on-med-and-down li a:hover{border-bottom:2px solid black;}
+.section.no-pad-bot{text-shadow:2px 1px 1px #000;margin-top:40px;}
+.section.no-pad-bot h1{font-family:'Lobster Two', sans-serif;}
+.container-fluid.quote{padding:20px;}
+.container-fluid.quote p{font-size:20px;font-style:italic;}
+.container .section.about p{font-size:20px;}
+.container .section.about p span{font-size:20px;}
+.container .section.about p a{font-size:20px;}
+.portfolio{padding:40px 80px 60px 80px;}
+.portfolio h5{font-size:20px;font-style:italic;}
+.section.technology h4{font-size:25px;}
+.section.technology .row{column-width:150px;column-gap:30px;width:80%;max-width:1290px;margin:50px auto;}
+.container.contact{padding:0px 80px 80px 80px;}
+p.center.grey-text.touch{font-size:20px;font-style:italic;font-weight:bold;}
+span.social{float:right;}
+span.social i{font-size:30px;color:white;padding:2px;}
+span.social i:hover{color:#acacac;}
+footer li a, footer a{color:white;}
+footer li a:hover, footer a:hover{text-decoration:underline;}
+.nav-fixed{position:fixed;right:0;left:0;top:0;margin-bottom:0px;z-index:997;}

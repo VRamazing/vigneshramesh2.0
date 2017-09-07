@@ -4,15 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
     <title>Vignesh Ramesh</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="styles/materialize.min.css">
-    <link rel="stylesheet" href="styles/font-awesome.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Lobster+Two|Lato" rel="stylesheet">
    
@@ -37,7 +34,7 @@
 
 
 	      <ul id="slide-out" class="side-nav">
-	      `	<li><a id = "link" href="#Home">Home</a></li>
+	      	<li><a id = "link" href="#Home">Home</a></li>
 	        <li><a id = "link" href="#About">About</a></li>
 	        <li><a id = "link" href="#Portfolio">Portfolio</a></li>
 	        <li><a target = "_blank" href="http://www.vigneshramesh.in/blog">Blog</a></li>
@@ -387,7 +384,7 @@
 		        <li><a id = "link" href="#About">About</a></li>
 		        <li><a id = "link" href="#Portfolio">Portfolio</a></li>
 		        <li><a target = "_blank" href="http://www.vigneshramesh.in/blog">Blog</a></li>
-		        <li><a id = "link" href="#Contact">Contact</a></li>>
+		        <li><a id = "link" href="#Contact">Contact</a></li>
 		          </ul>
 	        </div>
 	       
@@ -407,7 +404,8 @@
 							<a href="http://www.twitter.com/techieVignesh" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
 							<a href="http://www.linkedin.com/in/techievignesh" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 							<a href="https://plus.google.com/+vigneshramesh1" target="_blank"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
-							<a href="http://www.github.com/vramazing" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>					
+							<a href="http://www.github.com/vramazing" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+							<a href="https://www.freecodecamp.org/vramazing" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>					
 						</span>
 					</div>
 
@@ -417,29 +415,11 @@
 	  </footer>
 
 
-    <script src="scripts/jquery.min.js"></script>
-    <script src="scripts/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script src="scripts/main.js"></script>
     <script type="text/javascript">
-    	//Initialize Sidenav
-    	$(".button-collapse").sideNav();
-    	//Close Sidenav on link click
-    	$("ul#slide-out.side-nav > li > a").click(function(){
-    		$('.button-collapse').sideNav('hide');
-    		
-    	});
-    	//Smooth Scroll
-    	$(document).on('click', 'a#link', function(event){
-		    event.preventDefault();
-
-		    $('html, body').animate({
-		        scrollTop: $( $.attr(this, 'href') ).offset().top
-		    }, 500);
-		});
-
-		$.getJSON("https://quotes-gen.herokuapp.com/quote",function(data) {
-		       $("#quote").text(data.text + " ~ " + data.name);
-		  });
+    	
 
     </script>
 
