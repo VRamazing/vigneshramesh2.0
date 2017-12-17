@@ -77,8 +77,9 @@ div.nav-wrapper.container.right.hide-on-med-and-down{
 }
 
 #Home{
-	background-image: url(../images/Background1.jpg);
-	height: 490px; 
+    background-color: #242D47;
+  	background-image: url(../images/Background1.jpg);
+  	height: 490px; 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
