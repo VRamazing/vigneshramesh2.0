@@ -77,7 +77,8 @@ ul.right.hide-on-med-and-down li a:hover {
     font-size: 20px;
     font-style: italic; }
   .portfolio .card {
-    margin-right: 0px; }
+    margin: 10px;
+    margin-bottom: 25px; }
 
 .section.technology h4 {
   font-size: 25px; }
