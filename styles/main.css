@@ -20,7 +20,10 @@
     column-count: 1; }
 
   .container.contact {
-    padding: 0px 30px 30px 30px; } }
+    padding: 0px 10px 30px 10px !important; }
+
+  .section.portfolio {
+    padding: 20px 10px 10px 10px; } }
 @media only screen and (min-width: 601px) {
   .cards-container {
     -webkit-column-count: 2;
@@ -50,8 +53,11 @@ div.nav-wrapper.container.right.hide-on-med-and-down {
   background-repeat: no-repeat;
   background-size: cover; }
 
-ul.right.hide-on-med-and-down li a:hover {
+#nav-mobile li a:hover, #slide-out li a:hover {
   border-bottom: 2px solid black; }
+
+#nav-mobile .active, #slide-out .active {
+  background: #e4e4e4; }
 
 .section.no-pad-bot {
   text-shadow: 2px 1px 1px #000;
@@ -71,15 +77,33 @@ ul.right.hide-on-med-and-down li a:hover {
     font-size: 20px; }
   .container .section.about p a {
     font-size: 20px; }
+.container .section.about .profilePic {
+  border: 10px solid #efefef;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px #dbdbdb; }
 
 .portfolio {
   padding: 40px 60px 60px 60px; }
   .portfolio h5 {
-    font-size: 20px;
+    font-size: 22px;
     font-style: italic; }
   .portfolio .card {
     margin: 10px;
     margin-bottom: 25px; }
+    .portfolio .card .techUsed {
+      margin-top: 10px; }
+    .portfolio .card .card-link a {
+      margin-left: 2px; }
+    .portfolio .card .role {
+      margin: 6px 0 6px 0; }
+      .portfolio .card .role span {
+        padding: 5px;
+        margin: 3px;
+        border-radius: 5px;
+        display: inline-block;
+        line-height: 20px; }
+    .portfolio .card .projects {
+      height: 15px; }
 
 .section.technology h4 {
   font-size: 25px; }
@@ -94,12 +118,18 @@ ul.right.hide-on-med-and-down li a:hover {
   padding: 0px 80px 80px 80px; }
 
 p.center.grey-text.touch {
-  font-size: 20px;
+  font-size: 22px;
   font-style: italic;
   font-weight: bold; }
 
+footer li a, footer a {
+  color: white; }
+  footer li a:hover, footer a:hover {
+    text-decoration: underline; }
+
 span.social {
-  float: right; }
+  float: right;
+  select: none; }
   span.social i {
     font-size: 30px;
     color: white;
@@ -107,10 +137,10 @@ span.social {
     span.social i:hover {
       color: #acacac; }
 
-footer li a, footer a {
-  color: white; }
-  footer li a:hover, footer a:hover {
-    text-decoration: underline; }
+.fa-itch-io {
+  position: relative;
+  top: 3px;
+  font-size: 32px !important; }
 
 .nav-fixed {
   position: fixed;
@@ -120,89 +150,19 @@ footer li a, footer a {
   margin-bottom: 0px;
   z-index: 997; }
 
-.techUsed {
-  margin-top: 10px; }
-
-.card-link a {
-  margin-left: 2px; }
-
-.demo a {
-  position: relative;
-  top: 60px;
-  z-index: 2;
-  display: inline-block;
-  -webkit-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  color: #fff;
-  letter-spacing: .1em;
-  text-decoration: none;
-  transition: opacity .3s; }
-
-.demo a:hover {
+.scroll-arrow i {
+  animation: MoveUpDown 1s linear infinite;
+  margin-top: 30px;
+  select: none; }
+.scroll-arrow:hover {
   opacity: .5; }
 
-#scroll a {
-  padding-top: 60px; }
-
-#scroll a span {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 46px;
-  height: 46px;
-  margin-left: -23px;
-  border: 1px solid #fff;
-  border-radius: 100%;
-  box-sizing: border-box; }
-
-#scroll a span::after {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  content: '';
-  width: 16px;
-  height: 16px;
-  margin: -12px 0 0 -8px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  box-sizing: border-box; }
-
-#scroll a span::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  content: '';
-  width: 44px;
-  height: 44px;
-  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);
-  border-radius: 100%;
-  opacity: 0;
-  -webkit-animation: sdb03 3s infinite;
-  animation: sdb03 3s infinite;
-  box-sizing: border-box; }
-
-@-webkit-keyframes sdb03 {
+@keyframes MoveUpDown {
   0% {
-    opacity: 0; }
-  30% {
-    opacity: 1; }
-  60% {
-    box-shadow: 0 0 0 60px rgba(255, 255, 255, 0.1);
-    opacity: 0; }
+    margin-top: 30px; }
+  50% {
+    margin-top: 50px; }
   100% {
-    opacity: 0; } }
-@keyframes sdb03 {
-  0% {
-    opacity: 0; }
-  30% {
-    opacity: 1; }
-  60% {
-    box-shadow: 0 0 0 60px rgba(255, 255, 255, 0.1);
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
+    margin-top: 30px; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -6,15 +6,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="cache-control" content="Private" />
 	<meta http-equiv="Expires" content="600" />
-	<meta name="description" content="I am vignesh Ramesh.I am Full Stack Developer and Entrepreneur and through this website I aim to reach the audience who would like to work on awesome projects with me or would want me to work for them.">
+	<meta name="description" content="I am vignesh Ramesh.I am Full Stack Developer and Entrepreneur and through this website I aim to reach the audience who would like to work with me">
 	<meta name="keywords" content="HTML5, CSS3, Angular.js, Node.js, JavaScript,Full Stack Developer,Vignesh Ramesh,Vignesh,Angular js,Node js,Python,Data Science,Entrepreneur,Photoshop,Ajax,Jquery,TypeScript">
 	<meta name="author" content="Vignesh Ramesh">
 	<title>Vignesh Ramesh</title>
 	<link rel="icon" href="favicon.ico" type="image/x-icon" />
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css" />
 	<link rel="stylesheet" href="styles/main.css" />
-
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Lobster+Two|Lato" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="styles/itch.css">
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -32,9 +33,10 @@
 		<div class="nav-wrapper container">
 
 			<a id="logo-container" href="#" class="brand-logo"><img alt = " " src="./images/vrlogo.png" height="50" weight="50"></a>
-			<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+			<a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars" aria-hidden="true" style= "font-size:1.3em"></i>
+			</a>
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
-				<li><a id = "link" href="#Home">Home</a></li>
+				<li><a id = "link" class = "active" href="#Home">Home</a></li>
 				<li><a id = "link" href="#About">About</a></li>
 				<li><a id = "link" href="#Portfolio">Portfolio</a></li>
 				<li><a target = "_blank" href="http://www.vigneshramesh.in/blog">Blog</a></li>
@@ -46,7 +48,7 @@
 
 
 	<ul id="slide-out" class="side-nav">
-		<li><a id = "link" href="#Home">Home</a></li>
+		<li><a id = "link" class = "active" href="#Home">Home</a></li>
 		<li><a id = "link" href="#About">About</a></li>
 		<li><a id = "link" href="#Portfolio">Portfolio</a></li>
 		<li><a target = "_blank" href="http://www.vigneshramesh.in/blog">Blog</a></li>
@@ -58,15 +60,13 @@
 
 
 	<!-- Header Banner -->
-	<div class="section no-pad-bot" id="Home">
+	<div class="section no-pad-bot scrollspy" id="Home">
 		<div class="container">
 			<br><br><br>
 			<h1 class="header center white-text ">Vignesh Ramesh</h1>
 			<div class="row center">
 				<h4 class="header col s12  light  cyan-text">Full Stack Developer &amp; Entrepreneur</h4>
-				<div id="scroll" class="demo">
-				  <a href="#About" id = "link"><span></span></a>
-				</div>
+				<a href="#About" id = "link" class = "scroll-arrow"><i class="fa fa-chevron-circle-down fa-3x white-text" aria-hidden="true" ></i></a>
 
 			</div>	  
 
@@ -78,22 +78,26 @@
 		<div class="row ">
 			<div class="col s12">
 				<br>
-				<p class="center white-text">&ldquo;  I provide IT Solutions to Complex Problems &rdquo; </p>
+				<p class="center white-text">I provide IT solutions to complex problems</p>
 			</div>
 		</div>	
 	</div>
 
 	<!-- About Me -->
-	<div class="container" id ="About">
+	<div class="container scrollspy" id ="About">
 		<div class="section about">
 			<div class="row">
 				<div class=" center col s12">
+
 					<br><br>
-					<img alt = "profile_pic" src="./images/dp.jpg"  style = "border:2px solid white; border-radius:50%;" height="200" width="200">
+					<img alt = "profile_pic" src="./images/me.png"  class= "profilePic" height="200" >
 					<br>
 					<br>
 					<br>
-					<p>I am a <span class="  pink-text">Full Stack Developer and  Entrepreneur</span> from New Delhi,India. I am crazy passionate about Technology and love to constantly explore new domains.My Areas of Interest include Internet of Things, Machine Learning, Data Science, Artificial Intelligence. Just like each cell of our body gets constantly replace to prevent death of a tissue I believe we must too constantly improve our self to prevent death of our self. Thus the quote I live by is &ldquo; Only the strong survives &rdquo; .I am also a proud member of Gamkedo Club which is an international club of people all around the world with a common objective of creating games together. Everybody has a purpose in life and I believe my purpose is to provide IT solutions to complex problems we as a society face everyday. Besides being all too ambitious I am an avid reader and love to sing and play guitar to recreate.<a href="#Contact" id = "link" class="pink-text"> Connect with me</a> if you have something interesting on your mind. </p>
+
+					<p>I am a <span class="  pink-text">Full Stack Developer &amp; Entrepreneur</span> from India. I am passionate about technology and like to constantly explore new domains. My areas of interests include Web Development, Game Development, Data Science and Artificial Intelligence.</p>
+					<br />
+					<p >I am a member of <a class = "pink-text text-lighten-1" href = "http://www.gamkedo.com">Gamkedo Club</a> which is an International club of people all around the world with a common objective of creating games together. Everybody has a purpose in life and I believe my purpose is to provide IT solutions to complex problems that we as a society face everyday. I love challenges and thus the quote I live by is &ldquo;Only the strong survives &rdquo;. <a href="#Contact" id = "link" class="pink-text"> Connect with me</a> if you have something interesting on your mind. </p>
 					<br>
 					<br>
 				</div>
@@ -121,13 +125,14 @@
 
 
 	<!-- Portfolio Offered -->
-	<div class="container-fluid red accent-2" id="Portfolio">
+	<div class="container-fluid red accent-2 scrollspy" id="Portfolio">
 
 
 
 		<div class="section portfolio">
 
-			<h5 class="center  white-text">&ldquo;  A Portfolio of 15+ Projects and still counting &rdquo; </h5>
+			<h5 class="center  white-text">Portfolio of 15+ projects and  counting.</h5>
+
 
 			<br><br>
 			<div class="row">
@@ -135,17 +140,27 @@
 
 				<div class="s12 cards-container">
 					<!-- Sabraang -->
-					<div class="card">
+					<div class="card projects">
 
 						<div class="card-image waves-effect waves-block waves-light">
 							<img alt = "sabrang" class="activator" src="images/sabrang1.gif">
 						</div>
 
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Sabrang<i class="material-icons right">more_vert</i></span>
-							<span>
-								
+							<span class="card-title activator grey-text text-darken-4">Sabrang
+								<!-- <i class="fa fa-ellipsis-v right" aria-hidden="true"></i> -->
+								<i class="fa fa-ellipsis-v right" aria-hidden="true"></i>
 							</span>
+
+							<span>
+								A static event based website created for live deployment
+							</span>
+
+							<p class = "role">
+								
+								<span class = "red accent-1">Core programming</span>
+								<span class = "red accent-1">UX/UI Design</span>
+							</p>
 
 							<div class = "techUsed">
 								<div class = "chip">
@@ -165,27 +180,34 @@
 						</div>
 
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Sabrang<i class="material-icons right">close</i></span>
+							<span class="card-title grey-text text-darken-4">Sabrang<i class="fa fa-times right" aria-hidden="true"></i>
 							<p class="light"><ul class = "browser-default" style = "padding-left:20px;">
-								<li>A static event based website created for live deployment.</li>
-								<li>Mobile Responsive Design</li>
-								<li>Designed with User Experience in mind</li>
+								
+								<li>Mobile responsive Design</li>
+								<li>Designed with user experience in mind</li>
 								<li>Template coded from scratch</li>
 								<li>Coordinated with a group of 5 people</li>
-								<li>The site recieved 5000+ Visits</li>								
+								<li>The site recieved 5000+ Visits</li>	
+								<li>Code available for public use on <a href = "https://github.com/VRamazing/sabrang2015" target = "_blank">github</a></li>	
 							</ul></p>
 						</div>
-
 					</div>
+
 					<!-- Time Stamp Microservice -->
-					<div class="card">
+					<div class="card projects">
 						
 						<div class="card-image waves-effect waves-block waves-light">
 							<img alt = "timestamp microservice" class="activator" src="images/tsms.gif">
 						</div>
 
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Timestamp Microservice<i class="material-icons right">more_vert</i></span>
+							<span class="card-title activator grey-text text-darken-4">Timestamp Microservice<i class="fa fa-ellipsis-v right" aria-hidden="true"></i></span>
+
+							<span>A handy api to parse timestamp input and get timestamp output</span>
+							
+							<p class = "role">
+								<span class = "red accent-1">Core programming</span>
+							</p>
 						
 							<div class = "techUsed">
 								<div class = "chip">
@@ -205,26 +227,35 @@
 						</div>
 
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Timestamp Microservice<i class="material-icons right">close</i></span>
-							<p class="light"><ul class = "browser-default" style = "padding-left:20px;">
-								<li>A web api which takes in timestamp input and return a timestamp outputs</li>
-								<li>Api created using node.js</li>
-								<li></li>
+							<span class="card-title grey-text text-darken-4">Timestamp Microservice<i class="fa fa-times right" aria-hidden="true"></i>
+							<p class="light"><ul class = "browser-default" style = "padding-left:20px;">				
+								<li>Api takes string as a parameter, and checks to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016) and returns likewise</li>
+								<li>Created using Node.js</li>
+								<li>Code available for public use on <a href = "https://github.com/VRamazing/timestampMicro" target = "_blank">github</a></li>
+
 							</ul></p>
 						</div>
 
 					</div>
 					
 					<!-- //quote App -->
-					<div class="card">
+					<div class="card projects">
 						
 						<div class="card-image waves-effect waves-block waves-light">
 							<img alt = "quotes app" class="activator" src="images/quoteApp.gif">
 						</div>
 
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Random Quote Machine<i class="material-icons right">more_vert</i></span>
+							<span class="card-title activator grey-text text-darken-4">Random Quote Machine<i class="fa fa-ellipsis-v right" aria-hidden="true"></i></span>
 							
+							<span>A web app which generates random motivational quotes with a click of button</span>
+
+							<p class = "role">
+								
+								<span class = "red accent-1">Core programming</span>
+								<span class = "red accent-1">UX/UI Design</span>
+							</p>
+
 
 							<div class = "techUsed">
 								<div class = "chip">
@@ -246,31 +277,37 @@
 									Angular.js
 								</div>
 							</div>
-							<p class = "card-link"><a href="https://codepen.io/techievignesh/full/brzRBq/" target = "_blank">Visit Live Website</a></p>
+							<p class = "card-link"><a href="https://quotes-gen.herokuapp.com/" target = "_blank">Visit Live Website</a></p>
 						</div>
 
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Random Quote Machine<i class="material-icons right">close</i></span>
+							<span class="card-title grey-text text-darken-4">Random Quote Machine<i class="fa fa-times right" aria-hidden="true"></i>
 							<p class="light"><ul class = "browser-default" style = "padding-left:20px;">
-								<li>Generates random motivational Quotes with a click of button</li>
-								<li>Mobile Responsive Material Design</li>
+								<li>Mobile responsive material design</li>
 								<li>Ability to tweet directly from application using twitter api</li>
 								<li>Feature to fork the project and make personal changes</li>
-								<li>Both Api and web version available for public use</li>
+								<li>Both api and web version available for public use on <a href = "https://github.com/VRamazing/RandomQuoteGenerator" target = "_blank"> github</a></li>
 							</ul></p>
 						</div>
 
 					</div>
 					
 					<!-- devMeetup -->
-					<div class="card ">
+					<div class="card projects">
 						
 						<div class="card-image waves-effect waves-block waves-light">
 							<img alt = "dev meetup" class="activator" src="images/devmeetup.gif">
 						</div>
 
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Meetup Planner<i class="material-icons right">more_vert</i></span>
+							<span class="card-title activator grey-text text-darken-4">Meetup Planner<i class="fa fa-ellipsis-v right" aria-hidden="true"></i></span>
+
+							<span>A handy meetup planner web app</span>
+
+							<p class = "role">								
+								<span class = "red accent-1">Core programming</span>
+								<span class = "red accent-1">UX/UI Design</span>
+							</p>
 						
 
 							<div class = "techUsed">
@@ -296,29 +333,34 @@
 						</div>
 
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Meetup Planner<i class="material-icons right">close</i></span>
+							<span class="card-title grey-text text-darken-4">Meetup Planner<i class="fa fa-times right" aria-hidden="true"></i>
 							<p class="light"><ul class = "browser-default" style = "padding-left:20px;">
-								<li>Generates random motivational Quotes with a click of button</li>
-								<li>Mobile Responsive Material Design</li>
+								<li>Mobile responsive material design</li>
 								<li>User can plan and register for a new meetup</li>
 								<li>User can scroll through various meetups</li>
-								<li>Signin and Signup functionality supported for new users via firebase</li>
-								<li>Available for public use on github</li>
+								<li>Signin and signup functionality supported for new users via firebase</li>
+								<li>Available for public use on <a href = "https://github.com/VRamazing/vuetify-meetup" target = "_blank">github</a></li>
 							</ul></p>
 						</div>
 
 					</div>
 
 					<!-- wiki -->
-					<div class="card ">
+					<div class="card projects">
 						
 						<div class="card-image waves-effect waves-block waves-light">
 							<img alt = "wiki viewer" class="activator" src="images/wiki.gif">
 						</div>
 
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Wiki Viewer<i class="material-icons right">more_vert</i></span>
+							<span class="card-title activator grey-text text-darken-4">Wiki Viewer<i class="fa fa-ellipsis-v right" aria-hidden="true"></i></span>
 							
+							<span>A web application to browse and search wikipedia articles or view a random article</span>
+
+							<p class = "role">								
+								<span class = "red accent-1">Core programming</span>
+								<span class = "red accent-1">UX/UI Design</span>
+							</p>
 
 							<div class = "techUsed">
 								<div class = "chip">
@@ -341,28 +383,35 @@
 						</div>
 
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Wiki Viewer<i class="material-icons right">close</i></span>
+							<span class="card-title grey-text text-darken-4">Wiki Viewer<i class="fa fa-times right" aria-hidden="true"></i>
 							<p class="light"><ul class = "browser-default" style = "padding-left:20px;">
-								<li>A web application to browse and search wikipedia articles or view a random article</li>
-								<li>Mobile Responsive Design</li>
-								<li>Created using MediaWiki Api</li>
+								<li>Search button and random button for searching respective articles.</li>
+								<li>Mobile responsive design</li>
+								<li>Created using mediawiki api</li>
 								<li>Designed keeping user experience in mind</li>
-								<li>Project is available for free on git</li>
+								<li>Project is available for free on <a href = "https://github.com/VRamazing/WikiViewer" target = "_blank">github</a></li>
 							</ul></p>
 						</div>
 
 					</div>
 
 					<!-- igp -->
-					<div class="card ">
+					<div class="card projects">
 						
 						<div class="card-image waves-effect waves-block waves-light">
 							<img alt = "indian game project" class="activator" src="images/igp.gif">
 						</div>
 
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Indian Game Project<i class="material-icons right">more_vert</i></span>
+							<span class="card-title activator grey-text text-darken-4">Indian Game Project<i class="fa fa-ellipsis-v right" aria-hidden="true"></i></span>
+
+							<span>A personal gaming initiative</span>
 							
+							<p class = "role">								
+								<span class = "red accent-1">Core programming</span>
+								<span class = "red accent-1">UX/UI Design</span>
+								<span class = "red accent-1">Project Lead</span>
+							</p>
 
 							<div class = "techUsed">
 								<div class = "chip">
@@ -382,27 +431,34 @@
 						</div>
 
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Indian Game Project<i class="material-icons right">close</i></span>
+							<span class="card-title grey-text text-darken-4">Indian Game Project<i class="fa fa-times right" aria-hidden="true"></i>
 							<p class="light"><ul class = "browser-default" style = "padding-left:20px;">
 								<li>IGP is an initiative started by me to create games catering to create awareness about social and economic cause. </li>
 								<li>A future goal is to bring in the showcase authentic heritage of India via games</li>
 								<li>Includes mobile responsive design</li>
-								<li>Template Coded from scratch</li>
-								<li>Website is created and maintained by Vignesh Ramesh</li>
+								<li>Template coded from scratch</li>
+								<li>Project is available for free on <a href = "https://github.com/igameproject/igameproject.github.io" target = "_blank">github</a></li>
 							</ul></p>
 						</div>
 
 					</div>
 
 					<!-- rhcp -->
-					<div class="card ">
+					<div class="card projects">
 						
 						<div class="card-image waves-effect waves-block waves-light">
 							<img alt = "rhcp" class="activator" src="images/rhcp.gif">
 						</div>
 
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Request Header Parser<i class="material-icons right">more_vert</i></span>
+							<span class="card-title activator grey-text text-darken-4">Request Header Parser<i class="fa fa-ellipsis-v right" aria-hidden="true"></i></span>
+
+							<span>A web app which parses request header and displayes ip-address, system config and laguage of user</span>
+
+							<p class = "role">								
+								<span class = "red accent-1">Core programming</span>
+								<span class = "red accent-1">UX/UI Design</span>								
+							</p>
 							
 
 							<div class = "techUsed">
@@ -423,26 +479,32 @@
 						</div>
 
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Request Header Parser<i class="material-icons right">close</i></span>
+							<span class="card-title grey-text text-darken-4">Request Header Parser<i class="fa fa-times right" aria-hidden="true"></i>
 							<p class="light"><ul class = "browser-default" style = "padding-left:20px;">
-								<li>Parses request header and displayes Ip-address, System config and laguage of user</li>
-								<li>Mobile Responsive Design</li>
+								<li>Mobile responsive design</li>
 								<li>Cross platform compatible</li>
-								<li>Api code available for free on git</li>
+								<li>Api code available for free on <a href = "https://github.com/VRamazing/RHP-MicroService" target = "_blank">github</a></li>
 							</ul></p>
 						</div>
 
 					</div>
 
 					<!-- weatherApi -->
-					<div class="card ">
+					<div class="card projects">
 						
 						<div class="card-image waves-effect waves-block waves-light">
 							<img alt = "weatherApi" class="activator" src="images/weatherApi.gif">
 						</div>
 
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Weather Extension<i class="material-icons right">more_vert</i></span>
+							<span class="card-title activator grey-text text-darken-4">Weather Extension<i class="fa fa-ellipsis-v right" aria-hidden="true"></i></span>
+
+							<span>An extension which uses location api to display weather in your region</span>
+							
+							<p class = "role">								
+								<span class = "red accent-1">Core programming</span>
+								<span class = "red accent-1">UX/UI Design</span>								
+							</p>
 							
 
 							<div class = "techUsed">
@@ -463,26 +525,36 @@
 						</div>
 
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Weather Extension<i class="material-icons right">close</i></span>
+							<span class="card-title grey-text text-darken-4">Weather Extension<i class="fa fa-times right" aria-hidden="true"></i>
 							<p class="light"><ul class = "browser-default" style = "padding-left:20px;">
-								<li>An extension which uses location api to display weather in your region</li>
-								<li>Mobile Responsive Design</li>
+								<li>Mobile responsive design</li>
 								<li>Cross platform compatible</li>
-								<li>Code available for free on git</li>
+								<li>Code available for free on <a href = "https://codepen.io/techievignesh/full/brZdyV/" target = "_blank">codepen</a></li>
 							</ul></p>
 						</div>
 
 					</div>
 
 					<!-- twitchTV -->
-					<div class="card ">
+					<div class="card projects">
 						
 						<div class="card-image waves-effect waves-block waves-light">
 							<img alt = "twitchTV" class="activator" src="images/twitchTV.gif">
 						</div>
 
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Twitch TV Console<i class="material-icons right">more_vert</i></span>
+							<span class="card-title activator grey-text text-darken-4">Twitch TV Console<i class="fa fa-ellipsis-v right" aria-hidden="true"></i></span>
+							
+							<span>
+								A web application which uses twitch tv api to show which users are currently streaming and which users are not.
+							</span>
+
+							<p class = "role">								
+								<span class = "red accent-1">Core programming</span>
+								<span class = "red accent-1">UX/UI Design</span>								
+							</p>
+							
+
 							<div class = "techUsed">
 								<div class = "chip">
 									Html5
@@ -504,28 +576,37 @@
 						</div>
 
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Twitch TV Console<i class="material-icons right">close</i></span>
+							<span class="card-title grey-text text-darken-4">Twitch TV Console<i class="fa fa-times right" aria-hidden="true"></i>
 							<p class="light"><ul class = "browser-default" style = "padding-left:20px;">
-								<li>A web application which uses twitch tv api to show which users are currently streaming and which users are not.</li>
 								<li>Responsive filters to switch between online and offline users</li>
 								<li>Quick link to view respective channel</li>
-								<li>Mobile Responsive Design</li>
+								<li>Mobile responsive design</li>
 								<li>Cross platform compatible</li>
-								<li>Code available for free on git</li>
+								<li>Code available for free on <a href = "https://github.com/VRamazing/Twitch-Tv-Remote" target = "_blank">github</a></li>
 							</ul></p>
 						</div>
 
 					</div>
 						
 					<!-- calculator -->
-					<div class="card ">
+					<div class="card projects">
 						
 						<div class="card-image waves-effect waves-block waves-light">
 							<img alt = "calculator" class="activator" src="images/calculator.gif">
 						</div>
 
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Calculator<i class="material-icons right">more_vert</i></span>
+							<span class="card-title activator grey-text text-darken-4">Calculator<i class="fa fa-ellipsis-v right" aria-hidden="true"></i></span>
+
+							<span>
+								A fun way to calculate
+							</span>
+
+							<p class = "role">								
+								<span class = "red accent-1">Core programming</span>
+								<span class = "red accent-1">UX/UI Design</span>								
+							</p>
+							
 							
 
 							<div class = "techUsed">
@@ -546,27 +627,39 @@
 						</div>
 
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Calculator<i class="material-icons right">close</i></span>
+							<span class="card-title grey-text text-darken-4">Calculator<i class="fa fa-times right" aria-hidden="true"></i>
 							<p class="light"><ul class = "browser-default" style = "padding-left:20px;">
-								<li>A basic Calculator</li>
-								<li>Mobile Responsive Design</li>
+								<li>A basic calculator</li>
+								<li>Mobile responsive design</li>
 								<li>Cross platform compatible</li>
 								<li>Coded from scratch</li>
-								<li>Code available for free on git</li>
+								<li>Code available for free on <a href = "https://github.com/VRamazing/Calc-Extension" target = "_blank">github</a></li>
 							</ul></p>
 						</div>
 
 					</div>
 
 					<!-- breakout -->
-					<div class="card ">
+					<div class="card projects">
 						
 						<div class="card-image waves-effect waves-block waves-light">
 							<img alt = "breakout" class="activator" src="images/breakout.gif">
 						</div>
 
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Breakout<i class="material-icons right">more_vert</i></span>
+							<span class="card-title activator grey-text text-darken-4">Breakout<i class="fa fa-ellipsis-v right" aria-hidden="true"></i></span>
+
+							<span>
+								A recreation 80's classic using Html canvas 2d
+							</span>
+
+							<p class = "role">								
+								<span class = "red accent-1">Game programming</span>
+								<span class = "red accent-1">Music/Sound Creation</span>	
+								<span class = "red accent-1">Game Art</span>
+								<span class = "red accent-1">Project Lead</span>	
+							</p>
+							
 							
 
 							<div class = "techUsed">
@@ -584,27 +677,35 @@
 						</div>
 
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Breakout<i class="material-icons right">close</i></span>
-							<p class="light"><ul class = "browser-default" style = "padding-left:20px;">
-								<li>Project Lead and Programmer</li>
-								<li>26+ Levels ,5+ Powerups, 3 Lives to create highscore</li>
-								<li>Inspired from Atari Breakout 1980's</li>
+							<span class="card-title grey-text text-darken-4">Breakout<i class="fa fa-times right" aria-hidden="true"></i>
+							<p class="light"><ul class = "browser-default" style = "padding-left:20px;">					
+								<li>26+ levels ,5+ powerups, 3 lives to create highscore</li>
+								<li>Inspired by atari breakout 1980's</li>
 								<li>Playable in browser</li>
-								<li>Created with love from scratch</li>
+								<li>Code available on <a href = "https://github.com/igameproject/Breakout" target = "_blank">github</a></li>
 							</ul></p>
 						</div>
 
 					</div>
 
 					<!-- pomodoro -->
-					<div class="card ">
+					<div class="card projects">
 						
 						<div class="card-image waves-effect waves-block waves-light">
 							<img alt = "pomodoro" class="activator" src="images/pomodoro.gif">
 						</div>
 
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Pomodoro Timer<i class="material-icons right">more_vert</i></span>
+							<span class="card-title activator grey-text text-darken-4">Pomodoro Timer<i class="fa fa-ellipsis-v right" aria-hidden="true"></i></span>
+
+							<span>
+								An animated pomodoro web app
+							</span>
+
+							<p class = "role">								
+								<span class = "red accent-1">Core programming</span>
+								<span class = "red accent-1">UX/UI Design</span>								
+							</p>
 							
 
 							<div class = "techUsed">
@@ -625,27 +726,36 @@
 						</div>
 
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Pomodoro Timer<i class="material-icons right">close</i></span>
+							<span class="card-title grey-text text-darken-4">Pomodoro Timer<i class="fa fa-times right" aria-hidden="true"></i>
 							<p class="light"><ul class = "browser-default" style = "padding-left:20px;">
-								<li>A pomodoro Web application</li>
-								<li>Mobile Responsive Design</li>
+								<li>Mobile responsive design</li>
 								<li>Custom pomodoro timer and breaktime</li>
 								<li>Includes animated progress bar</li>
-								<li>Coded from scratch. Code availableon git</li>
+								<li>Code available on <a href = "https://github.com/VRamazing/PomodoroTimer" target = "_blank">github</a></li>
 							</ul></p>
 						</div>
 
 					</div>
 
 					<!-- snake -->
-					<div class="card ">
+					<div class="card projects">
 						
 						<div class="card-image waves-effect waves-block waves-light">
 							<img alt = "snake" class="activator" src="images/snake.gif">
 						</div>
 
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Snake<i class="material-icons right">more_vert</i></span>
+							<span class="card-title activator grey-text text-darken-4">Snake<i class="fa fa-ellipsis-v right" aria-hidden="true"></i></span>
+
+							<span>
+								A 2D canvas recreation for original snake game
+							</span>
+
+							<p class = "role">								
+								<span class = "red accent-1">Game programming</span>
+								<span class = "red accent-1">Game Design</span>
+								<span class = "red accent-1">Project Lead</span>							
+							</p>
 							
 							<div class = "techUsed">
 								<div class = "chip">
@@ -662,27 +772,35 @@
 						</div>
 
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Snake<i class="material-icons right">close</i></span>
-							<p class="light"><ul class = "browser-default" style = "padding-left:20px;">
-								<li>Project Lead and Programmer</li>
-								<li>3 Lives to create highscore</li>
-								<li>Inspired from original snake</li>
+							<span class="card-title grey-text text-darken-4">Snake<i class="fa fa-times right" aria-hidden="true"></i>
+							<p class="light"><ul class = "browser-default" style = "padding-left:20px;">						<li>Inspired from original snake</li>
+								<li>3 Lives to create highscore</li>		
 								<li>Playable in browser</li>
-								<li>Created with love from scratch</li>
+								<li>Code available on <a href = "https://github.com/igameproject/snake2d" target = "_blank">github</a></li>
 							</ul></p>
 						</div>
 
 					</div>
 
 					<!-- memory -->
-					<div class="card ">
+					<div class="card projects">
 						
 						<div class="card-image waves-effect waves-block waves-light">
 							<img alt = "memory game" class="activator" src="images/memory.gif">
 						</div>
 
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Memory Puzzle<i class="material-icons right">more_vert</i></span>
+							<span class="card-title activator grey-text text-darken-4">Memory Puzzle<i class="fa fa-ellipsis-v right" aria-hidden="true"></i></span>
+
+							<span>
+								A basic memory card game 
+							</span>
+
+							<p class = "role">								
+								<span class = "red accent-1">Game programming</span>
+								<span class = "red accent-1">Game Design</span>
+								<span class = "red accent-1">Project Lead</span>							
+							</p>
 							
 
 							<div class = "techUsed">
@@ -700,26 +818,35 @@
 						</div>
 
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Memory Puzzle<i class="material-icons right">close</i></span>
+							<span class="card-title grey-text text-darken-4">Memory Puzzle<i class="fa fa-times right" aria-hidden="true"></i>
 							<p class="light"><ul class = "browser-default" style = "padding-left:20px;">
-								<li>Project Lead and Programmer</li>
-								<li>Responsive tileset and ddesign</li>
+								<li>Responsive tileset and design</li>
 								<li>Playable in browser</li>
-								<li>Created with love from scratch</li>
+								<li>Code available on <a href = "https://github.com/igameproject/Memory-Game" target = "_blank">github</a></li>
 							</ul></p>
 						</div>
 
 					</div>
 
 					<!-- lineball -->
-					<div class="card ">
+					<div class="card projects">
 						
 						<div class="card-image waves-effect waves-block waves-light">
 							<img alt = "line-ball" class="activator" src="images/lineball.gif">
 						</div>
 
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Line Ball<i class="material-icons right">more_vert</i></span>
+							<span class="card-title activator grey-text text-darken-4">Line Ball<i class="fa fa-ellipsis-v right" aria-hidden="true"></i></span>
+
+							<span>
+								A basic 2D game inspired from Line Birds
+							</span>
+
+							<p class = "role">								
+								<span class = "red accent-1">Game programming</span>
+								<span class = "red accent-1">Game Design</span>
+								<span class = "red accent-1">Project Lead</span>							
+							</p>
 							
 
 							<div class = "techUsed">
@@ -737,31 +864,36 @@
 						</div>
 
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Line Ball<i class="material-icons right">close</i></span>
+							<span class="card-title grey-text text-darken-4">Line Ball<i class="fa fa-times right" aria-hidden="true"></i>
 							<p class="light"><ul class = "browser-default" style = "padding-left:20px;">
-								<li>Project Lead and Programmer</li>
-								<li>3 Lives to create highscore</li>
-								<li>Unlimited Gameplay</li>
 								<li>Inspired from Line birds</li>
+								<li>3 Lives to create highscore</li>
+								<li>Unlimited Gameplay</li>					
 								<li>Playable in browser</li>
-								<li>Created with love from scratch</li>
+								<li>Code available on <a href = "https://github.com/igameproject/line-ball" target = "_blank">github </a></li>
 							</ul></p>
 						</div>
 
 					</div>
 
 					<!-- blog -->
-					<div class="card ">
+					<div class="card projects">
 						
 						<div class="card-image waves-effect waves-block waves-light">
 							<img alt = "react-blog" class="activator" src="images/blog.gif">
 						</div>
 
 						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">React Blog<i class="material-icons right">more_vert</i></span>
+							<span class="card-title activator grey-text text-darken-4">React Blog<i class="fa fa-ellipsis-v right" aria-hidden="true"></i></span>
+
 							<span>
-								A static event based website created for live deployment.
+								A dynamic blog for creating and maintaining posts
 							</span>
+
+							<p class = "role">								
+								<span class = "red accent-1">Core programming</span>
+								<span class = "red accent-1">UX/UI Design</span>										
+							</p>
 
 							<div class = "techUsed">
 								<div class = "chip">
@@ -787,29 +919,21 @@
 						</div>
 
 						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">React Blog<i class="material-icons right">close</i></span>
+							<span class="card-title grey-text text-darken-4">React Blog<i class="fa fa-times right" aria-hidden="true"></i>
 							<p class="light"><ul class = "browser-default" style = "padding-left:20px;">
-								<li>A Blog created using React js and Firebase</li>
-								<li>Mobile Responsive Material Design</li>
+								<li>Created using React js and Firebase</li>
+								<li>Mobile responsive material design</li>
 								<li>Ability to create and publish new post via interface</li>
 								<li>Cross platform compatible</li>
-								<li>Coded from scratch</li>
-								<li>Code available for free on git</li>
+								<li></li>
+								<li>Code available for free on <a href = "https://github.com/VRamazing/react-blog" target = "_blank"> github</a></li>
 							</ul></p>
 						</div>
 
 					</div>
-
-
-
-
-
-
 				</div>
 			</div>
 		</div>
-
-
 	</div>
 </div>
 
@@ -819,16 +943,14 @@
 	<div class="row ">
 		<div class="col s12">
 			<br>
-			<p class="center white-text">&ldquo;  With More than 2 years of Experience and Ever Increasing. &rdquo; </p>
+			<p class="center white-text">More than 2 years of experience, and always increasing.</p>
 		</div>
 	</div>	
 </div>
 
 
-
-
 <!--contact-->
-<div class="container-fluid white" id="Contact">
+<div class="container-fluid white scrollspy" id="Contact">
 	<div class="container contact">
 		<br>
 		<br>
@@ -837,7 +959,7 @@
 		<div class="row ">
 			<div class="col s12">
 				<br>
-				<p class="center grey-text touch">Get in Touch to get self tailored proposal</p>
+				<p class="center grey-text touch">Get in touch for a proposal</p>
 			</div>
 		</div>
 
@@ -865,8 +987,9 @@
 					</div>
 				</div>
 
-				<button class="btn waves-effect waves-light" type="submit" name="action">Send Message
-					<i class="material-icons right">send</i>
+				<button class="btn waves-effect waves-light" type="submit" name="action">Send 
+					<i class="fa fa-paper-plane" aria-hidden="true" style = "margin-left:10px;"></i>
+
 				</button>
 			</form>
 		</div>
@@ -903,41 +1026,39 @@
 				</ul>
 			</div>
 
-		</div>
-	</div>
-	<div class="footer-copyright">
-		<div class="container">
-			<div class="row">
-
-				<div class="col m6 s12">
-					Made by <a class="blue-text text-lighten-3" href="http://www.vigneshramesh.in">Vignesh Ramesh</a>
-				</div>
-
-				<div class="col m6 s12">
-					<span class="social">
-						<a href="http://www.facebook.com/techieVignesh" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-						<a href="http://www.twitter.com/techieVignesh" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-						<a href="http://www.linkedin.com/in/techievignesh" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-						<a href="https://plus.google.com/+vigneshramesh1" target="_blank"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
-						<a href="http://www.github.com/vramazing" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
-						<a href="https://www.freecodecamp.org/vramazing" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>	
-						<a href="https://soundcloud.com/vramazing" target="_blank"><i class="fa fa-soundcloud" aria-hidden="true"></i></a>
-					</span>
-				</div>
-
 			</div>
 		</div>
-	</div>
-</footer>
-<link href="https://fonts.googleapis.com/css?family=Roboto|Lobster+Two|Lato" rel="stylesheet">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-<script src="scripts/main.js"></script>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<script src="https://unpkg.com/github-card@1.2.1/dist/widget.js"></script>
+		<div class="footer-copyright">
+			<div class="container">
+				<div class="row">
 
+					<div class="col m6 s12">
+						Made by <a class="blue-text text-lighten-3" href="http://www.vigneshramesh.in">Vignesh Ramesh</a>
+					</div>
 
+					<div class="col m6 s12">
+						<span class="social">
+							<a href="http://www.facebook.com/techieVignesh" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+							<a href="http://www.twitter.com/techieVignesh" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+							<a href="http://www.linkedin.com/in/techievignesh" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+							<a href="https://plus.google.com/+vigneshramesh1" target="_blank"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+							<a href="http://www.github.com/vramazing" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+							<a href="https://www.freecodecamp.org/vramazing" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>	
+							<a href="https://www.youtube.com/channel/UCP1fHlPgU82DA9sPZkl7B3g" target="_blank"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>							
+							<a  href="https://vramazing.itch.io" target="_blank"><i class="fa-itch-io " aria-hidden="true" ></i></a>
+							<a href="https://soundcloud.com/vramazing" target="_blank"><i class="fa fa-soundcloud" aria-hidden="true"></i></a>
+						</span>
+					</div>
 
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	<script src="scripts/main.js"></script>
+	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	<script src=https://unpkg.com/github-card@1.2.1/dist/widget.js></script>
 </body>
 </html>
