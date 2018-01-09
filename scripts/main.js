@@ -1,6 +1,10 @@
 //Initialize Sidenav
     	$(".button-collapse").sideNav();
     	$(document).ready(function(){
+	      $('.carousel').carousel();
+	    });
+	        
+    	$(document).ready(function(){
 		    $('.scrollspy').scrollSpy();
 		});
 
