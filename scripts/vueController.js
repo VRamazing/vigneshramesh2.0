@@ -331,6 +331,146 @@ new Vue({
                    "Data munging done using d3.js"
                   ]    
       },
+
+      { image: "images/superBuggyGolf.gif",
+        title: "Super Buggy Golf ",
+        oneLineDesc: "A Unity 3d golf game with the catch of player being a Car",
+        roles: ["Game programming", "Music production", "Team member"],
+        techUsed: ["Unity 3d", "Caustic3 DAW"],
+        liveLink: "https://gamkedo.itch.io/buggy-golf",
+        gitLink: "",
+        fullDesc: ["Collaborated and created with a team of 8 people @gamkedo.com", 
+                   "Coordinated round the clock and provided remote assistance",
+                   "Created 3 music tracks and dynamic menu screen",
+                   "6 week project",
+                   "Cross platform support"
+                  ]    
+      },
+
+      { image: "images/excalibur.gif",
+        title: "Excalibur SDS",
+        oneLineDesc: "A JS recreation of DOS classic paratrooper",
+        roles: ["Game programming", "Music production", "Team member", "Game art"],
+        techUsed: ["Javascript", "Sonic Pi", "Html5"],
+        liveLink: "https://gamkedo.itch.io/excalibur-sds",
+        gitLink: "",
+        fullDesc: ["Collaborated and created with a team of 19 people @gamkedo.com", 
+                   "Coordinated round the clock and provided remote assistance",
+                   "Created Menu Screen, Enemy spaceship and aliens",
+                   "12 week project", 
+                   "Music produced to suit the theme",
+                   "Cross platform support"
+                  ]    
+      },
+
+      { image: "images/WheelOfMisfortune.gif",
+        title: "Wheel Of Misfortune",
+        oneLineDesc: "A top down bullet hell SHMUP",
+        roles: ["Music production", "Team member"],
+        techUsed: ["Sonic Pi"],
+        liveLink: "https://cbutton01.itch.io/wheel-of-misfortune @gamkedo.com",
+        gitLink: "",
+        fullDesc: ["Collaborated and created with a team of 17 people", 
+                   "Coordinated round the clock and provided remote assistance",
+                   "11 week project", 
+                   "Made menu music and SFX",
+                   "Cross platform support"
+                  ]    
+      },
+
+
+      { image: "images/tinyTurboRacers.gif",
+        title: "Tiny Turbo Racers",
+        oneLineDesc: "A game where you configure the car sensors so it drives around the track by itself",
+        roles: ["Game programming", "Music production", "Team member", "Game art"],
+        techUsed: ["Javascript", "Sonic Pi", "Html5", "Audacity", "Adobe Photoshop"],
+        liveLink: "https://spadxiii.itch.io/tiny-robo-racers",
+        gitLink: "",
+        fullDesc: ["Collaborated and created with a team of 9 people @gamkedo.com", 
+                   "Coordinated round the clock and provided remote assistance",
+                   "Made multiple music tracks and SFX",
+                   "8 week project", 
+                   "Created car art and final stage",
+                   "Cross platform support"
+                  ]    
+      },
+
+
+      { image: "images/steelCavalry.gif",
+        title: "Steel Cavalry",
+        oneLineDesc: "A 2 player 3D action mech game",
+        roles: ["Music production", "Game art"],
+        techUsed: ["Unity 3d", "Caustic3 DAW", "Bosca Ceoil", "Blender"],
+        liveLink: "https://gamkedo.itch.io/steel-cavalry",
+        gitLink: "",
+        fullDesc: ["Collaborated and created with a team of 22 people @gamkedo.com", 
+                   "Coordinated round the clock and provided remote assistance",
+                   "12 week project", 
+                   "Created 3 music tracks and control game screen",
+                   "Cross platform support"
+                  ]    
+      },
+
+      { image: "images/DeathMcGamkedonalds.gif",
+        title: "Death Road to McGamkedonalds",
+        oneLineDesc: "A combination of top-down racer, cooking/pong game.",
+       roles: ["Game programming", "Music production", "Team member", "Game art"],
+        techUsed: ["Javascript", "Caustic 3", "Html5", "Audacity", "Adobe Photoshop"],
+        liveLink: "https://oneseedfruit.itch.io/death-road-to-mcgamkedonalds",
+        gitLink: "",
+        fullDesc: ["Game created for Ludum dare 41 with a team of 9 people", 
+                   "Made in 72 hours",
+                   "Contributed car, level code and background music",
+                   "Cross platform support"
+                  ]    
+      },
+
+      { image: "images/ghostInNewTokyo.gif",
+        title: "Ghost in New Tokyo",
+        oneLineDesc: "2d platformer created using canvas Html and Javascript",
+        roles: [ "Music production", "Team member", "Game art"],
+        techUsed: [ "Adobe Photoshop", "Caustic 3"],
+        liveLink: "https://oneseedfruit.itch.io/death-road-to-mcgamkedonalds",
+        gitLink: "",
+        fullDesc: ["Collaborated and created with a team of 18 people @gamkedo.com", 
+                   "Coordinated round the clock and provided remote assistance",
+                   "12 week project", 
+                   "Created 3 music tracks and background art",
+                   "Cross platform support"
+                  ]    
+      },
+
+
+      { image: "images/playgroundLegends.gif",
+        title: "Playground Legends",
+        oneLineDesc: "A casual dodge ball game made using Html5 canvas and javascript",
+        roles: ["Game programming", "Music production", "Team member", "Game art"],
+        techUsed: ["Javascript", "Casutic 3", "Html5", "Audacity", "Adobe photoshop"],
+        liveLink: "https://gamkedo.itch.io/playground-legends",
+        gitLink: "",
+        fullDesc: ["Collaborated and created with a team of 18 people @gamkedo.com",
+                   "6 week project", 
+                   "Created menu music tracks, player and multiple level art",
+                   "Coordinated round the clock and provided remote assistance",
+                   "Cross platform support"
+                  ]    
+      },
+
+      { image: "images/clashTracks.gif",
+        title: "Clash Tracks",
+        oneLineDesc: "A top down obstacle racing game made in js",
+        roles: ["Game programming", "Music production", "Team Lead", "Game art"],
+        techUsed: ["Javascript", "Casutic 3", "Html5", "Audacity", "Adobe photoshop"],
+        liveLink: "https://techievignesh.itch.io/clash-tracks",
+        gitLink: "",
+        fullDesc: ["Collaborated and created with a team of 13 people @gamkedo.com", 
+                   "8 week project",
+                   "Created game art and core game mechanics",
+                   "Provided multiple music tracks according to requirement",
+                   "Coordinated round the clock and provided remote assistance",
+                   "Cross platform support"
+                  ]    
+      },
     ],
     testimonials: [
       { 
