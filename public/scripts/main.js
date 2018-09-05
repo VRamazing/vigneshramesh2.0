@@ -8,10 +8,13 @@
 		    $('.scrollspy').scrollSpy();
 		});
 
+
+
     	//Close Sidenav on link click
     	$("ul#slide-out.side-nav > li > a").click(function(){
     		$('.button-collapse').sideNav('hide');    		
     	});
+    	
     	//Smooth Scroll
     	$(document).on('click', 'a#link', function(event){
 		    event.preventDefault();
@@ -21,7 +24,21 @@
 		    }, 500);
 		});
 
-		
+		// document.addEventListener('DOMContentLoaded', function() {
+		//    var elems = document.querySelectorAll('.chips');
+		//    var instances = M.Chips.init(elems, options);
+		// });
+
+
+		// $('.chips-initial').chips({
+		//    data: [{
+		//      tag: 'Apple',
+		//    }, {
+		//    tag: 'Microsoft',
+		//    }, {
+		//      tag: 'Google',
+		//    }],
+		// });		
 
 
 		$( document ).ready(function() {
