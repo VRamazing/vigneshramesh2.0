@@ -1,7 +1,7 @@
 {
-  "name": "vignesh ramesh",
+  "name": "vigneshramesh",
   "version": "1.0.0",
-  "description": "My official website",
+  "description": ",y official website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +17,6 @@
   "dependencies": {
     "express": "^4.16.3",
     "hbs": "^4.0.1",
-    "materialize-css": "^0.100.2"
+    
   }
 }
