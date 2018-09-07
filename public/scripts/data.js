@@ -558,6 +558,24 @@ module.exports = {
 		              author : " — Aditya Sisodia (Co-Founder RecruitWheels)"
 		            }
 		          ],
+	 art: [
+			{
+		      imgUrl: "./images/techStack/python.png",
+		      imgAlt: "pythonLogo"
+		    },
+		    {
+		      imgUrl: "./images/techStack/reactjs.png",
+		      imgAlt: "reactLogo"
+		    },
+		    {
+		      imgUrl: "./images/techStack/sass.png",
+		      imgAlt: "sassLogo"
+		    },
+		    {
+		      imgUrl: "./images/techStack/unity.png",
+		      imgAlt: "unity3dLogo"
+		    },
+		]
 
 } 
                     

@@ -36,31 +36,29 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
 }
 
 @media #{$medium-and-down} {
-  footer{span.social{float:none;
-
+  footer{
+    span.social{
+      float:none;
     }
-
   }
 }
+
 @media #{$small-and-down} {
   .cards-container {
     @include column-count(1);
   }
   .container.contact{
-	   padding:0px 10px 30px 10px!important;
-
+	  padding:0px 10px 30px 10px!important;
   }
   .section.portfolio{
   padding:20px 10px 10px 10px;}
-
-
 }
+
 @media #{$medium-and-up} {
   .cards-container {
     @include column-count(2);
   }
 }
-
 
 @media #{$large-and-up} {
   .cards-container {
@@ -68,15 +66,13 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
   }
 }
 
-
-
 nav{
-
-	div >a , div>ul>li>a{color:#585858
+	div >a , div>ul>li>a{
+    color:#585858
 	}
-
-	.brand-logo{margin-top:10px;}
-
+	.brand-logo{
+    margin-top:10px;
+  }
 }
 
 div.nav-wrapper.container.right.hide-on-med-and-down{
@@ -100,24 +96,16 @@ div.nav-wrapper.container.right.hide-on-med-and-down{
 #nav-mobile li a:hover, #slide-out li a:hover{border-bottom: 2px solid black;}
 #nav-mobile .active, #slide-out  .active{background: #e4e4e4;}
 
-
 .section.no-pad-bot{
-
 	text-shadow: 2px 1px 1px #000;
 	margin-top:40px;
-
 	h1{
-
 		font-family: 'Lobster Two', sans-serif;
-
-		}
-
-
+	}
 }
 
 .container-fluid.quote{
 	padding:20px;
-
 	p{
 		font-size: 20px;
 		font-style: italic;
@@ -133,93 +121,71 @@ div.nav-wrapper.container.right.hide-on-med-and-down{
 		a{
 			font-size: 20px;
 		}
-
 	}
   .profilePic{
-      border:10px solid #efefef;
-      border-radius:50%;
-      box-shadow: 1px 1px 1px #acacac;
-
+    border:10px solid #efefef;
+    border-radius:50%;
+    box-shadow: 1px 1px 1px #acacac;
   }
 }
 
 .portfolio{
 	padding:40px 60px 60px 60px;
-
 	h5{
 		font-size: 22px;
 		font-style: italic;
 	}
 	.card {
-	    margin:10px;
-      margin-bottom:25px;
-       .techUsed{margin-top: 10px;}
-
-       .card-link a{margin-left: 2px;}
-
-       .role{margin:6px 0 6px 0;
-            span{
-              padding:5px;
-              margin:3px;
-              border-radius: 5px;
-              display:inline-block;
-              line-height: 20px;
-
-
-            }
-        }
-        .projects{
-           height:15px;
-        }
-
+	  margin:10px;
+    margin-bottom:25px;
+     .techUsed{margin-top: 10px;}
+     .card-link a{margin-left: 2px;}
+     .role{margin:6px 0 6px 0;
+          span{
+            padding:5px;
+            margin:3px;
+            border-radius: 5px;
+            display:inline-block;
+            line-height: 20px;
+          }
+      }
+      .projects{
+         height:15px;
+      }
 	 }
-
 }
 
-
-
 .section.technology{
-		h4{font-size: 25px;}
-
-		.row{
-
-			column-width: 150px;
-			column-gap: 30px;
-		    width: 80%;
-			max-width: 1290px;
-			margin: 50px auto;
-
-		}
+	h4{font-size: 25px;}
+	.row{
+		column-width: 150px;
+		column-gap: 30px;
+	  width: 80%;
+		max-width: 1290px;
+		margin: 50px auto;
 	}
-
+}
 
 //Contact
 .container.contact{
 	padding:0px 80px 80px 80px;
 
 }
-p.center.grey-text.touch{
 
+p.center.grey-text.touch{
 		font-size: 22px;
 		font-style: italic;
 		font-weight: bold;
-
-
 }
 
 footer li a,footer a{
   color:white;
-
   &:hover{
     text-decoration: underline;
   }
-
-
 }
 
-
 span.social{
-
   float:right;
   select:none;
   // text-align: right;
@@ -227,19 +193,16 @@ span.social{
 		font-size:30px;
 		color:white;
 		padding:2px;
-
 		&:hover{
 			color:#acacac;
 		}
-
 	}
 }
-.fa-itch-io{
 
+.fa-itch-io{
        position:relative;
        top:3px;
        font-size:32px!important;
-
 }
 
 .nav-fixed {
@@ -251,20 +214,14 @@ span.social{
     z-index: 997;
   }
 
-
-
-
-
 .scroll-arrow{
   i{
     animation: MoveUpDown 1s linear infinite;
     margin-top:30px;
     select: none;
   }
-
   &:hover{
-  opacity: .5;
-
+   opacity: .5;
  }
 }
 
@@ -278,20 +235,14 @@ blockquote{
     font-weight:700;
     color:white;
     margin-top: 5px;
-
   }
   .fa-1x{
     font-size: 25px;
     margin-right:5px;
-
   }
 }
 
-
-
-
 ///Animated button
-
 @keyframes MoveUpDown {
   0% {
     margin-top:30px;
