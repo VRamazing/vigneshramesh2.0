@@ -1,6 +1,6 @@
 const express = require("express");
 const hbs = require("hbs");
-const data = require("./data")
+const data = require("./public/scripts/data")
 
 var app = express();
 
@@ -10,55 +10,36 @@ app.set('view engine', 'hbs');
 
 hbs.registerPartials(__dirname + '/views/partials');
 
-hbs.registerHelper('getCurrentYear', () => {
-	return new Date().getFullYear();
-})
-
+// hbs.registerHelper('getCurrentYear', () => {
+// 	return new Date().getFullYear();
+// })
 
 app.get("/", (req, res) => {
-  res.render('index.hbs', {
-    pageTitle: 'Index'
-  })
+  res.render('index.hbs', {techStack: data.techStack})
 });
 
 app.get("/projects", (req, res) => {
-  // res.send("About Page");
-  res.render('projects.hbs', {
-    pageTitle: 'Projects page'
-  })
-  //res.next();
+  res.render('projects.hbs', {projects: data.projects});
 });
 
 app.get("/blog", (req, res) => {
-  // res.send("About Page");
-  res.render('about.hbs', {
-    pageTitle: 'About'
-  })
-  //res.next();
+  res.render('blog.hbs')
 });
 
 app.get("/testimonials", (req, res) => {
-  // res.send("About Page");
-  res.render('about.hbs', {
-    pageTitle: 'About'
-  })
-  //res.next();
+  res.render('testimonials.hbs', {testimonials: data.testimonials});
+});
+
+app.get("/contact", (req, res) => {
+  res.render('contact.hbs')
 });
 
 app.get("/music", (req, res) => {
-  // res.send("About Page");
-  res.render('about.hbs', {
-    pageTitle: 'About'
-  })
-  //res.next();
+  res.render('music.hbs' )
 });
 
 app.get("/artwork", (req, res) => {
-  // res.send("About Page");
-  res.render('about.hbs', {
-    pageTitle: 'About'
-  })
-  //res.next();
+  res.render('about.hbs')
 });
 
 app.get("/bad", (req, res) => {

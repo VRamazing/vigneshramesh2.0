@@ -1,80 +1,80 @@
 module.exports = {
 	techStack: [
 				{
-			      imgUrl: "images/python.png",
+			      imgUrl: "./images/techStack/python.png",
 			      imgAlt: "pythonLogo"
 			    },
 			    {
-			      imgUrl: "images/reactjs.png",
+			      imgUrl: "./images/techStack/reactjs.png",
 			      imgAlt: "reactLogo"
 			    },
 			    {
-			      imgUrl: "images/sass.png",
+			      imgUrl: "./images/techStack/sass.png",
 			      imgAlt: "sassLogo"
 			    },
 			    {
-			      imgUrl: "images/unity.png",
+			      imgUrl: "./images/techStack/unity.png",
 			      imgAlt: "unity3dLogo"
 			    },
 			    {
-			      imgUrl: "images/vuejs.png",
+			      imgUrl: "./images/techStack/vuejs.png",
 			      imgAlt: "vuejsLogo"
 			    },
 			    {
-			      imgUrl: "images/angularjs.jpg",
+			      imgUrl: "./images/techStack/angularjs.jpg",
 			      imgAlt: "angularjsLogo"
 			    },
 			    {
-			      imgUrl: "images/sql.png",
+			      imgUrl: "./images/techStack/sql.png",
 			      imgAlt: "sqlLogo"
 			    },
 			    {
-			      imgUrl: "images/ai.png",
+			      imgUrl: "./images/techStack/ai.png",
 			      imgAlt: "IllustratorLogo"
 			    },
 			    {
-			      imgUrl: "images/blender.jpeg",
+			      imgUrl: "./images/techStack/blender.jpeg",
 			      imgAlt: "blenderLogo"
 			    },
 			    {
-			      imgUrl: "images/css.jpg",
+			      imgUrl: "./images/techStack/css.jpg",
 			      imgAlt: "cssLogo"
 			    },
 			    {
-			      imgUrl: "images/flask.jpg",
+			      imgUrl: "./images/techStack/flask.jpg",
 			      imgAlt: "flaskLogo"
 			    },
 			    {
-			      imgUrl: "images/d3.png",
+			      imgUrl: "./images/techStack/d3.png",
 			      imgAlt: "d3jsLogo"
 			    },
 			    {
-			      imgUrl: "images/Gephi-logo.jpg",
+			      imgUrl: "./images/techStack/Gephi-logo.jpg",
 			      imgAlt: "gephiLogo"
 			    },
 			    {
-			      imgUrl: "images/gimp.jpg",
+			      imgUrl: "./images/techStack/gimp.jpg",
 			      imgAlt: "gimpLogo"
 			    },
 			    {
-			      imgUrl: "images/html.png",
+			      imgUrl: "./images/techStack/html.png",
 			      imgAlt: "htmlLogo"
 			    },
 			    {
-			      imgUrl: "images/js.png",
+			      imgUrl: "./images/techStack/js.png",
 			      imgAlt: "javascriptLogo"
 			    },
 			    {
-			      imgUrl: "images/mongodb.jpg",
+			      imgUrl: "./images/techStack/mongodb.jpg",
 			      imgAlt: "mongodbLogo"
 			    },
 			    {
-			      imgUrl: "images/photoshop.png",
+			      imgUrl: "./images/techStack/photoshop.png",
 			      imgAlt: "photoshopLogo"
 			    }
 			   ],
 	projects: [
-		      { image: "images/sabrang1.gif",
+		      { image: "./images/projects/sabrang1.gif",
 		        title: "Sabrang",
 		        oneLineDesc: "A static event based website created for live deployment",
 		        roles: ["Core programming" , "UX/UI Design"],
@@ -88,7 +88,7 @@ module.exports = {
 		                   "The site recieved 5000+ Visits"]    
 		      },
 
-		      { image: "images/tsms.gif",
+		      { image: "./images/projects/tsms.gif",
 		        title: "Timestamp Microservice",
 		        oneLineDesc: "A handy api to parse timestamp input and get timestamp output",
 		        roles: ["Core programming" , "UX/UI Design"],
@@ -99,7 +99,7 @@ module.exports = {
 		                   "Created using Node.js"]    
 		      },
 
-		      { image: "images/quoteApp.gif",
+		      { image: "./images/projects/quoteApp.gif",
 		        title: "Random Quote Machine",
 		        oneLineDesc: "A web app which generates random motivational quotes with a click of button",
 		        roles: ["Core programming" , "UX/UI Design"],
@@ -112,7 +112,7 @@ module.exports = {
 		                   ]    
 		      },
 
-		      { image: "images/devmeetup.gif",
+		      { image: "./images/projects/devmeetup.gif",
 		        title: "Meetup Planner",
 		        oneLineDesc: "A handy meetup planner web app",
 		        roles: ["Core programming" , "UX/UI Design"],
@@ -126,7 +126,7 @@ module.exports = {
 		                   ]    
 		      },
 
-		      { image: "images/wiki.gif",
+		      { image: "./images/projects/wiki.gif",
 		        title: "Wiki Viewer",
 		        oneLineDesc: "A web application to browse and search wikipedia articles or view a random article",
 		        roles: ["Core programming" , "UX/UI Design"],
@@ -140,7 +140,7 @@ module.exports = {
 		                   ]    
 		      },
 
-		      { image: "images/igp.gif",
+		      { image: "./images/projects/igp.gif",
 		        title: "Indian Game Project",
 		        oneLineDesc: "A personal gaming initiative to help promote games that promote Indian Culture",
 		        roles: ["Core programming" , "UX/UI Design", "Project Lead"],
@@ -154,7 +154,7 @@ module.exports = {
 		                   ]    
 		      },
 
-		      { image: "images/rhcp.gif",
+		      { image: "./images/projects/rhcp.gif",
 		        title: "Request Header Parser",
 		        oneLineDesc: "A web app which parses request header and displays ip-address, system config and language of user",
 		        roles: ["Core programming" , "UX/UI Design"],
@@ -166,7 +166,7 @@ module.exports = {
 		                   ]    
 		      },
 
-		      { image: "images/weatherApi.gif",
+		      { image: "./images/projects/weatherApi.gif",
 		        title: "Weather Extension",
 		        oneLineDesc: "An extension which uses location api to display weather in your region",
 		        roles: ["Core programming" , "UX/UI Design"],
@@ -178,7 +178,7 @@ module.exports = {
 		                   ]    
 		      },
 
-		      { image: "images/twitchTV.gif",
+		      { image: "./images/projects/twitchTV.gif",
 		        title: "Twitch TV Console",
 		        oneLineDesc: "A web application which uses twitch tv api to show which users are currently streaming and which users are not",
 		        roles: ["Core programming" , "UX/UI Design"],
@@ -192,7 +192,7 @@ module.exports = {
 		                  ]    
 		      },
 
-		      { image: "images/calculator.gif",
+		      { image: "./images/projects/calculator.gif",
 		        title: "Calculator",
 		        oneLineDesc: "A fun way to calculate with Javascript",
 		        roles: ["Core programming" , "UX/UI Design"],
@@ -206,7 +206,7 @@ module.exports = {
 		                  ]    
 		      },
 
-		      { image: "images/breakout.gif",
+		      { image: "./images/projects/breakout.gif",
 		        title: "Breakout",
 		        oneLineDesc: "A recreation 80's classic using Html canvas 2d",
 		        roles: ["Game programming", "Music/Sound Creation", "Game Art", "Project Lead"],
@@ -219,7 +219,7 @@ module.exports = {
 		                  ]    
 		      },
 
-		      { image: "images/pomodoro.gif",
+		      { image: "./images/projects/pomodoro.gif",
 		        title: "Pomodoro Timer",
 		        oneLineDesc: "An animated pomodoro web app",
 		        roles: ["Core programming" , "UX/UI Design"],
@@ -232,7 +232,7 @@ module.exports = {
 		                  ]    
 		      },
 
-		      { image: "images/snake.gif",
+		      { image: "./images/projects/snake.gif",
 		        title: "Snake",
 		        oneLineDesc: "A 2D canvas recreation for original snake game",
 		        roles: ["Game programming", "Game Art", "Project Lead"],
@@ -246,7 +246,7 @@ module.exports = {
 		      },
 
 
-		      { image: "images/memory.gif",
+		      { image: "./images/projects/memory.gif",
 		        title: "Memory Puzzle",
 		        oneLineDesc: "An interactive memory card game inspired by tech - companies",
 		        roles: ["Game programming", "Game Art", "Project Lead"],
@@ -258,7 +258,7 @@ module.exports = {
 		                  ]    
 		      },
 
-		      { image: "images/lineball.gif",
+		      { image: "./images/projects/lineball.gif",
 		        title: "Line Ball",
 		        oneLineDesc: "A basic 2D game inspired from Line Birds",
 		        roles: ["Game programming", "Game Art", "Project Lead"],
@@ -272,7 +272,7 @@ module.exports = {
 		                  ]    
 		      },
 
-		      { image: "images/blog.gif",
+		      { image: "./images/projects/blog.gif",
 		        title: "React Blog",
 		        oneLineDesc: "A dynamic blog for creating and maintaining posts",
 		        roles: ["Core programming" , "UX/UI Design"],
@@ -286,7 +286,7 @@ module.exports = {
 		                  ]    
 		      },
 
-		      { image: "images/sea.gif",
+		      { image: "./images/projects/sea.gif",
 		        title: "Sea Officially Lost",
 		        oneLineDesc: "This is an underwater survival horror game!  Player has to learn what happened to the rest of the crew and while trying to avoid their fate in the process",
 		        roles: ["3D Modeling" , "Music", "Voice Acting"],
@@ -300,7 +300,7 @@ module.exports = {
 		                  ]    
 		      },
 
-		      { image: "images/tatooine.gif",
+		      { image: "./images/projects/tatooine.gif",
 		        title: "Save Tatooine",
 		        oneLineDesc: "A space shooter tower defence game",
 		        roles: ["Game programming", "Game Art", "Music, SFX"],
@@ -314,7 +314,7 @@ module.exports = {
 		                  ]    
 		      },
 
-		      { image: "images/social.gif",
+		      { image: "./images/projects/social.gif",
 		        title: "Social Network Analysis",
 		        oneLineDesc: "Social network analysis of a twitter account",
 		        roles: ["Core Programming", "Data Visualization", "Data Analysis"],
@@ -328,7 +328,7 @@ module.exports = {
 		                  ]    
 		      },
 
-		      { image: "images/temperature.gif",
+		      { image: "./images/projects/temperature.gif",
 		        title: "Temperature Data Analysis",
 		        oneLineDesc: "Analysing and comparing temperature data between 2005-2014 for delhi ncr,india",
 		        roles: ["Core Programming", "Data Visualization", "Data Analysis"],
@@ -341,7 +341,7 @@ module.exports = {
 		                  ]    
 		      },
 
-		      { image: "images/gameOfViz.gif",
+		      { image: "./images/projects/gameOfViz.gif",
 		        title: " Game of Viz ",
 		        oneLineDesc: "Game of thrones data visualization for order of character appearence from each club for each season",
 		        roles: ["Core Programming", "Data Visualization", "Data Analysis"],
@@ -353,7 +353,7 @@ module.exports = {
 		                  ]    
 		      },
 
-		      { image: "images/sankey.gif",
+		      { image: "./images/projects/sankey.gif",
 		        title: "Sankey Chart",
 		        oneLineDesc: "A sankey chart visualization for F1 Racers for 2016 grand prix",
 		        roles: ["Core Programming", "Data Visualization", "Data Analysis"],
@@ -365,7 +365,7 @@ module.exports = {
 		                  ]    
 		      },
 
-		      { image: "images/terminal.gif",
+		      { image: "./images/projects/terminal.gif",
 		        title: "Terminal Journal",
 		        oneLineDesc: "A local terminal database powered journal",
 		        roles: ["Core Programming", "Database Management"],
@@ -378,7 +378,7 @@ module.exports = {
 		                  ]    
 		      },
 
-		      { image: "images/interactive.gif",
+		      { image: "./images/projects/interactive.gif",
 		        title: "Interactive Visualization",
 		        oneLineDesc: "An interactive visualization of premier league team revenues",
 		        roles: ["Core Programming", "Data Visualization", "Data Analysis"],
@@ -391,7 +391,7 @@ module.exports = {
 		                  ]    
 		      },
 
-		      { image: "images/cloropleth.gif",
+		      { image: "./images/projects/cloropleth.gif",
 		        title: "Choropleth Map of County Data",
 		        oneLineDesc: "Creating a cloropleth map for median earnings of each state in United States",
 		        roles: ["Core Programming", "Data Visualization", "Data Analysis"],
@@ -404,7 +404,7 @@ module.exports = {
 		                  ]    
 		      },
 
-		      { image: "images/superBuggyGolf.gif",
+		      { image: "./images/projects/superBuggyGolf.gif",
 		        title: "Super Buggy Golf ",
 		        oneLineDesc: "A Unity 3d golf game with the catch of player being a Car",
 		        roles: ["Game programming", "Music production", "Team member"],
@@ -419,7 +419,7 @@ module.exports = {
 		                  ]    
 		      },
 
-		      { image: "images/excalibur.gif",
+		      { image: "./images/projects/excalibur.gif",
 		        title: "Excalibur SDS",
 		        oneLineDesc: "A JS recreation of DOS classic paratrooper",
 		        roles: ["Game programming", "Music production", "Team member", "Game art"],
@@ -435,7 +435,7 @@ module.exports = {
 		                  ]    
 		      },
 
-		      { image: "images/WheelOfMisfortune.gif",
+		      { image: "./images/projects/WheelOfMisfortune.gif",
 		        title: "Wheel Of Misfortune",
 		        oneLineDesc: "A top down bullet hell SHMUP",
 		        roles: ["Music production", "Team member"],
@@ -451,7 +451,7 @@ module.exports = {
 		      },
 
 
-		      { image: "images/tinyTurboRacers.gif",
+		      { image: "./images/projects/tinyTurboRacers.gif",
 		        title: "Tiny Turbo Racers",
 		        oneLineDesc: "A game where you configure the car sensors so it drives around the track by itself",
 		        roles: ["Game programming", "Music production", "Team member", "Game art"],
@@ -468,7 +468,7 @@ module.exports = {
 		      },
 
 
-		      { image: "images/steelCavalry.gif",
+		      { image: "./images/projects/steelCavalry.gif",
 		        title: "Steel Cavalry",
 		        oneLineDesc: "A 2 player 3D action mech game",
 		        roles: ["Music production", "Game art"],
@@ -483,7 +483,7 @@ module.exports = {
 		                  ]    
 		      },
 
-		      { image: "images/DeathMcGamkedonalds.gif",
+		      { image: "./images/projects/DeathMcGamkedonalds.gif",
 		        title: "Death Road to McGamkedonalds",
 		        oneLineDesc: "A combination of top-down racer, cooking/pong game.",
 		       roles: ["Game programming", "Music production", "Team member", "Game art"],
@@ -497,7 +497,7 @@ module.exports = {
 		                  ]    
 		      },
 
-		      { image: "images/ghostInNewTokyo.gif",
+		      { image: "./images/projects/ghostInNewTokyo.gif",
 		        title: "Ghost in New Tokyo",
 		        oneLineDesc: "2d platformer created using canvas Html and Javascript",
 		        roles: [ "Music production", "Team member", "Game art"],
@@ -513,7 +513,7 @@ module.exports = {
 		      },
 
 
-		      { image: "images/playgroundLegends.gif",
+		      { image: "./images/projects/playgroundLegends.gif",
 		        title: "Playground Legends",
 		        oneLineDesc: "A casual dodge ball game made using Html5 canvas and javascript",
 		        roles: ["Game programming", "Music production", "Team member", "Game art"],
@@ -528,7 +528,7 @@ module.exports = {
 		                  ]    
 		      },
 
-		      { image: "images/clashTracks.gif",
+		      { image: "./images/projects/clashTracks.gif",
 		        title: "Clash Tracks",
 		        oneLineDesc: "A top down obstacle racing game made in js",
 		        roles: ["Game programming", "Music production", "Team Lead", "Game art"],
@@ -558,6 +558,6 @@ module.exports = {
 		              author : " — Aditya Sisodia (Co-Founder RecruitWheels)"
 		            }
 		          ],
-	
+
 } 
                     

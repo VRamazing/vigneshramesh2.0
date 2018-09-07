@@ -62,7 +62,9 @@
 
         <div class="carousel" style = "margin:20px 0 0 0!important;padding:0px">
            <h5 class="center  blue-text" style = "font-style:italic;font-size:22px;">My technology stack includes...</h5>
-           <a class="carousel-item" v-for = "tech in techStack"><img v-bind:alt = "tech.imgAlt" v-bind:src = "tech.imgUrl"></a>
+           {{#each techStack}}
+           <a class="carousel-item" ><img alt = {{imgAlt}} src = {{imgUrl}}></a>
+           {{/each}}
          </div>
 
       </div>
