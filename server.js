@@ -38,8 +38,12 @@ app.get("/music", (req, res) => {
   res.render('music.hbs' )
 });
 
-app.get("/artwork", (req, res) => {
-  res.render('about.hbs')
+app.get("/logos", (req, res) => {
+  res.render('logos.hbs', {logos: data.logos});
+});
+
+app.get("/art", (req, res) => {
+  res.render('art.hbs', {art: data.art});
 });
 
 app.get("/bad", (req, res) => {

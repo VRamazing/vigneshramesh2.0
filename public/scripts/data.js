@@ -228,7 +228,7 @@ module.exports = {
 		        gitLink: "https://codepen.io/techievignesh/pen/PJwXJd/",
 		        fullDesc: ["Mobile responsive design", 
 		                   "Custom pomodoro timer and breaktime",
-		                   "Includes animated progress bar",
+		                   "Includes animated progress bar"
 		                  ]    
 		      },
 
@@ -558,22 +558,30 @@ module.exports = {
 		              author : " — Aditya Sisodia (Co-Founder RecruitWheels)"
 		            }
 		          ],
-	 art: [
+	 logos: [
 			{
-		      imgUrl: "./images/techStack/python.png",
-		      imgAlt: "pythonLogo"
+		      imgUrl: "./images/logos/entreWithin.png",
+		      imgAlt: "entreWithinLogo"
 		    },
 		    {
-		      imgUrl: "./images/techStack/reactjs.png",
-		      imgAlt: "reactLogo"
+		      imgUrl: "./images/logos/grind.png",
+		      imgAlt: "grindLogo"
 		    },
 		    {
-		      imgUrl: "./images/techStack/sass.png",
-		      imgAlt: "sassLogo"
+		      imgUrl: "./images/logos/indiangameproject.png",
+		      imgAlt: "igmLogo"
 		    },
 		    {
-		      imgUrl: "./images/techStack/unity.png",
-		      imgAlt: "unity3dLogo"
+		      imgUrl: "./images/logos/nerdyhumans.png",
+		      imgAlt: "nerdyhumansLogo"
+		    },
+		    {
+		      imgUrl: "./images/logos/space.png",
+		      imgAlt: "spaceLogo"
+		    },
+		    {
+		      imgUrl: "./images/logos/tamashagames.png",
+		      imgAlt: "tamashagamesLogo"
 		    },
 		]
 
