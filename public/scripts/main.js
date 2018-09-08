@@ -3,13 +3,13 @@ $("ul#slide-out.side-nav > li > a").click(function(){
 	$('.button-collapse').sideNav('hide');    		
 });
 
-//Smooth Scroll
-$(document).on('click', 'a#link', function(event){
-  event.preventDefault();
-  $('html, body').animate({
-      scrollTop: $( $.attr(this, 'href') ).offset().top
-  }, 500);
-});
+//Smooth Scroll Not being used
+// $(document).on('click', 'a#link', function(event){
+//   event.preventDefault();
+//   $('html, body').animate({
+//       scrollTop: $( $.attr(this, 'href') ).offset().top
+//   }, 500);
+// });
 
 
 $( document ).ready(function() {
