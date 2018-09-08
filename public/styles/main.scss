@@ -51,7 +51,8 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
 	  padding:0px 10px 30px 10px!important;
   }
   .section.portfolio{
-  padding:20px 10px 10px 10px;}
+    padding:20px 10px 10px 10px;
+  }
 }
 
 @media #{$medium-and-up} {
@@ -68,7 +69,7 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
 
 nav{
 	div >a , div>ul>li>a{
-    color:#585858
+    color:#585858;
 	}
 	.brand-logo{
     margin-top:10px;
@@ -140,14 +141,15 @@ div.nav-wrapper.container.right.hide-on-med-and-down{
     margin-bottom:25px;
      .techUsed{margin-top: 10px;}
      .card-link a{margin-left: 2px;}
-     .role{margin:6px 0 6px 0;
-          span{
-            padding:5px;
-            margin:3px;
-            border-radius: 5px;
-            display:inline-block;
-            line-height: 20px;
-          }
+     .role{
+        margin:6px 0 6px 0;
+        span{
+          padding:5px;
+          margin:3px;
+          border-radius: 5px;
+          display:inline-block;
+          line-height: 20px;
+        }
       }
       .projects{
          height:15px;
@@ -169,7 +171,6 @@ div.nav-wrapper.container.right.hide-on-med-and-down{
 //Contact
 .container.contact{
 	padding:0px 80px 80px 80px;
-
 }
 
 p.center.grey-text.touch{
@@ -200,19 +201,19 @@ span.social{
 }
 
 .fa-itch-io{
-       position:relative;
-       top:3px;
-       font-size:32px!important;
+   position:relative;
+   top:3px;
+   font-size:32px!important;
 }
 
 .nav-fixed {
-    position: fixed;
-    right: 0;
-    left: 0;
-    top: 0;
-    margin-bottom: 0px;
-    z-index: 997;
-  }
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin-bottom: 0px;
+  z-index: 997;
+}
 
 .scroll-arrow{
   i{
@@ -221,7 +222,7 @@ span.social{
     select: none;
   }
   &:hover{
-   opacity: .5;
+   opacity: 0.5;
  }
 }
 
