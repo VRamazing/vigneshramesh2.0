@@ -583,6 +583,30 @@ module.exports = {
 		      imgUrl: "./images/logos/tamashagames.png",
 		      imgAlt: "tamashagamesLogo"
 		    },
+		    {
+		      imgUrl: "./images/logos/entreWithin.png",
+		      imgAlt: "entreWithinLogo"
+		    },
+		    {
+		      imgUrl: "./images/logos/grind.png",
+		      imgAlt: "grindLogo"
+		    },
+		    {
+		      imgUrl: "./images/logos/indiangameproject.png",
+		      imgAlt: "igmLogo"
+		    },
+		    {
+		      imgUrl: "./images/logos/nerdyhumans.png",
+		      imgAlt: "nerdyhumansLogo"
+		    },
+		    {
+		      imgUrl: "./images/logos/space.png",
+		      imgAlt: "spaceLogo"
+		    },
+		    {
+		      imgUrl: "./images/logos/tamashagames.png",
+		      imgAlt: "tamashagamesLogo"
+		    }
 		]
 
 } 

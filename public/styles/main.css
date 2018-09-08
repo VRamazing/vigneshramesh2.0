@@ -4,6 +4,20 @@
   font-size: 16px;
   font-family: 'Lato', sans-serif; }
 
+.art .art-holder {
+  clear: both;
+  text-align: center; }
+
+.materialboxed {
+  margin: 2px !important;
+  display: inline-block !important;
+  float: left !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important; }
+
+.materialboxed:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
 .cards-container {
   column-break-inside: avoid; }
   .cards-container .card {
@@ -170,20 +184,6 @@ blockquote {
   blockquote .fa-1x {
     font-size: 25px;
     margin-right: 5px; }
-
-.art .art-holder {
-  clear: both;
-  text-align: center; }
-
-.art img {
-  margin: 2px;
-  display: inline-block;
-  float: left;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
-
-.materialboxed:hover {
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
 
 @keyframes MoveUpDown {
   0% {
