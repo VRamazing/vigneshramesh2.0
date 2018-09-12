@@ -1,21 +1,21 @@
 //Close Sidenav on link click
-$("ul#slide-out.side-nav > li > a").click(function(){
-	$('.button-collapse').sideNav('hide');    		
-});
+// $("ul#slide-out.side-nav > li > a").click(function(){
+// 	$('.sidenav').sideNav('hide');  		
+// });
 
 //Smooth Scroll Not being used
-// $(document).on('click', 'a#link', function(event){
-//   event.preventDefault();
-//   $('html, body').animate({
-//       scrollTop: $( $.attr(this, 'href') ).offset().top
-//   }, 500);
-// });
+$(document).on('click', 'a#link', function(event){
+  event.preventDefault();
+  $('html, body').animate({
+      scrollTop: $( $.attr(this, 'href') ).offset().top
+  }, 500);
+});
 
 
 $( document ).ready(function() {
   $('.scrollspy').scrollSpy();
   $('.carousel').carousel();
-  $(".button-collapse").sideNav();
+  $('.sidenav').sidenav();
   $('.dropdown-trigger').dropdown();
   $('.materialboxed').materialbox();
   //getting quotes
