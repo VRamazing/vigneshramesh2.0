@@ -36,7 +36,22 @@
 			</a>
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
 				<li><a href="/" id = "link">About</a></li>
-				<li><a href="/projects" id = "link">Portfolio</a></li>
+				<li><a  data-target='portfolio-dropdown' id = "link">Portfolio</a></li>
+				<!-- Dropdown Structure -->
+				<ul id='portfolio-dropdown' class='dropdown-content'>
+				  <li><a href="#!">Projects</a></li>
+				  <li><a href="#!"></a>Games</li>
+				  <li><a href="#!"></a>Apps/Website</li>
+				  <li class="divider" tabindex="-1"></li>
+				  <li><a href="#!"></a><i class="fa fa-paint-brush" aria-hidden="true"></i>Art</li>
+				  <li><a href="#!"></a>Logos</li>
+				  <li><a href="#!"></a><i class="fa fa-music" aria-hidden="true"></i>Music</li>
+				  <li class="divider" tabindex="-1"></li>
+				  <li><a href="#!">three</a></li>
+				  <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+				  <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+				</ul>
+
 				<li><a href="https://medium.com/@vigneshramesh_24413" target = "_blank">Blog</a></li>
 				<li><a href="/testimonials" id = "link">Testimonials</a></li>
 				<li><a href="/contact" id = "link">Contact</a></li>
@@ -53,4 +68,9 @@
 	</ul>
 
 	
+	<!-- Dropdown Trigger -->
+	<a class='dropdown-trigger btn' href='#' data-target='portfolio-dropdown'>Drop Me!</a>
+
+
+        
 
