@@ -44,18 +44,21 @@ div.nav-wrapper.container.right.hide-on-med-and-down {
   top: 0; }
 
 #nav-mobile li a:hover, #slide-out li a:hover {
-  border-bottom: 2px solid black; }
+  border-bottom: 2px solid #02BBD3; }
 
 #nav-mobile .active, #slide-out .active {
   background: #e4e4e4; }
 
-#portfolio-dropdown > li > a {
-  color: black !important;
-  border: none; }
+#portfolio-dropdown li {
+  padding: 0px;
+  margin: 0px; }
+  #portfolio-dropdown li a {
+    color: #585858 !important;
+    border: none;
+    font-size: 14px; }
 
 a#link.dropdown-trigger:hover {
-  border: none;
-  user-select: none; }
+  border-bottom: none; }
 
 #Home {
   background-color: #242D47;
