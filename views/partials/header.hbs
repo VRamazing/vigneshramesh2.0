@@ -11,7 +11,7 @@
 	<meta name="author" content="Vignesh Ramesh">
 	<title>Vignesh Ramesh</title>
 	<link rel="icon" href="favicon.ico" type="image/x-icon" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 	<link rel="stylesheet" href="./styles/main.css" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Lobster+Two|Lato" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -33,32 +33,27 @@
 		<div class="nav-wrapper container">
 			<a id="logo-container" href="#" class="brand-logo"><img alt = "logo" src="./images/vrlogo.png" height="50" weight="50"></a>
 			<a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars" aria-hidden="true" style= "font-size:1.3em"></i>
-			</a>
+			</a>			 
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
 				<li><a href="/" id = "link">About</a></li>
-				<li><a  data-target='portfolio-dropdown' id = "link">Portfolio</a></li>
-				<!-- Dropdown Structure -->
-				<ul id='portfolio-dropdown' class='dropdown-content'>
-				  <li><a href="#!">Projects</a></li>
-				  <li><a href="#!"></a>Games</li>
-				  <li><a href="#!"></a>Apps/Website</li>
-				  <li class="divider" tabindex="-1"></li>
-				  <li><a href="#!"></a><i class="fa fa-paint-brush" aria-hidden="true"></i>Art</li>
-				  <li><a href="#!"></a>Logos</li>
-				  <li><a href="#!"></a><i class="fa fa-music" aria-hidden="true"></i>Music</li>
-				  <li class="divider" tabindex="-1"></li>
-				  <li><a href="#!">three</a></li>
-				  <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
-				  <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
-				</ul>
-
+				<li><a  href="#" data-target="portfolio-dropdown" id="link" class="dropdown-trigger">Portfolio &nbsp;<i class="fa fa-sort-desc" aria-hidden="true"></i></a></li>
 				<li><a href="https://medium.com/@vigneshramesh_24413" target = "_blank">Blog</a></li>
 				<li><a href="/testimonials" id = "link">Testimonials</a></li>
 				<li><a href="/contact" id = "link">Contact</a></li>
 			</ul>
 		</div>
 	</nav>
-
+	
+	<!-- Dropdown Structure -->
+	<ul id='portfolio-dropdown'  class='dropdown-content'>
+	  <li><a href="#!">Projects</a></li>
+	  <li><a href="#!"></a>Games</li>
+	  <li><a href="#!"></a>Apps/Website</li>
+	  <li class="divider" tabindex="-1"></li>
+	  <li><a href="#!"></a><i class="fa fa-paint-brush" aria-hidden="true"></i>Art</li>
+	  <li><a href="#!"></a>Logos</li>
+	  <li><a href="#!"></a><i class="fa fa-music" aria-hidden="true"></i>Music</li>
+	</ul>
 	<ul id="slide-out" class="side-nav">
 		<li><a href="/" id = "link">About</a></li>
 		<li><a href="/projects" id = "link">Portfolio</a></li>
@@ -66,10 +61,9 @@
 		<li><a href="/testimonials" id = "link">Testimonials</a></li>
 		<li><a href="/contact" id = "link">Contact</a></li>
 	</ul>
-
-	
-	<!-- Dropdown Trigger -->
-	<a class='dropdown-trigger btn' href='#' data-target='portfolio-dropdown'>Drop Me!</a>
+		
+ 
+        
 
 
         
