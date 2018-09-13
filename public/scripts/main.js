@@ -1,7 +1,7 @@
 //Close Sidenav on link click
-// $("ul#slide-out.side-nav > li > a").click(function(){
-// 	$('.sidenav').sideNav('hide');  		
-// });
+$("ul#slide-out.side-nav > li > a").click(function(){
+	$('.sidenav').sideNav('hide');  		
+});
 
 //Smooth Scroll Not being used
 // $(document).on('click', 'a#link', function(event){
@@ -16,7 +16,16 @@ $( document ).ready(function() {
   $('.scrollspy').scrollSpy();
   $('.carousel').carousel();
   $('.sidenav').sidenav();
+  var containerElem = $( ".dropdown-elems" )[0];
+  console.log(containerElem);
   $('.dropdown-trigger').dropdown({hover: true, closeOnClick: true,coverTrigger: false});
+  // $('.dropdown-trigger2').dropdown({inDuration: 300,
+  //          outDuration: 225,
+  //          constrain_width: true, 
+  //          closeOnClick: true,
+  //          coverTrigger: false,
+  //          container: containerElem        
+  //         });
   $('.materialboxed').materialbox();
   //getting quotes
   //Make this as quote of the day. 
@@ -25,7 +34,8 @@ $( document ).ready(function() {
   $("#quote").text(quotes[idx].text + " ~ " + quotes[idx].name);  
 });
 
-
-		
+function clickedCrossNav(){
+  console.log("Cross selected");
+}
 
 		
