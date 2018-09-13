@@ -559,31 +559,7 @@ module.exports = {
 		            }
 		          ],
 	 logos: [
-			{
-		      imgUrl: "./images/logos/entreWithin.png",
-		      imgAlt: "entreWithinLogo"
-		    },
-		    {
-		      imgUrl: "./images/logos/grind.png",
-		      imgAlt: "grindLogo"
-		    },
-		    {
-		      imgUrl: "./images/logos/indiangameproject.png",
-		      imgAlt: "igmLogo"
-		    },
-		    {
-		      imgUrl: "./images/logos/nerdyhumans.png",
-		      imgAlt: "nerdyhumansLogo"
-		    },
-		    {
-		      imgUrl: "./images/logos/space.png",
-		      imgAlt: "spaceLogo"
-		    },
-		    {
-		      imgUrl: "./images/logos/tamashagames.png",
-		      imgAlt: "tamashagamesLogo"
-		    },
-		    {
+			  {
 		      imgUrl: "./images/logos/entreWithin.png",
 		      imgAlt: "entreWithinLogo"
 		    },
@@ -607,7 +583,39 @@ module.exports = {
 		      imgUrl: "./images/logos/tamashagames.png",
 		      imgAlt: "tamashagamesLogo"
 		    }
-		]
+		],
 
+    logos: [
+      {
+        imgUrl: "./images/art/blue_building.png",
+        imgAlt: "blue building",
+        tagClass: "art"
+      },
+      {
+        imgUrl: "./images/art/boxExplosion.png",
+        imgAlt: "Box explosion",
+        tagClass: "animation"
+      },
+      {
+        imgUrl: "./images/art/chair.png",
+        imgAlt: "chair",
+        tagClass: "3dmodel"
+      },
+      {
+        imgUrl: "./images/art/clashTracksLogo.png",
+        imgAlt: "clashTracks Logo 1",
+        tagClass: ""
+      },
+      {
+        imgUrl: "./images/art/clashTracksLogo2.png",
+        imgAlt: "clashTracks Logo 2"
+      },
+      {
+        imgUrl: "./images/art/clashTracksLogo2.png",
+        imgAlt: "clashTracks Logo 2"
+      },
+       
+       
+    ]
 } 
                     
