@@ -21,11 +21,11 @@ app.get("/", (req, res) => {
 });
 
 app.get("/web-apps", (req, res) => {
-  res.render('projects.hbs', {projects: data.projects});
+  res.render('projects.hbs', {projects: data.web_apps, category_name: "web apps"});
 });
 
 app.get("/games", (req, res) => {
-  res.render('projects.hbs', {projects: data.projects});
+  res.render('projects.hbs', {projects: data.games, category_name: "games"});
 });
 
 
@@ -50,7 +50,7 @@ app.get("/logos", (req, res) => {
   res.render('logos.hbs', {logos: data.logos});
 });
 
-app.get("/art", (req, res) => {
+app.get("/artwork", (req, res) => {
   res.render('art.hbs', {artwork: data.artwork});
 });
 

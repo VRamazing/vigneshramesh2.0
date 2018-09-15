@@ -52,6 +52,7 @@
 	  <li><a href="/web-apps">Web apps</a></li>
 	  <li><a href="/games">Games</a></li>
 	  <li><a href="/artwork">Artwork</a></li>
+	  <li><a href="/logos">Logos</a></li>
 	  <li><a href="/music">Music</a></li>
 	</ul>
 
@@ -63,9 +64,19 @@
 
 	<ul id="slide-out" class="sidenav">
 		<li><a onclick="clickedCrossNav();" id = "cross-btn"><i class="fa fa-times" aria-hidden="true" style="float:right;font-size: 30px;"></i></a></li>
-		<li><a href="/" id = "link">About</a></li>
-		<li><a  data-target="portfolio-dropdown" id="link" class="dropdown-trigger2"><i class="fa fa-sort-desc" aria-hidden="true" style="float:right;"></i>Portfolio &nbsp;</a></li>
-		<div class="dropdown-elems"></div>
+		<li><a href="/" id = "link">About</a></li>	
+		<li>
+			<ul class="collapsible">
+			    <li>
+			      <div class="collapsible-header"><span>Portfolio<i class="fa fa-sort-desc" aria-hidden="true"></i></span></div>
+			      <div class="collapsible-body"><span><a href="/web-apps" >Web apps</a></span></div>
+			      <div class="collapsible-body"><span><a href="/games" >Games</a></span></div>
+			      <div class="collapsible-body"><span><a href="/artwork">Artwork</a></span></div>
+			      <div class="collapsible-body"><span><a href="/logos" >Logos</a></span></div>
+			      <div class="collapsible-body"><span><a href="/music" >Music</a></span></div>
+			    </li>
+		  	</ul>
+		</li>		
 		<li><a href="https://medium.com/@vigneshramesh_24413" target = "_blank">Blog</a></li>
 		<li><a href="/testimonials" id = "link">Testimonials</a></li>
 		<li><a href="/contact" id = "link">Contact</a></li>

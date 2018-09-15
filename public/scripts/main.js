@@ -16,6 +16,7 @@ $( document ).ready(function() {
   $('.scrollspy').scrollSpy();
   $('.carousel').carousel();
   $('.sidenav').sidenav();
+  $('.collapsible').collapsible();
   var containerElem = $( ".dropdown-elems" )[0];
   console.log(containerElem);
   $('.dropdown-trigger').dropdown({hover: true, closeOnClick: true,coverTrigger: false, align: "left"});
