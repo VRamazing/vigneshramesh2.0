@@ -1,3 +1,6 @@
+
+
+
 module.exports = {
 	techStack: [
 				{
@@ -561,61 +564,125 @@ module.exports = {
 	 logos: [
 			  {
 		      imgUrl: "./images/logos/entreWithin.png",
-		      imgAlt: "entreWithinLogo"
+		      imgAlt: "Entre within logo"
 		    },
 		    {
 		      imgUrl: "./images/logos/grind.png",
-		      imgAlt: "grindLogo"
+		      imgAlt: "Grind logo"
 		    },
 		    {
 		      imgUrl: "./images/logos/indiangameproject.png",
-		      imgAlt: "igmLogo"
+		      imgAlt: "Indian game project logo"
 		    },
 		    {
 		      imgUrl: "./images/logos/nerdyhumans.png",
-		      imgAlt: "nerdyhumansLogo"
+		      imgAlt: "Nerdy humans logo"
 		    },
 		    {
 		      imgUrl: "./images/logos/space.png",
-		      imgAlt: "spaceLogo"
+		      imgAlt: "Space logo"
 		    },
 		    {
 		      imgUrl: "./images/logos/tamashagames.png",
-		      imgAlt: "tamashagamesLogo"
-		    }
+		      imgAlt: "Tamasha games logo"
+		    },
+        {
+          imgUrl: "./images/logos/clashTracksLogo2.png",
+          imgAlt: "Clash tracks"
+        }
 		],
 
-    logos: [
+    artwork: [
       {
-        imgUrl: "./images/art/blue_building.png",
-        imgAlt: "blue building",
-        tagClass: "art"
+        imgUrl: "./images/artwork/box_explosion.png",
+        imgAlt: "Box explosion animation",
+        tagClass: "pixel-art"
       },
       {
-        imgUrl: "./images/art/boxExplosion.png",
-        imgAlt: "Box explosion",
+        imgUrl: "./images/artwork/girl.png",
+        imgAlt: "girl",
+        tagClass: "pixel-potrait"
+      },
+      {
+        imgUrl: "./images/artwork/chair.png",
+        imgAlt: "Chair",
+        tagClass: "3d-model"
+      },   
+      {
+        imgUrl: "./images/artwork/go_kart.png",
+        imgAlt: "Go Kart",
         tagClass: "animation"
       },
       {
-        imgUrl: "./images/art/chair.png",
-        imgAlt: "chair",
+        imgUrl: "./images/artwork/heart_spirals.png",
+        imgAlt: "Heart spirals",
+        tagClass: "pixel-art"
+      }, 
+      {
+        imgUrl: "./images/artwork/robokedo.png",
+        imgAlt: "Robokedo",
+        tagClass: "pixel-art"
+      },
+      {
+        imgUrl: "./images/artwork/running_dog.gif",
+        imgAlt: "Running dog",
+        tagClass: "pixel-art"
+      },    
+      {
+        imgUrl: "./images/artwork/sanju.png",
+        imgAlt: "Sanjay dutt",
+        tagClass: "pixel-potrait"
+      }, 
+      {
+        imgUrl: "./images/artwork/ship_overhead.png",
+        imgAlt: "Ship overhead",
+        tagClass: "pixel-art"
+      },
+      {
+        imgUrl: "./images/artwork/table.png",
+        imgAlt: "Table",
         tagClass: "3dmodel"
       },
       {
-        imgUrl: "./images/art/clashTracksLogo.png",
-        imgAlt: "clashTracks Logo 1",
-        tagClass: ""
+        imgUrl: "./images/artwork/thanos.png",
+        imgAlt: "Thanos",
+        tagClass: "pixel-potrait"
+      },    
+      {
+        imgUrl: "./images/artwork/tony_stark.png",
+        imgAlt: "Tony stark",
+        tagClass: "pixel-potrait"
+      },  
+      {
+        imgUrl: "./images/artwork/top_down_building.png",
+        imgAlt: "Top down building",
+        tagClass: "pixel-art"
+      },    
+      {
+        imgUrl: "./images/artwork/tree.gif",
+        imgAlt: "Tree",
+        tagClass: "animation"
+      }, 
+      {
+        imgUrl: "./images/artwork/varsha.png",
+        imgAlt: "Girl pixel art",
+        tagClass: "pixel-potrait"
       },
       {
-        imgUrl: "./images/art/clashTracksLogo2.png",
-        imgAlt: "clashTracks Logo 2"
+        imgUrl: "./images/artwork/Vignesh.png",
+        imgAlt: "pixel-art",
+        tagClass: "pixel-potrait"
+      }, 
+      {
+        imgUrl: "./images/artwork/violet_two_building.png",
+        imgAlt: "Girl pixel art",
+        tagClass: "pixel-potrait"
       },
       {
-        imgUrl: "./images/art/clashTracksLogo2.png",
-        imgAlt: "clashTracks Logo 2"
-      },
-       
-       
+        imgUrl: "./images/artwork/volley_man_idle.gif",
+        imgAlt: "Volley man",
+        tagClass: "animation"
+      },          
     ]
 } 
                     

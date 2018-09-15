@@ -1,7 +1,10 @@
-<div class = "row">
-	<div class="col s12 m12 l12 art-holder">
-		{{#each art}}
-			<img class="materialboxed" width="150" src={{url}} alt={{alt}}>
+<div class = "row art">
+	<br />
+	<br /> 
+	<br /> 
+	<div class="col s12 art-holder">
+		{{#each artwork}}
+			<img class="materialboxed {{tagClass}}" width="150" src={{imgUrl}} alt={{imgAlt}}>
 		{{/each}}
 	</div>
 </div>
