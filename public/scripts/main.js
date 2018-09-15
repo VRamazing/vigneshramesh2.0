@@ -18,7 +18,7 @@ $( document ).ready(function() {
   $('.sidenav').sidenav();
   var containerElem = $( ".dropdown-elems" )[0];
   console.log(containerElem);
-  $('.dropdown-trigger').dropdown({hover: true, closeOnClick: true,coverTrigger: false});
+  $('.dropdown-trigger').dropdown({hover: true, closeOnClick: true,coverTrigger: false, align: "left"});
   // $('.dropdown-trigger2').dropdown({inDuration: 300,
   //          outDuration: 225,
   //          constrain_width: true, 

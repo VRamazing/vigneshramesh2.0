@@ -41,6 +41,14 @@
           <br>
           <br>
         </div>
+        
+        <div class="carousel" style = "margin:20px 0 0 0!important;padding:0px">
+          <h5 class="center  blue-text" style = "font-style:italic;font-size:22px;">My technology stack includes...</h5>
+          {{#each techStack}}
+          <a class="carousel-item" ><img alt = {{imgAlt}} src = {{imgUrl}}></a>
+          {{/each}}
+        </div>
+        
         <div class=" center col s12 hide-on-med-and-down">
           <div class = "row">
             <br>
@@ -51,8 +59,7 @@
               </div>
               <div class=" center col s12 m6 ">
                 <center>
-                  <div height = "500" class="github-widget" data-username="vramazing">
-                  </div>
+                  <div class="fb-page" data-height="500" data-href="https://www.facebook.com/techieVR/" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/techieVR/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/techieVR/">Vignesh Ramesh</a></blockquote></div>
                 </center>
               </div>
           </div>
@@ -60,12 +67,7 @@
         </div>
 
 
-        <div class="carousel" style = "margin:20px 0 0 0!important;padding:0px">
-           <h5 class="center  blue-text" style = "font-style:italic;font-size:22px;">My technology stack includes...</h5>
-           {{#each techStack}}
-           <a class="carousel-item" ><img alt = {{imgAlt}} src = {{imgUrl}}></a>
-           {{/each}}
-         </div>
+       
 
       </div>
     </div>

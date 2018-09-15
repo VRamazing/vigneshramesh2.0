@@ -85,10 +85,9 @@ div.nav-wrapper.container.right.hide-on-med-and-down{
 #nav-mobile li a:hover, #slide-out li a:hover{border-bottom: 2px solid #02BBD3;}
 #nav-mobile .active, #slide-out  .active{background: #e4e4e4;}
 
-
-#portfolio-dropdown{
+#portfolio-dropdown,#resume-dropdown{
   li {
-    padding: 0px;
+    padding: 2px;
     margin: 0px;
     a{
       color: #585858!important;
@@ -97,6 +96,8 @@ div.nav-wrapper.container.right.hide-on-med-and-down{
     } 
   } 
 }
+
+
 a#link.dropdown-trigger:hover{
   border-bottom:none;
 }

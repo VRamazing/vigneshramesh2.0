@@ -49,10 +49,10 @@ div.nav-wrapper.container.right.hide-on-med-and-down {
 #nav-mobile .active, #slide-out .active {
   background: #e4e4e4; }
 
-#portfolio-dropdown li {
-  padding: 0px;
+#portfolio-dropdown li, #resume-dropdown li {
+  padding: 2px;
   margin: 0px; }
-  #portfolio-dropdown li a {
+  #portfolio-dropdown li a, #resume-dropdown li a {
     color: #585858 !important;
     border: none;
     font-size: 14px; }
