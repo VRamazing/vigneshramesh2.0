@@ -1,10 +1,17 @@
-<div class = "row art">
+<div class="container">
 	<br />
-	<br /> 
-	<br /> 
-	<div class="col s12 art-holder">
-		{{#each logos}}
-			<img class="materialboxed" width="150" src={{imgUrl}} alt={{imgAlt}}>
-		{{/each}}
+	<br />
+	<div class="section portfolio">
+		<h5 class="center teal-text">{{length}}+ professional logos and  counting.</h5>
+		<br /> 
+		<div class = "row art">
+			
+			<div class="col s12 art-holder">
+				{{#each logos}}
+					<img class="materialboxed" width="150" src={{imgUrl}} alt={{imgAlt}}>
+				{{/each}}
+			</div>
+		</div>
 	</div>
 </div>
+

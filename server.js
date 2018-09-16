@@ -2,7 +2,8 @@ const express = require("express");
 const hbs = require("hbs");
 const data = require("./public/scripts/data")
 const app = express();
-const path = require("path")
+const path = require("path");
+const _= require("lodash");
 
 // app.use('/public', express.static(__dirname + '/public'));
 
@@ -45,7 +46,8 @@ app.get("/music", (req, res) => {
 });
 
 app.get("/logos", (req, res) => {
-  res.render('logos.hbs', {logos: data.logos});
+  logosData = _.shuffle(data.logos)
+  res.render('logos.hbs', {logos: logosData, length: logosData.length});
 });
 
 app.get("/artwork", (req, res) => {

@@ -1,6 +1,3 @@
-
-
-
 module.exports = {
 	techStack: [
 				{
@@ -563,7 +560,7 @@ module.exports = {
 		          ],
 	 logos: [
 			  {
-		      imgUrl: "./images/logos/entreWithin.png",
+		      imgUrl: "./images/logos/entre_within.png",
 		      imgAlt: "Entre within logo"
 		    },
 		    {
@@ -571,11 +568,11 @@ module.exports = {
 		      imgAlt: "Grind logo"
 		    },
 		    {
-		      imgUrl: "./images/logos/indiangameproject.png",
+		      imgUrl: "./images/logos/indian_game_project.png",
 		      imgAlt: "Indian game project logo"
 		    },
 		    {
-		      imgUrl: "./images/logos/nerdyhumans.png",
+		      imgUrl: "./images/logos/nerdy_humans.png",
 		      imgAlt: "Nerdy humans logo"
 		    },
 		    {
@@ -583,13 +580,65 @@ module.exports = {
 		      imgAlt: "Space logo"
 		    },
 		    {
-		      imgUrl: "./images/logos/tamashagames.png",
+		      imgUrl: "./images/logos/tamasha_games.png",
 		      imgAlt: "Tamasha games logo"
 		    },
         {
-          imgUrl: "./images/logos/clashTracksLogo2.png",
+          imgUrl: "./images/logos/clash_tracks.png",
           imgAlt: "Clash tracks"
-        }
+        },
+        {
+          imgUrl: "./images/logos/1800_rosebud.png",
+          imgAlt: "1-800-reosebudd"
+        },
+        {
+          imgUrl: "./images/logos/anchor.png",
+          imgAlt: "Anchor logo"
+        },
+        {
+          imgUrl: "./images/logos/austinRun.png",
+          imgAlt: "Austin run logo"
+        },
+        {
+          imgUrl: "./images/logos/candy_shop.png",
+          imgAlt: "Candy shot"
+        },
+        {
+          imgUrl: "./images/logos/dulux.png",
+          imgAlt: "Dulux logo"
+        },
+        {
+          imgUrl: "./images/logos/game_brain.png",
+          imgAlt: "Game brain logo"
+        },
+        {
+          imgUrl: "./images/logos/swords&shields.png",
+          imgAlt: "Swords and shields logo"
+        },
+        {
+          imgUrl: "./images/logos/swords&shields_black.png",
+          imgAlt: "Swords and shields logo"
+        },
+        {
+          imgUrl: "./images/logos/twitchy_rabbit.png",
+          imgAlt: "Twitchy rabbit logo"
+        },
+        {
+          imgUrl: "./images/logos/wildlife.png",
+          imgAlt: "Wildlife logo"
+        },
+         {
+          imgUrl: "./images/logos/paint.png",
+          imgAlt: "Paint logo"
+        },
+        {
+          imgUrl: "./images/logos/ping.png",
+          imgAlt: "Ping logo"
+        },
+        {
+          imgUrl: "./images/logos/sparked.png",
+          imgAlt: "Sparked logo"
+        },
 		],
 
     artwork: [
