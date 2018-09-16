@@ -28,7 +28,6 @@ app.get("/games", (req, res) => {
   res.render('projects.hbs', {projects: data.games, category_name: "games"});
 });
 
-
 app.get("/blog", (req, res) => {
   res.render('blog.hbs')
 });
@@ -45,7 +44,6 @@ app.get("/music", (req, res) => {
   res.render('music.hbs' )
 });
 
-
 app.get("/logos", (req, res) => {
   res.render('logos.hbs', {logos: data.logos});
 });
@@ -58,11 +56,27 @@ app.get("/bad", (req, res) => {
 	res.send("<h3>Unable to handle request</h3>");
 });
 
+app.get('/resume', function (req, res, next) {
+    var filePath = __dirname + "/public/resume/resume_full_stack.pdf";
+    res.download(filePath, 'resume_vignesh_ramesh.pdf', function(err){
+      if (err) {
+        console.log(err);
+      } else{
+        //display a toast here. 
+        //Maybe check Ip of the person and do a quick who search to see who downloaded it
+        console.log("Thanks for downloading.")
+      }
+    });  
+});
+
 app.get('/resume/:id/download', function (req, res, next) {
-    if(req.params.id == "game"){
-      var filePath = __dirname + "/public/resume/resume_game.pdf";
+  var filepath;
+    if(req.params.id == "game_dev"){
+      filePath = __dirname + "/public/resume/resume_game.pdf";
     }else if(req.params.id == "full_stack"){
-      var filePath = __dirname + "/public/resume/resume_full_stack.pdf";
+      filePath = __dirname + "/public/resume/resume_full_stack.pdf";
+    }else{
+      filePath = __dirname + "/public/resume/resume_full_stack.pdf";
     }
     res.download(filePath, 'resume_vignesh_ramesh.pdf', function(err){
       if (err) {

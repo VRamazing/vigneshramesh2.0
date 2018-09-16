@@ -5,7 +5,6 @@
 	font-family: 'Lato', sans-serif;
 }
 
-
 // Media Query Ranges
 $small-screen-up: 601px !default;
 $medium-screen-up: 993px !default;
@@ -77,12 +76,36 @@ nav{
   }
 }
 
+ul.collapsible > span{
+  margin-left: 15px;
+  color:#585858;
+}
+
+.collapsible-header>span{
+  margin-left: 15px;
+  color:#585858;
+  font-size:14px;
+}
+
+.collapsible-body{
+  span{
+    color:#575757;
+    font-size:13.5px;
+    margin-left: 50px;
+  }
+}
+
+
+
+
+
 div.nav-wrapper.container.right.hide-on-med-and-down{
 	position:absolute!important;
 	top:0;
 }
 
-#nav-mobile li a:hover, #slide-out li a:hover{border-bottom: 2px solid #02BBD3;}
+#slide-out li a:hover{border-bottom: 2px solid #02BBD3;}
+
 #nav-mobile .active, #slide-out  .active{background: #e4e4e4;}
 
 #portfolio-dropdown,#resume-dropdown{
