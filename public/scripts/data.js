@@ -643,7 +643,7 @@ module.exports = {
 
     artwork: [
       {
-        imgUrl: "./images/artwork/box_explosion.png",
+        imgUrl: "./images/artwork/box_explosion.gif",
         imgAlt: "Box explosion animation",
         tagClass: "pixel-art"
       },
@@ -668,7 +668,7 @@ module.exports = {
         tagClass: "pixel-art"
       }, 
       {
-        imgUrl: "./images/artwork/robokedo.png",
+        imgUrl: "./images/artwork/robokedo.jpg",
         imgAlt: "Robokedo",
         tagClass: "pixel-art"
       },

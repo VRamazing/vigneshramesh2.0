@@ -1,4 +1,4 @@
-<div class = "row art">
+{{!-- <div class = "row art">
 	<br />
 	<br /> 
 	<br /> 
@@ -7,4 +7,21 @@
 			<img class="materialboxed {{tagClass}}" width="150" src={{imgUrl}} alt={{imgAlt}}>
 		{{/each}}
 	</div>
+</div>
+ --}}
+
+ <br />
+	<br /> 
+	<br /> 
+	<br /> 
+	<br /> 
+	<br /> 
+
+ <div class="grid-row">
+ 	{{#each artwork}}
+ 	<div class="grid-column">
+		<img class="{{tagClass}}" width="auto" height="auto" src={{imgUrl}} alt={{imgAlt}}>
+  </div>
+
+	{{/each}} 
 </div>

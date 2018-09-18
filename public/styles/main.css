@@ -210,6 +210,20 @@ blockquote {
     font-size: 25px;
     margin-right: 5px; }
 
+.grid-row {
+  display: flex !important;
+  flex-wrap: wrap;
+  padding: 0 4px; }
+
+/* Create two equal columns that sits next to each other */
+.grid-column {
+  flex: 25% !important;
+  padding: 0 4px; }
+
+.grid-column img {
+  margin-top: 8px !important;
+  vertical-align: middle; }
+
 @keyframes MoveUpDown {
   0% {
     margin-top: 30px; }
