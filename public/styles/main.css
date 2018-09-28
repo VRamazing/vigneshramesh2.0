@@ -213,16 +213,16 @@ blockquote {
 .grid-row {
   display: flex !important;
   flex-wrap: wrap;
-  padding: 0 4px; }
+  padding: 2 2px;
+  flex-basis: column; }
 
 /* Create two equal columns that sits next to each other */
 .grid-column {
-  flex: 25% !important;
-  padding: 0 4px; }
-
-.grid-column img {
-  margin-top: 8px !important;
-  vertical-align: middle; }
+  flex: 12.5% !important;
+  padding: 0 2px; }
+  .grid-column img {
+    margin-top: 8px !important;
+    vertical-align: top !important; }
 
 @keyframes MoveUpDown {
   0% {

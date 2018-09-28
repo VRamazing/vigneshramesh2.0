@@ -666,17 +666,7 @@ module.exports = {
         imgUrl: "./images/artwork/heart_spirals.png",
         imgAlt: "Heart spirals",
         tagClass: "pixel-art"
-      }, 
-      {
-        imgUrl: "./images/artwork/robokedo.jpg",
-        imgAlt: "Robokedo",
-        tagClass: "pixel-art"
-      },
-      {
-        imgUrl: "./images/artwork/running_dog.gif",
-        imgAlt: "Running dog",
-        tagClass: "pixel-art"
-      },    
+      },     
       {
         imgUrl: "./images/artwork/sanju.png",
         imgAlt: "Sanjay dutt",

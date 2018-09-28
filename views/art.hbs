@@ -9,19 +9,18 @@
 	</div>
 </div>
  --}}
-
- <br />
+ 
+<div class="cotainer">	
+	<br />
 	<br /> 
 	<br /> 
-	<br /> 
-	<br /> 
-	<br /> 
-
- <div class="grid-row">
- 	{{#each artwork}}
- 	<div class="grid-column">
-		<img class="{{tagClass}}" width="auto" height="auto" src={{imgUrl}} alt={{imgAlt}}>
-  </div>
-
-	{{/each}} 
+	<div class="row">
+		<div class="grid-row">
+		 	{{#each artwork}}
+		 	<div class="grid-column">
+				<img class="{{tagClass}}" width="150" height="auto" src={{imgUrl}} alt={{imgAlt}}>
+		  </div>
+			{{/each}} 
+		</div>
+	</div>
 </div>
