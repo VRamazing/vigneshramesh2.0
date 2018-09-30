@@ -6,13 +6,11 @@
 
 	<div class="rows logos grid">
 		{{#each logos}}
-			<div id="image-container">
-				<img src={{imgUrl}} alt={{imgAlt}}>
+			{{!-- <div id="image-container"> --}}
+				<img src={{imgUrl}} alt={{imgAlt}} class="logo-image tooltipped" data-position="top" data-tooltip={{imgAlt}} data-margin=0>
 			    {{!-- <div class="overlay">My Name is John</div> --}}
-			</div>
+			{{!-- </div> --}}
 		{{/each}}
-		
 	</div>
-
 </div>
 
