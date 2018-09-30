@@ -1,21 +1,18 @@
-<div class="container-fluid">
-	<br />
-	<br />
-	<br />
+<div class="logo-container">
+	
+ 	<h5 class="center teal-text" style="font-style: italic">{{logos.length}} + professional logos and Counting</h5>
 
-	<div style="justify:center; align:center">
-		<h5 class="center teal-text">{{length}}+ professional logos and  counting.</h5>
-		<br /> 
-		<div class = "row art" style="margin:auto">
-			
-			<div class="col s12 art-holder" >
-				<center>
-					{{#each logos}}
-					<img class="materialboxed" width="200" src={{imgUrl}} alt={{imgAlt}}>
-					{{/each}}
-				</center>
+ 	<br />
+
+	<div class="rows logos grid">
+		{{#each logos}}
+			<div id="image-container">
+				<img src={{imgUrl}} alt={{imgAlt}}>
+			    {{!-- <div class="overlay">My Name is John</div> --}}
 			</div>
-		</div>
+		{{/each}}
+		
 	</div>
+
 </div>
 

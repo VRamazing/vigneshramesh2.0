@@ -192,6 +192,50 @@ a#link.dropdown-trigger:hover{
 	 }
 }
 
+.logo-container{
+  box-sizing: border-box;
+  padding: 60px 60px;
+  margin: 40px auto!important;  
+  .logos.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+    align-content: center;
+    img{
+      width: 100%;
+      height:auto;
+      cursor: pointer;
+      border: 2px solid #e1e1e1;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)!important;
+      &:hover{
+        .image-container.overlay {
+          opacity: 1;
+        }
+      } 
+    }
+    .overlay {
+        position: relative; 
+        top: 0; 
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); /* Black see-through */
+        color: #f1f1f1; 
+        width: 100%;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+      }
+
+     
+
+
+    
+  }
+}
+
+
 .art .art-holder{
     clear: both;
     text-align: center;
@@ -325,3 +369,39 @@ blockquote{
     margin-top:30px;
   }
 }
+
+@media only screen and (max-width:1029px){
+  .logo-container{
+    margin: 30px auto!important;  
+    .logos.grid{
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }  
+}
+
+@media only screen and (max-width: 878px){
+  .logo-container{
+    margin: 20px auto!important;  
+    .logos.grid{
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }  
+}
+@media only screen and (max-width:668px){
+  .logo-container{
+    margin: 10px auto!important;  
+    .logos.grid{
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }  
+}
+
+@media only screen and (max-width:480px){
+  .logo-container{
+    margin: 5px auto!important;  
+    .logos.grid{
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }  
+}
+

@@ -644,139 +644,139 @@ module.exports = {
 	 logos: [
 			  {
 		      imgUrl: "./images/logos/entre_within.png",
-		      imgAlt: "Entre within logo"
+		      imgAlt: "Entre_within_logo"
 		    },
 		    {
 		      imgUrl: "./images/logos/grind.png",
-		      imgAlt: "Grind logo"
+		      imgAlt: "Grind_logo"
 		    },
 		    {
 		      imgUrl: "./images/logos/indian_game_project.png",
-		      imgAlt: "Indian game project logo"
+		      imgAlt: "Indian_game_project_logo"
 		    },
 		    {
 		      imgUrl: "./images/logos/nerdy_humans.png",
-		      imgAlt: "Nerdy humans logo"
+		      imgAlt: "Nerdy_humans_logo"
 		    },
 		    {
 		      imgUrl: "./images/logos/space.png",
-		      imgAlt: "Space logo"
+		      imgAlt: "Space_logo"
 		    },
 		    {
 		      imgUrl: "./images/logos/tamasha_games.png",
-		      imgAlt: "Tamasha games logo"
+		      imgAlt: "Tamasha_games_logo"
 		    },
         {
           imgUrl: "./images/logos/clash_tracks.png",
-          imgAlt: "Clash tracks"
+          imgAlt: "Clash_tracks_logo"
         },
         {
           imgUrl: "./images/logos/1800_rosebud.png",
-          imgAlt: "1-800-reosebudd"
+          imgAlt: "1-800-rosebud"
         },
         {
           imgUrl: "./images/logos/anchor.png",
-          imgAlt: "Anchor logo"
+          imgAlt: "Anchor_logo"
         },
         {
           imgUrl: "./images/logos/austinRun.png",
-          imgAlt: "Austin run logo"
+          imgAlt: "Austin_run_logo"
         },
         {
           imgUrl: "./images/logos/candy_shop.png",
-          imgAlt: "Candy shop logo"
+          imgAlt: "Candy_shop_logo"
         },
         {
           imgUrl: "./images/logos/dulux.png",
-          imgAlt: "Dulux logo"
+          imgAlt: "Dulux_logo"
         },
         {
           imgUrl: "./images/logos/game_brain.png",
-          imgAlt: "Game brain logo"
+          imgAlt: "Game_brain_logo"
         },
         {
           imgUrl: "./images/logos/swords&shields.png",
-          imgAlt: "Swords and shields logo"
+          imgAlt: "Swords_and_shields_logo"
         },
         {
           imgUrl: "./images/logos/swords&shields_black.png",
-          imgAlt: "Swords and shields logo"
+          imgAlt: "Swords_and_shields_black_logo"
         },
         {
           imgUrl: "./images/logos/twitchy_rabbit.png",
-          imgAlt: "Twitchy rabbit logo"
+          imgAlt: "Twitchy_rabbit_logo"
         },
         {
           imgUrl: "./images/logos/wildlife.png",
-          imgAlt: "Wildlife logo"
+          imgAlt: "Wildlife_logo"
         },
          {
           imgUrl: "./images/logos/paint.png",
-          imgAlt: "Paint logo"
+          imgAlt: "Paint_logo"
         },
         {
           imgUrl: "./images/logos/ping.png",
-          imgAlt: "Ping logo"
+          imgAlt: "Ping_logo"
         },
         {
           imgUrl: "./images/logos/sparked.png",
-          imgAlt: "Sparked logo"
+          imgAlt: "Sparked_logo"
         },
         {
           imgUrl: "./images/logos/avacado.png",
-          imgAlt: "Avacado logo"
+          imgAlt: "Avacado_logo"
         },
         {
           imgUrl: "./images/logos/deadbeat.png",
-          imgAlt: "Deadbeat logo"
+          imgAlt: "Deadbeat_logo"
         },
         {
           imgUrl: "./images/logos/fashionista.png",
-          imgAlt: "Fashionista logo"
+          imgAlt: "Fashionista_logo"
         },
         {
           imgUrl: "./images/logos/fast.png",
-          imgAlt: "Fast logo"
+          imgAlt: "Fast_logo"
         },
         {
           imgUrl: "./images/logos/film.png",
-          imgAlt: "Film logo"
+          imgAlt: "Film_logo"
         },
         {
           imgUrl: "./images/logos/freelance.png",
-          imgAlt: "Freelance logo"
+          imgAlt: "Freelance_logo"
         },
         {
           imgUrl: "./images/logos/hampton-cove.png",
-          imgAlt: "Hampton Cove logo"
+          imgAlt: "Hampton_Cove_logo"
         },
         {
           imgUrl: "./images/logos/sprinkles.png",
-          imgAlt: "Sprinkles logo"
+          imgAlt: "Sprinkles_logo"
         },
         {
           imgUrl: "./images/logos/wenache.png",
-          imgAlt: "Wenache logo"
+          imgAlt: "Wenache_logo"
         },
         {
           imgUrl: "./images/logos/wine.png",
-          imgAlt: "Wine logo"
+          imgAlt: "Wine_logo"
         },
         {
           imgUrl: "./images/logos/bookworm.png",
-          imgAlt: "Bookworm logo"
+          imgAlt: "Bookworm_logo"
         },
         {
           imgUrl: "./images/logos/fast.png",
-          imgAlt: "Fast logo"
+          imgAlt: "Fast_logo"
         },
         {
           imgUrl: "./images/logos/deadbeat2.png",
-          imgAlt: "Deadbeat logo"
+          imgAlt: "Deadbeat_logo"
         },
         {
           imgUrl: "./images/logos/jj-pizza.png",
-          imgAlt: "JJ Pizza logo"
+          imgAlt: "JJ_Pizza_logo"
         },
 		],
 
