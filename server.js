@@ -67,7 +67,9 @@ app.get('/resume', function (req, res, next) {
       } else{
         //display a toast here. 
         //Maybe check Ip of the person and do a quick who search to see who downloaded it
-        console.log("Thanks for downloading.")
+        console.log("Thanks for downloading.");
+        M.toast({html: 'Thanks for downloading.'})
+
       }
     });  
 });

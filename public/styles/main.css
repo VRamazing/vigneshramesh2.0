@@ -48,6 +48,9 @@ ul.collapsible > span {
   color: #585858;
   font-size: 14px; }
 
+.dropdown-trigger {
+  outline: none !important; }
+
 .collapsible-body span {
   color: #575757;
   font-size: 13.5px;
@@ -139,32 +142,24 @@ a#link.dropdown-trigger:hover {
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 5px;
     align-content: center; }
-    .logo-container .logos.grid img {
+    .logo-container .logos.grid .image-container {
+      position: relative;
+      max-width: 350px;
+      display: block; }
+    .logo-container .logos.grid .logo-image {
       width: 100%;
       height: auto;
       cursor: pointer;
       border: 2px solid #e1e1e1;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important; }
-      .logo-container .logos.grid img:hover .image-container
-      .overlay {
-        opacity: 1; }
-    .logo-container .logos.grid .tooltipped {
-      background-color: white !important;
-      color: black !important; }
-    .logo-container .logos.grid .overlay {
-      position: relative;
-      top: 0;
-      background: black;
-      background: rgba(0, 0, 0, 0.5);
-      /* Black see-through */
-      color: #f1f1f1;
-      width: 100%;
-      transition: .5s ease;
-      opacity: 0;
-      color: white;
-      font-size: 20px;
-      padding: 20px;
-      text-align: center; }
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
+      display: block; }
+  .logo-container .overlay {
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    position: absolute;
+    max-width: 184px;
+    width: 100%;
+    align-self: center; }
 
 .art .art-holder {
   clear: both;
