@@ -542,6 +542,89 @@ module.exports = {
                        "Cross platform support"
                       ]    
             },
+
+            { image: "./images/projects/geogami.gif",
+            title: "Geogami",
+            oneLineDesc: "An origami based puzzle game",
+            roles: ["Game programming", "Music production"],
+            techUsed: [ "Casutic 3", "Unity3d", "Level design"],
+            liveLink: "https://evergames.itch.io/geogami",
+            gitLink: "",
+            fullDesc: ["Collaborated and created with a team of 13 people @gamkedo.com", 
+                       "12 week project",
+                       "Made multiple soundtracks",
+                       "Made multiple puzzles for the game"
+                      ]    
+            },
+
+            { image: "./images/projects/slick_punch.gif",
+            title: "Slick Punch",
+            oneLineDesc: "A side scroller action game",
+            roles: ["Game programming", "Music production", "Game art", "Level design", "Core gameplay mechanics"],
+            techUsed: [ "Casutic 3", "Javacript", "Level design", "HTML5", "Canvas", ""],
+            liveLink: "https://evergames.itch.io/geogami",
+            gitLink: "",
+            fullDesc: ["Collaborated and created with a team of 13 people @gamkedo.com", 
+                       "12 week project",
+                       "Made multiple soundtracks from scratch",
+                       "Made multiple levels and artwork for the game",
+                       "Created core mechanics in vanila js",
+                      ]    
+            },
+            { image: "./images/projects/slick_punch.gif",
+            title: "Slick Punch",
+            oneLineDesc: "A side scroller action game",
+            roles: ["Game programming", "Music production", "Game art", "Level design", "Core gameplay mechanics"],
+            techUsed: [ "Casutic 3", "Javacript", "Level design", "HTML5", "Canvas" ],
+            liveLink: "https://gamkedo.itch.io/slick-punch",
+            gitLink: "",
+            fullDesc: ["Collaborated and created with a team of 13 people @gamkedo.com", 
+                       "12 week project",
+                       "Made multiple soundtracks from scratch",
+                       "Made multiple levels and artwork for the game",
+                       "Created core mechanics in vanila js",
+                      ]    
+            },
+            { image: "./images/projects/slick_punch.gif",
+            title: "Slick Punch",
+            oneLineDesc: "A side scroller action game",
+            roles: ["Game programming", "Music production", "Game art", "Level design", "Core gameplay mechanics"],
+            techUsed: [ "Casutic 3", "Javacript", "Level design", "HTML5", "Canvas","Asperite"],
+            liveLink: "https://gamkedo.itch.io/slick-punch",
+            gitLink: "",
+            fullDesc: ["Collaborated and created with a team of 13 people @gamkedo.com", 
+                       "12 week project",
+                       "Made multiple soundtracks from scratch",
+                       "Made multiple levels and artwork for the game",
+                       "Created core mechanics in vanila js",
+                      ]    
+            },
+            { image: "./images/projects/we_must_prepare.gif",
+            title: "We must prepare",
+            oneLineDesc: "Stardew Valley inspired post apocalyptic robot farm simulator.  Grow plants, chop wood, mine stone and metal.  Save the human race!",
+            roles: ["Music production", "Game art"],
+            techUsed: [ "Casutic 3",  "Asperite", "Photoshop"],
+            liveLink: "https://lanthos.itch.io/we-must-prepare",
+            gitLink: "",
+            fullDesc: ["Collaborated and created with a team of 24 people @gamkedo.com", 
+                       "Long 12 week project",
+                       "Made multiple soundtracks from scratch",
+                       "Made player artwork for the game"
+                      ]    
+            },
+            { image: "./images/projects/dream_racer.gif",
+            title: "Dream racer",
+            oneLineDesc: "A js game re-creation for arcade game outrun",
+            roles: ["Music production", "Game art"],
+            techUsed: [ "Casutic 3",  "Asperite", "Blender"],
+            liveLink: "https://gamkedo.itch.io/dream-racer",
+            gitLink: "",
+            fullDesc: ["Collaborated and created with a team of 23 people @gamkedo.com", 
+                       "Long 12 week project",
+                       "Made multiple soundtracks from scratch",
+                       "Made 3d car for the game"
+                      ]    
+            },
           ], 
 
 	 testimonials: [
@@ -601,7 +684,7 @@ module.exports = {
         },
         {
           imgUrl: "./images/logos/candy_shop.png",
-          imgAlt: "Candy shot"
+          imgAlt: "Candy shop logo"
         },
         {
           imgUrl: "./images/logos/dulux.png",
@@ -638,6 +721,62 @@ module.exports = {
         {
           imgUrl: "./images/logos/sparked.png",
           imgAlt: "Sparked logo"
+        },
+        {
+          imgUrl: "./images/logos/avacado.png",
+          imgAlt: "Avacado logo"
+        },
+        {
+          imgUrl: "./images/logos/deadbeat.png",
+          imgAlt: "Deadbeat logo"
+        },
+        {
+          imgUrl: "./images/logos/fashionista.png",
+          imgAlt: "Fashionista logo"
+        },
+        {
+          imgUrl: "./images/logos/fast.png",
+          imgAlt: "Fast logo"
+        },
+        {
+          imgUrl: "./images/logos/film.png",
+          imgAlt: "Film logo"
+        },
+        {
+          imgUrl: "./images/logos/freelance.png",
+          imgAlt: "Freelance logo"
+        },
+        {
+          imgUrl: "./images/logos/hampton-cove.png",
+          imgAlt: "Hampton Cove logo"
+        },
+        {
+          imgUrl: "./images/logos/sprinkles.png",
+          imgAlt: "Sprinkles logo"
+        },
+        {
+          imgUrl: "./images/logos/wenache.png",
+          imgAlt: "Wenache logo"
+        },
+        {
+          imgUrl: "./images/logos/wine.png",
+          imgAlt: "Wine logo"
+        },
+        {
+          imgUrl: "./images/logos/bookworm.png",
+          imgAlt: "Bookworm logo"
+        },
+        {
+          imgUrl: "./images/logos/fast.png",
+          imgAlt: "Fast logo"
+        },
+        {
+          imgUrl: "./images/logos/deadbeat2.png",
+          imgAlt: "Deadbeat logo"
+        },
+        {
+          imgUrl: "./images/logos/jj-pizza.png",
+          imgAlt: "JJ Pizza logo"
         },
 		],
 

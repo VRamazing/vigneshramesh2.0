@@ -4,6 +4,7 @@ const data = require("./public/scripts/data")
 const app = express();
 const path = require("path");
 const _= require("lodash");
+const port = 3000;
 
 // app.use('/public', express.static(__dirname + '/public'));
 
@@ -89,4 +90,4 @@ app.get('/resume/:id/download', function (req, res, next) {
     });  
 });
 
-app.listen(3000);
+app.listen(port, function(){console.log(`App running at port ${port}`)});
