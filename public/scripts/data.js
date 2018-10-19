@@ -658,6 +658,10 @@ module.exports = {
 		      imgUrl: "./images/logos/nerdy_humans.png",
 		      imgAlt: "Nerdy_humans_logo"
 		    },
+        {
+          imgUrl: "./images/logos/sharp.png",
+          imgAlt: "Sharp_logo"
+        },
 		    {
 		      imgUrl: "./images/logos/space.png",
 		      imgAlt: "Space_logo"
@@ -782,85 +786,70 @@ module.exports = {
 
     artwork: [
       {
-        imgUrl: "./images/artwork/box_explosion.gif",
+        imgUrl: "./images/artwork/animations/box_explosion.gif",
         imgAlt: "Box explosion animation",
         tagClass: "pixel-art"
       },
       {
-        imgUrl: "./images/artwork/girl.png",
+        imgUrl: "./images/artwork/pixel_arts/girl.png",
         imgAlt: "girl",
         tagClass: "pixel-potrait"
       },
       {
-        imgUrl: "./images/artwork/chair.png",
+        imgUrl: "./images/artwork/3d_models/chair.png",
         imgAlt: "Chair",
         tagClass: "3d-model"
       },   
       {
-        imgUrl: "./images/artwork/go_kart.png",
-        imgAlt: "Go Kart",
-        tagClass: "animation"
-      },
-      {
-        imgUrl: "./images/artwork/heart_spirals.png",
-        imgAlt: "Heart spirals",
-        tagClass: "pixel-art"
-      },     
-      {
-        imgUrl: "./images/artwork/sanju.png",
+        imgUrl: "./images/artwork/potraits/sanju.png",
         imgAlt: "Sanjay dutt",
         tagClass: "pixel-potrait"
       }, 
       {
-        imgUrl: "./images/artwork/ship_overhead.png",
+        imgUrl: "./images/artwork/pixel_arts/ship_overhead.png",
         imgAlt: "Ship overhead",
         tagClass: "pixel-art"
       },
       {
-        imgUrl: "./images/artwork/table.png",
+        imgUrl: "./images/artwork/3d_models/table.png",
         imgAlt: "Table",
         tagClass: "3dmodel"
       },
       {
-        imgUrl: "./images/artwork/thanos.png",
+        imgUrl: "./images/artwork/potraits/thanos.png",
         imgAlt: "Thanos",
         tagClass: "pixel-potrait"
       },    
       {
-        imgUrl: "./images/artwork/tony_stark.png",
+        imgUrl: "./images/artwork/potraits/tony_stark.png",
         imgAlt: "Tony stark",
         tagClass: "pixel-potrait"
       },  
       {
-        imgUrl: "./images/artwork/top_down_building.png",
+        imgUrl: "./images/artwork/pixel_arts/top_down_building.png",
         imgAlt: "Top down building",
         tagClass: "pixel-art"
       },    
       {
-        imgUrl: "./images/artwork/tree.gif",
+        imgUrl: "./images/artwork/animation/tree.gif",
         imgAlt: "Tree",
         tagClass: "animation"
       }, 
       {
-        imgUrl: "./images/artwork/varsha.png",
+        imgUrl: "./images/artwork/pixel_potraits/varsha.png",
         imgAlt: "Girl pixel art",
         tagClass: "pixel-potrait"
       },
       {
-        imgUrl: "./images/artwork/Vignesh.png",
+        imgUrl: "./images/artwork/pixel_potraits/Vignesh.png",
         imgAlt: "pixel-art",
         tagClass: "pixel-potrait"
       }, 
       {
-        imgUrl: "./images/artwork/violet_two_building.png",
+        imgUrl: "./images/artwork/pixel_arts/violet_two_building.png",
         imgAlt: "Girl pixel art",
         tagClass: "pixel-potrait"
-      },
-      {
-        imgUrl: "./images/artwork/volley_man_idle.gif",
-        imgAlt: "Volley man",
-        tagClass: "animation"
-      },          
+      },      
     ]
 } 
                     

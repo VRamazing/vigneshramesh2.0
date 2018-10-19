@@ -2,13 +2,11 @@
 	<br />
 	<br /> 
 	<br /> 
-	<div class="row">
-		<div class="grid-row">
-		 	{{#each artwork}}
-		 	<div class="grid-column">
-				<img class="{{tagClass}}" width="150" height="auto" src={{imgUrl}} alt={{imgAlt}}>
-		  </div>
-			{{/each}} 
-		</div>
-	</div>
+	{{!-- <div class="art-row"> --}}
+		{{#each artwork}}
+		 	<div class="art-column">
+				<img class="{{tagClass}}" src={{imgUrl}} alt={{imgAlt}} />
+			</div>
+		{{/each}} 
+	{{!-- </div> --}}
 </div>

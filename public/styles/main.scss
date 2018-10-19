@@ -91,6 +91,11 @@ ul.collapsible > span{
   outline: none!important;
 }
 
+overflow-yh{
+  overflow-y:hidden;
+}
+
+
 .collapsible-body{
   span{
     color:#575757;
@@ -218,43 +223,75 @@ a#link.dropdown-trigger:hover{
     .logo-image{
       width: 100%;
       height:auto;
-      cursor: pointer;
       border: 2px solid #e1e1e1;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)!important;
+      // box-shadow: 0 1px 3px rgba(0,0,0,0.12), 
+      //             0 1px 2px rgba(0,0,0,0.24)!important;
       display: block;
     }
     
   }
 
-    .overlay{
-      background: rgba(0,0,0,0.4);
-      color:white;
-      position: absolute;
-      max-width: 184px;
-      width: 100%;
-      align-self: center;
+  .overlay{
+    background: rgba(0,0,0,0.4);
+    color:white;
+    position: absolute;
+    max-width: 184px;
+    width: 100%;
+    align-self: center;
 
+  }
+}
+
+//Art styles
+/* Create four equal columns that sits next to each other */
+.art-row {
+    display: -ms-flexbox!important; /* IE10 */
+    display: flex!important;
+    -ms-flex-wrap: wrap!important; /* IE10 */
+    flex-wrap: wrap!important;
+    padding: 0 50px;
+  
+}
+
+.art-column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.art-column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 992px) {
+    .art-column {
+        -ms-flex: 33.33%;
+        flex: 33.33%;
+        max-width: 33.33%;
     }
 }
 
-
-.art .art-holder{
-    clear: both;
-    text-align: center;
-}
-  
-.materialboxed{
-  margin:2px!important;
-  display: inline-block!important;
-  float: left!important;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)!important;
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1)!important;
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 768px) {
+    .art-column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
 }
 
-.materialboxed:hover{
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 480px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
 }
 
+//Technology styles
 .section.technology{
 	h4{font-size: 25px;}
 	.row{
