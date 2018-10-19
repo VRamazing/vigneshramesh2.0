@@ -1,12 +1,13 @@
-<div class="container">	
+<div class="logo-container">	
+	<h5 class="center teal-text" style="font-style: italic">{{length}} + variagated artwork and Counting</h5>
 	<br />
-	<br /> 
-	<br /> 
-	{{!-- <div class="art-row"> --}}
+	<div class="art-row"> 
 		{{#each artwork}}
 		 	<div class="art-column">
-				<img class="{{tagClass}}" src={{imgUrl}} alt={{imgAlt}} />
+		 		{{#each this}}
+					<img class="{{tagClass}}" height="auto" width="100%" src={{imgUrl}} alt={{imgAlt}} />
+				{{/each}}
 			</div>
 		{{/each}} 
-	{{!-- </div> --}}
+	</div>
 </div>

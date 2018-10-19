@@ -52,7 +52,26 @@ app.get("/logos", (req, res) => {
 });
 
 app.get("/artwork", (req, res) => {
-  res.render('art.hbs', {artwork: data.artwork});
+  artsData = _.shuffle(data.artwork);
+  totalArts = artsData.length
+  //convert artwork into 4 equal sized array;
+  var artworkPerColumns = [[],[],[],[]];
+  var index = 0;
+  for(var i=0; i<totalArts; i++){
+    if(i == 0 || i%4==0){
+      artworkPerColumns[0].push(artsData[i])
+    }
+    if(i%4==1){
+      artworkPerColumns[1].push(artsData[i])
+    }
+    if(i%4==2){
+      artworkPerColumns[2].push(artsData[i])
+    }
+    if(i%4==3){
+      artworkPerColumns[3].push(artsData[i])
+    }
+  }
+  res.render('art.hbs', {artwork: artworkPerColumns, length: totalArts});
 });
 
 app.get("/bad", (req, res) => {

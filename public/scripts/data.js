@@ -785,71 +785,111 @@ module.exports = {
 		],
 
     artwork: [
+      //3d-models
+      {
+        imgUrl: "./images/artwork/3d_models/car_3d.jpg",
+        imgAlt: "3d car model of ferrari",
+        tagClass: "3d_model"
+      },
+      {
+        imgUrl: "./images/artwork/3d_models/chair.png",
+        imgAlt: "3d car model of a chair",
+        tagClass: "3d_model"
+      },
+      {
+        imgUrl: "./images/artwork/3d_models/table.png",
+        imgAlt: "3d car model of a table",
+        tagClass: "3d_model"
+      },
+      //animation
       {
         imgUrl: "./images/artwork/animations/box_explosion.gif",
         imgAlt: "Box explosion animation",
+        tagClass: "animation"
+      },
+      {
+        imgUrl: "./images/artwork/animations/enemy_punch.gif",
+        imgAlt: "Enemy punch animation",
+        tagClass: "animation"
+      },
+      {
+        imgUrl: "./images/artwork/animations/slick_punch.gif",
+        imgAlt: "Slick punching animation",
+        tagClass: "animation"
+      },
+      {
+        imgUrl: "./images/artwork/animations/slick_roll.gif",
+        imgAlt: "Slick roll animation",
+        tagClass: "animation"
+      },
+      {
+        imgUrl: "./images/artwork/animations/tree.gif",
+        imgAlt: "Tree animation",
+        tagClass: "animation"
+      },
+      //Pixel art
+      {
+        imgUrl: "./images/artwork/pixel_arts/car_yellow.png",
+        imgAlt: "Yellow car pixel art",
         tagClass: "pixel-art"
       },
       {
         imgUrl: "./images/artwork/pixel_arts/girl.png",
-        imgAlt: "girl",
-        tagClass: "pixel-potrait"
-      },
-      {
-        imgUrl: "./images/artwork/3d_models/chair.png",
-        imgAlt: "Chair",
-        tagClass: "3d-model"
-      },   
-      {
-        imgUrl: "./images/artwork/potraits/sanju.png",
-        imgAlt: "Sanjay dutt",
-        tagClass: "pixel-potrait"
-      }, 
-      {
-        imgUrl: "./images/artwork/pixel_arts/ship_overhead.png",
-        imgAlt: "Ship overhead",
+        imgAlt: "Girl pixel art",
         tagClass: "pixel-art"
       },
       {
-        imgUrl: "./images/artwork/3d_models/table.png",
-        imgAlt: "Table",
-        tagClass: "3dmodel"
+        imgUrl: "./images/artwork/pixel_arts/ship_overhead.png",
+        imgAlt: "Ship overhead pixel art",
+        tagClass: "pixel-art"
+      },
+      {
+        imgUrl: "./images/artwork/pixel_arts/space_car.png",
+        imgAlt: "Space car pixel art",
+        tagClass: "pixel-art"
+      },
+      {
+        imgUrl: "./images/artwork/pixel_arts/spaceship.png",
+        imgAlt: "Spaeship pixel art",
+        tagClass: "pixel-art"
+      },
+      {
+        imgUrl: "./images/artwork/pixel_arts/top_down_building.png",
+        imgAlt: "Top down building pixel art",
+        tagClass: "pixel-art"
+      },
+      {
+        imgUrl: "./images/artwork/pixel_arts/violet_building.png",
+        imgAlt: "Violet building pixel art",
+        tagClass: "pixel-art"
+      },
+      //Potraits
+      {
+        imgUrl: "./images/artwork/potraits/sanju.png",
+        imgAlt: "Sanju pixel art",
+        tagClass: "pixel-art potrait"
       },
       {
         imgUrl: "./images/artwork/potraits/thanos.png",
-        imgAlt: "Thanos",
-        tagClass: "pixel-potrait"
-      },    
-      {
-        imgUrl: "./images/artwork/potraits/tony_stark.png",
-        imgAlt: "Tony stark",
-        tagClass: "pixel-potrait"
-      },  
-      {
-        imgUrl: "./images/artwork/pixel_arts/top_down_building.png",
-        imgAlt: "Top down building",
-        tagClass: "pixel-art"
-      },    
-      {
-        imgUrl: "./images/artwork/animation/tree.gif",
-        imgAlt: "Tree",
-        tagClass: "animation"
-      }, 
-      {
-        imgUrl: "./images/artwork/pixel_potraits/varsha.png",
-        imgAlt: "Girl pixel art",
-        tagClass: "pixel-potrait"
+        imgAlt: "Thanos pixel art",
+        tagClass: "pixel-art potrait"
       },
       {
-        imgUrl: "./images/artwork/pixel_potraits/Vignesh.png",
-        imgAlt: "pixel-art",
-        tagClass: "pixel-potrait"
-      }, 
+        imgUrl: "./images/artwork/potraits/tony_stark.png",
+        imgAlt: "Tony stark pixel art",
+        tagClass: "pixel-art potrait"
+      },
       {
-        imgUrl: "./images/artwork/pixel_arts/violet_two_building.png",
+        imgUrl: "./images/artwork/potraits/girl.png",
         imgAlt: "Girl pixel art",
-        tagClass: "pixel-potrait"
-      },      
+        tagClass: "pixel-art potrait"
+      },
+      {
+        imgUrl: "./images/artwork/potraits/Vignesh.png",
+        imgAlt: "Vignesh pixel art",
+        tagClass: "pixel-art potrait"
+      },
+    
     ]
 } 
                     

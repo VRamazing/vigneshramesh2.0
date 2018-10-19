@@ -177,11 +177,12 @@ a#link.dropdown-trigger:hover {
   /* IE10 */
   flex: 25%;
   max-width: 25%;
-  padding: 0 4px; }
+  padding: 0 7px; }
 
 .art-column img {
-  margin-top: 8px;
-  vertical-align: middle; }
+  margin-top: 14px;
+  vertical-align: middle;
+  background-color: #a0a0a0; }
 
 @media screen and (max-width: 992px) {
   .art-column {
