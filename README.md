@@ -8,5 +8,7 @@ Feel Free to fork this and Use this for your own convenience.
 * Materialize Css
 * Sass
 * Jquery
+* Node js
+* Sql
 
 
