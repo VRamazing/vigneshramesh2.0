@@ -87,14 +87,9 @@ ul.collapsible > span{
   font-size:14px;
 }
 
-.dropdown-trigger{
-  outline: none!important;
-}
-
 overflow-yh{
   overflow-y:hidden;
 }
-
 
 .collapsible-body{
   span{
@@ -109,7 +104,24 @@ div.nav-wrapper.container.right.hide-on-med-and-down{
 	top:0;
 }
 
-#slide-out li a:hover{border-bottom: 2px solid #02BBD3;}
+#slide-out li a, nav ul li a, #portfolio-dropdown li a, #resume-dropdown li a{
+  &:hover{
+    border-bottom: 2px solid #02BBD3;
+    box-sizing: border-box;
+  }
+}
+
+.dropdown-trigger{
+  outline: none!important;
+}
+
+a#link.dropdown-trigger:hover{
+  border-bottom:none;
+}
+
+#resume-dropdown,#portfolio-dropdown {
+  overflow-y: hidden;
+}
 
 #nav-mobile .active, #slide-out  .active{background: #e4e4e4;}
 
@@ -121,13 +133,9 @@ div.nav-wrapper.container.right.hide-on-med-and-down{
       color: #585858!important;
       border:none;
       font-size:14px;
+      box-sizing: border-box;
     } 
   } 
-}
-
-
-a#link.dropdown-trigger:hover{
-  border-bottom:none;
 }
 
 #Home{
@@ -205,7 +213,7 @@ a#link.dropdown-trigger:hover{
 
 .logo-container{
   box-sizing: border-box;
-  padding: 60px 60px;
+  padding: 60px;
   margin: 40px auto!important;  
 
   .logos.grid{
@@ -224,11 +232,8 @@ a#link.dropdown-trigger:hover{
       width: 100%;
       height:auto;
       border: 2px solid #e1e1e1;
-      // box-shadow: 0 1px 3px rgba(0,0,0,0.12), 
-      //             0 1px 2px rgba(0,0,0,0.24)!important;
       display: block;
     }
-    
   }
 
   .overlay{
@@ -249,8 +254,7 @@ a#link.dropdown-trigger:hover{
     display: flex!important;
     -ms-flex-wrap: wrap!important; /* IE10 */
     flex-wrap: wrap!important;
-    padding: 0 50px;
-  
+    padding: 0 50px; 
 }
 
 .art-column {
@@ -285,7 +289,7 @@ a#link.dropdown-trigger:hover{
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 480px) {
-    .column {
+    .art-column {
         -ms-flex: 100%;
         flex: 100%;
         max-width: 100%;
@@ -355,9 +359,7 @@ span.social{
 }
 
 .download-toast{
-  border-radius: 10px;
-  border: 2px solid white;
-
+  background-color: #9ccc65;
 }
 
 .nav-fixed {
@@ -365,7 +367,7 @@ span.social{
   right: 0;
   left: 0;
   top: 0;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   z-index: 997;
 }
 
@@ -412,8 +414,6 @@ blockquote{
     vertical-align: top!important;
   }
 }
-
-
 
 ///Animated button
 @keyframes MoveUpDown {

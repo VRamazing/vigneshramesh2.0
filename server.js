@@ -14,10 +14,6 @@ app.set('view engine', 'hbs');
 
 hbs.registerPartials(__dirname + '/views/partials');
 
-// hbs.registerHelper('getCurrentYear', () => {
-// 	return new Date().getFullYear();
-// })
-
 app.get("/", (req, res) => {
   res.render('index.hbs', {techStack: data.techStack})
 });
