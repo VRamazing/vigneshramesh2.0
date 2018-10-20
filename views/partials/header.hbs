@@ -24,6 +24,7 @@
 	</script>
 </head>
 <body >
+
   <div id="fb-root"></div>
   <div id = "myApp">
 	<nav class="white nav-fixed" role="navigation">
@@ -49,33 +50,55 @@
 	  <li><a href="/artwork">Artwork</a></li>
 	  <li><a href="/logos">Logos</a></li>
 	  <li><a href="/music">Music</a></li>
-	</ul>+
-	<!-- Dropdown Structure -->
-	<ul id='resume-dropdown'  class='dropdown-content overflow-yh'>
-	  <li><a href="/resume/game_dev/download">Game developer</a></li>
-	  <li><a href="/resume/full_stack/download">Full stack developer</a></li>
-	</ul>
-	{{!-- Side navigation --}}
-	<ul id="slide-out" class="sidenav">
-		<li><a onclick="clickedCrossNav();" id = "cross-btn"><i class="fa fa-times" aria-hidden="true" style="float:right;font-size: 30px;"></i></a></li>
-		<li><a href="/" id = "link">About</a></li>	
-		<li>
-			<ul class="collapsible">
-			    <li>
-			      <a class="collapsible-header"><span>Portfolio<i class="fa fa-sort-desc" aria-hidden="true" style="color:#D7D7D7;"></i></span></a>
-			      <a class="collapsible-body" href="/web-apps"><span>Web apps</span></a>
-			      <a class="collapsible-body" href="/games"><span>Games</span></a>
-			      <a class="collapsible-body" href="/artwork"><span>Artwork</span></a>
-			      <a class="collapsible-body" href="/logos"><span>Logos</span></a>
-			      <a class="collapsible-body" href="/music"><span>Music</span></a>
-			    </li>
-		  	</ul>
-		</li>		
-		<li><a href="https://medium.com/@vigneshramesh_24413" target = "_blank">Blog</a></li>
-		<li><a href="/testimonials" id = "link">Testimonials</a></li>
-		<li><a href="/contact" id = "link">Contact</a></li>
 	</ul>
 
+	<!-- Dropdown Structure -->
+	<ul id='resume-dropdown'  class='dropdown-content overflow-yh'>
+	  <li><a href="/resume/game_dev/download" onclick="downloadSuccess()">Game developer</a></li>
+	  <li><a href="/resume/full_stack/download" onclick="downloadSuccess()">Full stack developer</a></li>
+	</ul>
+
+	{{!-- Side navigation --}}
+	<div id="slide-out" class="sidenav">
+		<a class="sidenav-close" id = "cross-btn"><i class="fa fa-times" aria-hidden="true"></i></a>
+		<br />
+		<br />
+		<ul>
+			<li><a href="/" id = "link">About</a></li>	
+			<li>
+				<ul class="collapsible expandable">
+				    <li>
+				      <div class="collapsible-header"><span>Portfolio<i class="fa fa-sort-desc" aria-hidden="true" style="color:#D7D7D7;"></i></span></div>
+				      <div class="collapsible-body">
+				      	<ul>
+				      		<li><a href="/web-apps"><span>Web apps</span></a></li>
+				      		<li><a href="/games"><span>Games</span></a></li>
+				      		<li><a href="/artwork"><span>Artwork</span></a></li>
+				      		<li><a href="/logos"><span>Logos</span></a></li>
+				      		<li><a href="/music"><span>Music</span></a></li>
+				      	</ul>				      
+				      </div>
+				    </li>
+			  	</ul>
+			</li>		
+			<li><a href="https://medium.com/@vigneshramesh_24413" target = "_blank">Blog</a></li>
+			<li><a href="/testimonials" id = "link">Testimonials</a></li>
+			<li>
+				<ul class="collapsible expandable">
+				    <li>
+				      <div class="collapsible-header"><span>Resume<i class="fa fa-sort-desc" aria-hidden="true" style="color:#D7D7D7;"></i></span></div>
+				      <div class="collapsible-body">
+				      	<ul>
+				      		<li><a href="/resume/game_dev/download" onclick="downloadSuccess()">Game developer</a></li>
+		  					<li><a href="/resume/full_stack/download" onclick="downloadSuccess()">Full stack developer</a></li>
+				      	</ul>				      
+				      </div>
+				    </li>
+			  	</ul>
+			</li>	
+			<li><a href="/contact" id = "link">Contact</a></li>
+		</ul>
+	</div>
 
 		
  
