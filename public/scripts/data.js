@@ -671,7 +671,7 @@ module.exports = {
           imgAlt: "Game_brain_logo"
         },
         {
-          imgUrl: "./images/logos/swords&shields.png",
+          imgUrl: "./images/logos/swords&shields_white.png",
           imgAlt: "Swords_and_shields_logo"
         },
         {
@@ -857,7 +857,7 @@ module.exports = {
         tagClass: "pixel-art potrait"
       },
       {
-        imgUrl: "./images/artwork/potraits/Vignesh.png",
+        imgUrl: "./images/artwork/potraits/vignesh.png",
         imgAlt: "Vignesh pixel art",
         tagClass: "pixel-art potrait"
       },
