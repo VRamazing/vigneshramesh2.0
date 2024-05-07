@@ -141,12 +141,13 @@ a#link.dropdown-trigger:hover{
 #Home{
     background-color: #242D47;
   	background-image: url(../images/Background1.jpg);
-  	height: 490px;
+  	height: 540px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    filter: saturate(0.5)
 }
 
 .section.no-pad-bot{
@@ -155,6 +156,9 @@ a#link.dropdown-trigger:hover{
 	h1{
 		font-family: 'Lobster Two', sans-serif;
 	}
+  .intro-text{
+    margin-top: 150px;
+  }
 }
 
 .container-fluid.quote{
@@ -165,15 +169,18 @@ a#link.dropdown-trigger:hover{
 	}
 }
 
-.container .section.about{
+.container-fluid .section.about{
+  padding-bottom: 6.75rem;
+  padding-top: 6.75rem;
+  h4{
+    font-size: 35px;
+    line-height: 55px;
+    color: #0d47a1;
+    font-family: 'Lobster Two', 'sans-serif';
+  }
 	p{
 		font-size: 20px;
-		span{
-			font-size: 20px;
-		}
-		a{
-			font-size: 20px;
-		}
+    line-height: 40px;
 	}
   .profilePic{
     border:10px solid #efefef;
@@ -372,7 +379,7 @@ span.social{
 
 .scroll-arrow{
   i{
-    animation: MoveUpDown 1s linear infinite;
+    animation: MoveUpDown 1s ease-in-out infinite;
     margin-top:30px;
     select: none;
   }

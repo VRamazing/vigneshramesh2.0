@@ -5,8 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run sass-build && nodemon server.js",
-    "sass-build": "sass public/styles/main.scss public/styles/main.css"
+    "start-dev": "npm run sass-build-watch && npm run start-server",
+    "start-server": "nodemon --watch views server.js  ",
+    "sass-build": "sass public/styles/main.scss public/styles/main.css",
+    "sass-build-watch": "sass public/styles/main.scss public/styles/main.css --watch"
+
   },
   "keywords": [
     "vignesh ramesh",

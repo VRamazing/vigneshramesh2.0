@@ -113,12 +113,13 @@ a#link.dropdown-trigger:hover {
 #Home {
   background-color: #242D47;
   background-image: url(../images/Background1.jpg);
-  height: 490px;
+  height: 540px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  filter: saturate(0.5);
 }
 
 .section.no-pad-bot {
@@ -127,6 +128,9 @@ a#link.dropdown-trigger:hover {
 }
 .section.no-pad-bot h1 {
   font-family: "Lobster Two", sans-serif;
+}
+.section.no-pad-bot .intro-text {
+  margin-top: 150px;
 }
 
 .container-fluid.quote {
@@ -137,16 +141,21 @@ a#link.dropdown-trigger:hover {
   font-style: italic;
 }
 
-.container .section.about p {
-  font-size: 20px;
+.container-fluid .section.about {
+  padding-bottom: 6.75rem;
+  padding-top: 6.75rem;
 }
-.container .section.about p span {
-  font-size: 20px;
+.container-fluid .section.about h4 {
+  font-size: 35px;
+  line-height: 55px;
+  color: #0d47a1;
+  font-family: "Lobster Two", "sans-serif";
 }
-.container .section.about p a {
+.container-fluid .section.about p {
   font-size: 20px;
+  line-height: 40px;
 }
-.container .section.about .profilePic {
+.container-fluid .section.about .profilePic {
   border: 10px solid #efefef;
   border-radius: 50%;
   box-shadow: 1px 1px 1px #acacac;
@@ -331,7 +340,7 @@ span.social i:hover {
 }
 
 .scroll-arrow i {
-  animation: MoveUpDown 1s linear infinite;
+  animation: MoveUpDown 1s ease-in-out infinite;
   margin-top: 30px;
   select: none;
 }

@@ -2,17 +2,19 @@
 <div>
   <div class="section no-pad-bot scrollspy" id="Home">
     <div class="container">
-      <br><br><br>
-      <h1 class="header center white-text ">Vignesh Ramesh</h1>
-      <div class="row center">
-        <h4 class="header col s12  light  white-text">Software Engineer &amp; Tech Evangelist</h4>
-        <a href="#About" id = "link" class = "scroll-arrow"><i class="fa fa-chevron-circle-down fa-3x white-text" aria-hidden="true" ></i></a>
+      <div class="intro-text">
+        <h1 class="header center white-text ">Vignesh Ramesh</h1>
+        <div class="row center">
+          <h4 class="header col s12  light  white-text">Sr. Software Engineer & Tech Evangelist</h4>
+          <a href="#About" id="link" class="scroll-arrow"><i class="fa fa-chevron-circle-down fa-3x white-text"
+              aria-hidden="true"></i></a>
+        </div>
       </div>
     </div>
   </div>
 
   <!-- Quote -->
-  <div class="container-fluid quote cyan z-depth-1">
+  <div class="container-fluid quote blue z-depth-1">
     <div class="row ">
       <div class="col s12">
         <br>
@@ -22,54 +24,57 @@
   </div>
 
   <!-- About Me -->
-  <div class="container scrollspy" id ="About">
-    <div class="section about">
+  <div class="container-fluid scrollspy" id="About">
+    <div class="section about center">
       <div class="row">
-        <div class=" center col s12">
-
-          <br><br>
-          <img alt = "profile_pic" src="./images/me.png"  class= "profilePic" height="200" >
-          <br>
-          <br>
-          <br>
-          <p>I am a <span class="  pink-text">Full Stack Developer &amp; Entrepreneur</span> from India. I am passionate about technology and like to constantly explore new domains. My areas of interests include Web Development, Game Development, Data Science and Artificial Intelligence.</p>
-          <br />
-          <p >I am a member of <a class = "pink-text text-lighten-1" href = "http://www.gamkedo.com">Gamkedo Club</a> which is an International club of people all around the world with a common objective of creating games together. Everybody has a purpose in life and I believe my purpose is to provide IT solutions to complex problems that we as a society face every day. I love challenges and thus the quote I live by is &ldquo;<span style = 'font-style:italic'>Only the strong survive</span> &rdquo;. <a href="#Contact" id = "link" class="pink-text"> Connect with me</a> if you have something interesting on your mind. </p>
-          <br>
-          <br>
-        </div>
-        
-        <div class="carousel" style = "margin:20px 0 0 0!important;padding:0px">
-          <h5 class="center  blue-text" style = "font-style:italic;font-size:22px;">My technology stack includes...</h5>
-          {{#each techStack}}
-          <a class="carousel-item" ><img alt = {{imgAlt}} src = {{imgUrl}}></a>
-          {{/each}}
+        <div class="col s12">
+          <img alt="profile_pic" src="./images/me.png" class="profilePic center" height="200">
+          <h4 class="center">Vignesh Ramesh</h4>
+          <div>
+            <p>Innovative Software Engineer with 7+ years of creating and managing software and leading cross-functional
+              teams. </p>
+            <p>Skilled
+              in javascript and python frameworks and technologies.</p>
+            <p>Regularly exceed performance targets and possess advanced
+              analytical and problem-solving skills. </p>
+              <p>Adept at leveraging cutting-edge digital tools and platforms to
+              achieve software
+              development objectives.</p>
+          </div>
+          <a href=""><h5 class="center  blue-text">My technology stack includes...</h5></a>
         </div>
       </div>
     </div>
+
+    {{!-- https://www.w3schools.com/howto/howto_css_skill_bar.asp --}}
+          <div class="carousel" style="margin:20px 0 0 0!important;padding:0px">
+          {{#each techStack}}
+          <a class="carousel-item"><img alt={{imgAlt}} src={{imgUrl}}></a>
+          {{/each}}
+        </div>
   </div>
 </div>
 
 <div> <br /><br />
 
-<!-- Testimonials Offered -->
+  <!-- Testimonials Offered -->
   <div class="container-fluid grey lighten-5 scrollspy" id="Testimonials">
     <div class="section portfolio">
 
       <h5 class="center  blue-grey-text"> What my clients say about me...</h5>
       <br />
 
-      <div class = " container">
+      <div class=" container">
         {{#each testimonials }}
-        <blockquote class = "teal-text"><br />
-          <i class="fa fa-quote-left fa-1x" aria-hidden="true" ></i>    
-                <span>{{content}}</span>
-                <footer class="right">
-                <em class = "grey-text lighten-5">
-                   {{author}}
-                  </em>
-                </footer>
-                <br />
+        <blockquote class="teal-text"><br />
+          <i class="fa fa-quote-left fa-1x" aria-hidden="true"></i>
+          <span>{{content}}</span>
+          <footer class="right">
+            <em class="grey-text lighten-5">
+              {{author}}
+            </em>
+          </footer>
+          <br />
         </blockquote>
         {{/each}}
         <br />
@@ -77,5 +82,5 @@
       </div>
     </div>
   </div>
- </div>
+</div>
 </div>
