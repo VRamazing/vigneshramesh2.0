@@ -3,10 +3,7 @@ const hbs = require("hbs");
 const data = require("./public/scripts/data")
 const app = express();
 const path = require("path");
-const _= require("lodash");
 const port = process.env.PORT || 3000;
-
-// app.use('/public', express.static(__dirname + '/public'));
 
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -15,49 +12,34 @@ app.set('view engine', 'hbs');
 hbs.registerPartials(__dirname + '/views/partials');
 
 app.get("/", (req, res) => {
-  res.render('index.hbs', {techStack: data.techStack, testimonials: data.testimonials})
+  res.render('about.hbs', {techStack: data.techStack, testimonials: data.testimonials})
 });
 
-app.get("/web-apps", (req, res) => {
-  res.render('projects.hbs', {projects: data.web_apps, category_name: "web apps"});
+app.get("/about", (req, res) => {
+  res.redirect("/")
 });
 
-app.get("/contact", (req, res) => {
-  res.render('contact.hbs')
+app.get("/portfolio", (req, res) => {
+  res.render('portfolio.hbs', {projects: data.web_apps, category_name: "web apps"});
 });
 
+app.get("/hireme", (req, res) => {
+  res.render('hireme.hbs')
+});
 
 app.get('/resume', function (req, res, next) {
-    var filePath = __dirname + "/public/resume/resume_full_stack.pdf";
+    var filePath = __dirname + "/public/resume/resume.pdf";
     res.download(filePath, 'resume_vignesh_ramesh.pdf', function(err){
       if (err) {
-        console.log(err);
-      } else{
-        //display a toast here. 
-        //Maybe check Ip of the person and do a quick who search to see who downloaded it
-        console.log("Thanks for downloading.");
-        M.toast({html: 'Thanks for downloading.'})
-
+        return console.log(err);
       }
+      return;
     });  
 });
 
-app.get('/resume/:id/download', function (req, res, next) {
-  var filepath;
-    if(req.params.id == "game_dev"){
-      filePath = __dirname + "/public/resume/resume_game.pdf";
-    }else if(req.params.id == "full_stack"){
-      filePath = __dirname + "/public/resume/resume_full_stack.pdf";
-    }else{
-      filePath = __dirname + "/public/resume/resume_full_stack.pdf";
-    }
-    res.download(filePath, 'resume_vignesh_ramesh.pdf', function(err){
-      if (err) {
-        console.log(err);
-      } else{
-        console.log("Thanks for downloading.")
-      }
-    });  
-});
+app.all('*', (req, res) => { 
+  res.status(404).send('<h1>404! Page not found</h1>'); 
+}); 
+
 
 app.listen(port, function(){console.log(`App running at port ${port}`)});

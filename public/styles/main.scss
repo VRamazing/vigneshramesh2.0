@@ -21,6 +21,12 @@ $small-and-down: "only screen and (max-width : #{$small-screen})" !default;
 $medium-and-down: "only screen and (max-width : #{$medium-screen})" !default;
 $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width : #{$medium-screen})" !default;
 
+@media only screen and (min-width: 993px) {
+  .container {
+      width: 80%;
+  }
+}
+
 @mixin column-count($ct) {
   -webkit-column-count: $ct;
   -moz-column-count: $ct;
@@ -141,7 +147,7 @@ a#link.dropdown-trigger:hover{
 #Home{
     background-color: #242D47;
   	background-image: url(../images/Background1.jpg);
-  	height: 540px;
+  	height: 545px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -154,7 +160,7 @@ a#link.dropdown-trigger:hover{
 	text-shadow: 2px 1px 1px #000;
 	margin-top:40px;
 	h1{
-		font-family: 'Lobster Two', sans-serif;
+		font-family: 'Playfair Display', sans-serif;
 	}
   .intro-text{
     margin-top: 150px;
@@ -419,6 +425,38 @@ blockquote{
     margin-top: 8px!important;
     vertical-align: top!important;
   }
+}
+
+div.container.footer-head {
+  padding: 100px 0 100px;
+  h5{
+    font-family: "Lato", "sans-serif";
+    font-size: 28px;
+    line-height: 40px;
+    margin-bottom: 50px;
+  }
+  li {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  blockquote{
+    margin: 0;
+    font-size: 16px;
+    line-height: 30px;
+    font-style: italic;
+  }
+}
+
+.footer-copyright {
+  padding: 100px 0 100px!important;
+
+  .row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  
 }
 
 ///Animated button
