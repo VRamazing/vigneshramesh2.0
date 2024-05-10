@@ -2,7 +2,7 @@
   padding: 0px;
   margin: 0px;
   font-size: 16px;
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 @media only screen and (min-width: 993px) {
@@ -84,8 +84,9 @@ div.nav-wrapper.container.right.hide-on-med-and-down {
 }
 
 #slide-out li a:hover, nav ul li a:hover, #portfolio-dropdown li a:hover, #resume-dropdown li a:hover {
-  border-bottom: 2px solid #02BBD3;
+  border-bottom: 2px solid #1e88e5;
   box-sizing: border-box;
+  color: black;
 }
 
 .dropdown-trigger {
@@ -156,9 +157,13 @@ a#link.dropdown-trigger:hover {
   color: #0d47a1;
   font-family: "Lobster Two", "sans-serif";
 }
-.container-fluid .section.about p {
+.container-fluid .section.about ul {
+  list-style-type: initial;
+}
+.container-fluid .section.about li {
   font-size: 20px;
   line-height: 40px;
+  list-style-type: initial;
 }
 .container-fluid .section.about .profilePic {
   border: 10px solid #efefef;
@@ -284,8 +289,23 @@ a#link.dropdown-trigger:hover {
   margin: 50px auto;
 }
 
-.container.contact {
-  padding: 0px 80px 80px 80px;
+div.container.contact {
+  /* label underline focus color */
+  padding: 100px 50px;
+  margin: 0px auto 50px;
+}
+div.container.contact .input-field input[type=text]:focus,
+div.container.contact .input-field input[type=email]:focus,
+div.container.contact .input-field textarea:focus,
+div.container.contact .input-field input[type=text].valid,
+div.container.contact .input-field input[type=email]:valid,
+div.container.contact .input-field .prefix.active {
+  border-bottom: 1px solid #2196f3 !important;
+  box-shadow: 0 1px 0 0 #2196f3 !important;
+}
+div.container.contact .contact-submit-btn {
+  height: 42px !important;
+  padding: 0px 18px !important;
 }
 
 p.center.grey-text.touch {
@@ -311,12 +331,6 @@ span.social i {
 }
 span.social i:hover {
   color: #acacac;
-}
-
-.fa-itch-io {
-  position: relative;
-  top: 3px;
-  font-size: 32px !important;
 }
 
 #cross-btn {
@@ -386,8 +400,25 @@ blockquote .fa-1x {
   vertical-align: top !important;
 }
 
+div.container.nopage {
+  text-align: center;
+  padding: 150px 0;
+}
+div.container.nopage img {
+  height: 300px;
+  width: auto;
+}
+div.container.nopage h1 {
+  font-family: "Lato", sans-serif;
+}
+div.container.nopage p, div.container.nopage em {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 50px;
+}
+
 div.container.footer-head {
-  padding: 100px 0 100px;
+  padding: 100px 0;
 }
 div.container.footer-head h5 {
   font-family: "Lato", "sans-serif";
@@ -407,7 +438,7 @@ div.container.footer-head blockquote {
 }
 
 .footer-copyright {
-  padding: 100px 0 100px !important;
+  padding: 60px 0 !important;
 }
 .footer-copyright .row {
   display: flex;
