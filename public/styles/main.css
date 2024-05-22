@@ -119,7 +119,7 @@ a#link.dropdown-trigger:hover {
 
 #Home {
   background-color: #242D47;
-  background-image: url(../images/Background1.jpg);
+  background-image: url(../images/background.jpg);
   height: 545px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
