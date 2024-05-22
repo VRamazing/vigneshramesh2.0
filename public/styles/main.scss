@@ -155,13 +155,22 @@ a#link.dropdown-trigger:hover{
 #Home{
     background-color: #242D47;
   	background-image: url(../images/background.jpg);
-  	height: 545px;
+  	height: 590px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: saturate(0.5)
+    filter: saturate(0.1)
+}
+
+.container.about{
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 100px;
 }
 
 .section.no-pad-bot{
@@ -190,7 +199,7 @@ a#link.dropdown-trigger:hover{
     font-size: 35px;
     line-height: 55px;
     color: #0d47a1;
-    font-family: 'Lobster Two', 'sans-serif';
+    font-family: 'Playfair Display', 'sans-serif';
   }
   ul{
     list-style-type: initial;
@@ -200,12 +209,23 @@ a#link.dropdown-trigger:hover{
     line-height: 40px;
     list-style-type: initial;
 	}
-  .profilePic{
-    border:10px solid #efefef;
-    border-radius:50%;
-    box-shadow: 1px 1px 1px #acacac;
-  }
+ 
 }
+
+.img-container{
+  display: flex;
+  justify-content: center;
+}
+
+.profilePic{
+  width: 200px;
+  height: auto;
+  text-align: center;
+  border: 10px solid #efefef;
+  border-radius:50%;
+  box-shadow: 1px 1px 1px #acacac;
+}
+
 .portfolio-main{
 	padding: 100px 40px;
   .portfolio{
