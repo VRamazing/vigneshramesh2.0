@@ -1,60 +1,16 @@
 module.exports = {
   techStack: [
-    {
-      imgUrl: "./images/techStack/python.png",
-      imgAlt: "pythonLogo"
-    },
-    {
-      imgUrl: "./images/techStack/reactjs.png",
-      imgAlt: "reactLogo"
-    },
-    {
-      imgUrl: "./images/techStack/sass.png",
-      imgAlt: "sassLogo"
-    },
-    {
-      imgUrl: "./images/techStack/sql.png",
-      imgAlt: "sqlLogo"
-    },
-    {
-      imgUrl: "./images/techStack/css.jpg",
-      imgAlt: "cssLogo"
-    },
-    {
-      imgUrl: "./images/techStack/flask.jpg",
-      imgAlt: "flaskLogo"
-    },
-    {
-      imgUrl: "./images/techStack/d3.png",
-      imgAlt: "d3jsLogo"
-    },
-    {
-      imgUrl: "./images/techStack/html.png",
-      imgAlt: "htmlLogo"
-    },
-    {
-      imgUrl: "./images/techStack/js.png",
-      imgAlt: "javascriptLogo"
-    },
-    {
-      imgUrl: "./images/techStack/mongodb.jpg",
-      imgAlt: "mongodbLogo"
-    },
-    {
-      imgUrl: "./images/techStack/photoshop.png",
-      imgAlt: "photoshopLogo"
-    }
+    "javascript", "react js", "Adobe Photoshop", "Figma", "Node js", "Mongodb",
   ],
   web_apps: [
     {
-      image: "./images/projects/sabrang1.gif",
-      title: "Sabrang",
-      oneLineDesc: "A static event based website created for live deployment",
-      roles: ["Core programming", "UX/UI Design"],
-      techUsed: ["Html5", "Css3", "Bootstrap", "Jquery"],
-      liveLink: "http://www.vigneshramesh.in/sabrang2015",
+      image: "./images/sabrang.png",
+      title: "Sabrang Official 2015",
+      oneLineDesc: "Official website for JKLU 2015 cultural fest",
+      techUsed: ["html5", "css3", "bootstrap", "jquery", "javascript"],
+      liveLink: "",
       gitLink: "https://github.com/VRamazing/sabrang2015",
-      fullDesc: ["Mobile responsive Design",
+      fullDesc: [,
         "Designed with user experience in mind",
         "Template coded from scratch",
         "Coordinated with a group of 5 people",

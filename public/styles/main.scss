@@ -21,6 +21,12 @@ $small-and-down: "only screen and (max-width : #{$small-screen})" !default;
 $medium-and-down: "only screen and (max-width : #{$medium-screen})" !default;
 $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width : #{$medium-screen})" !default;
 
+$bleu-de-france: rgba(30, 136, 229, 1);
+$saffron: rgba(232, 197, 71, 1);
+$prussian-blue: rgba(23, 55, 83, 1);
+$flame: rgba(228, 87, 46, 1);
+$persian-red: rgba(187, 52, 47, 1);
+
 @media only screen and (min-width: 993px) {
   .container {
       width: 80%;
@@ -57,7 +63,7 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
 	  padding:0px 10px 30px 10px!important;
   }
   .section.portfolio{
-    padding:20px 10px 10px 10px;
+    padding: 20px 10px 10px 10px;
   }
 }
 
@@ -70,6 +76,7 @@ $medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width 
 @media #{$large-and-up} {
   .cards-container {
     @include column-count(3);
+    column-gap: 35px;
   }
 }
 
@@ -199,34 +206,44 @@ a#link.dropdown-trigger:hover{
     box-shadow: 1px 1px 1px #acacac;
   }
 }
+.portfolio-main{
+	padding: 100px 40px;
+  .portfolio{
 
-.portfolio{
-	padding:40px 60px 60px 60px;
-	h5{
-		font-size: 22px;
-		font-style: italic;
-	}
-	.card {
-	  margin:10px;
-    margin-bottom:25px;
-     .techUsed{margin-top: 10px;}
-     .card-link a{margin-left: 2px;}
-     .role{
-        margin:6px 0 6px 0;
-        span{
-          padding:5px;
-          margin:3px;
-          border-radius: 5px;
-          display:inline-block;
-          line-height: 20px;
+    .chips{
+      max-width: 80%;
+      margin: 60px auto;
+
+      // padding: 60px 20px 0;
+    }
+    h5{
+      font-size: 22px;
+      font-style: italic;
+    }
+    .card {
+      margin:10px 10px 25px 10px;
+      .techUsed {margin-top: 10px;}
+      .card-content {
+        padding: 32px;
+
+      }
+      .card-link a{margin-left: 2px;}
+      .role{
+          margin:6px 0 6px 0;
+          span{
+            padding:5px;
+            margin:3px;
+            border-radius: 5px;
+            display:inline-block;
+            line-height: 20px;
+          }
         }
-      }
-      .projects{
-         height:15px;
-      }
-	 }
+        .projects{
+          height:15px;
+        }
+    }
+  }
 }
-
 //LOGO STYLES
 
 .logo-container{

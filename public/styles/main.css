@@ -48,6 +48,7 @@
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
+    column-gap: 35px;
   }
 }
 nav div > a, nav div > ul > li > a {
@@ -171,34 +172,40 @@ a#link.dropdown-trigger:hover {
   box-shadow: 1px 1px 1px #acacac;
 }
 
-.portfolio {
-  padding: 40px 60px 60px 60px;
+.portfolio-main {
+  padding: 100px 40px;
 }
-.portfolio h5 {
+.portfolio-main .portfolio .chips {
+  max-width: 80%;
+  margin: 60px auto;
+}
+.portfolio-main .portfolio h5 {
   font-size: 22px;
   font-style: italic;
 }
-.portfolio .card {
-  margin: 10px;
-  margin-bottom: 25px;
+.portfolio-main .portfolio .card {
+  margin: 10px 10px 25px 10px;
 }
-.portfolio .card .techUsed {
+.portfolio-main .portfolio .card .techUsed {
   margin-top: 10px;
 }
-.portfolio .card .card-link a {
+.portfolio-main .portfolio .card .card-content {
+  padding: 32px;
+}
+.portfolio-main .portfolio .card .card-link a {
   margin-left: 2px;
 }
-.portfolio .card .role {
+.portfolio-main .portfolio .card .role {
   margin: 6px 0 6px 0;
 }
-.portfolio .card .role span {
+.portfolio-main .portfolio .card .role span {
   padding: 5px;
   margin: 3px;
   border-radius: 5px;
   display: inline-block;
   line-height: 20px;
 }
-.portfolio .card .projects {
+.portfolio-main .portfolio .card .projects {
   height: 15px;
 }
 
