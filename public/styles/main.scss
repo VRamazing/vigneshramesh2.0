@@ -154,23 +154,57 @@ a#link.dropdown-trigger:hover{
 
 #Home{
     background-color: #242D47;
-  	background-image: url(../images/background.jpg);
-  	height: 590px;
+  	background-image: url(../images/background2.jpeg);
+  	height: 610px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: saturate(0.1)
+    filter: saturate(0.5) blur(2px);
+    -webkit-filter: blur(2px);
 }
 
-.container.about{
+.about-header{
   width: 100%;
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
   top: 100px;
+  .profilePic{
+    width: 200px;
+    height: auto;
+    text-align: center;
+    border: 10px solid #efefef;
+    border-radius:50%;
+    box-shadow: 1px 1px 1px #acacac;
+    margin-top: 90px;
+  }
+  h1{
+    font-size: 60px;
+    line-height: 67px;
+    color: #0d47a1;
+    font-family: 'Playfair Display', 'sans-serif';
+    text-shadow: 2px 3px  $prussian-blue;
+    margin-bottom: 1.2rem;
+  }
+  h4{
+    font-size: 35px;
+    line-height: 45px;
+    font-family: 'Lato', 'sans-serif';
+    margin: .912rem;
+    text-shadow: 1px 2px  $prussian-blue;
+
+  }
+  // ul{
+  //   list-style-type: initial;
+  // }
+	// li{
+	// 	font-size: 20px;
+  //   line-height: 40px;
+  //   list-style-type: initial;
+	// }
 }
 
 .section.no-pad-bot{
@@ -193,37 +227,34 @@ a#link.dropdown-trigger:hover{
 }
 
 .container-fluid .section.about{
-  padding-bottom: 6.75rem;
-  padding-top: 6.75rem;
-  h4{
-    font-size: 35px;
-    line-height: 55px;
-    color: #0d47a1;
-    font-family: 'Playfair Display', 'sans-serif';
+  padding: 8.75rem;
+  font-size: 30px;
+  .icon-row{
+    display: flex;
+    flex-direction: row;
+    .icon{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      .dev-icon{
+        font-size: 30px;
+        color: $bleu-de-france
+      }
+      span{
+        margin: 0;
+        margin-top: 10px;
+        font-size: 15px;
+        text-transform: uppercase;
+      }
+    }
   }
-  ul{
-    list-style-type: initial;
-  }
-	li{
-		font-size: 20px;
-    line-height: 40px;
-    list-style-type: initial;
-	}
  
 }
 
 .img-container{
   display: flex;
   justify-content: center;
-}
-
-.profilePic{
-  width: 200px;
-  height: auto;
-  text-align: center;
-  border: 10px solid #efefef;
-  border-radius:50%;
-  box-shadow: 1px 1px 1px #acacac;
 }
 
 .portfolio-main{
@@ -240,6 +271,7 @@ a#link.dropdown-trigger:hover{
       font-size: 22px;
       font-style: italic;
     }
+
     .card {
       margin:10px 10px 25px 10px;
       .techUsed {margin-top: 10px;}
