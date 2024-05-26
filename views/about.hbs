@@ -11,8 +11,8 @@
       <div class="row center">
         <h1 class="white-text">Vignesh Ramesh</h1>
         <h4 class="white-text">Sr. Software Engineer &amp; Tech Evangelist</h4>
-        <a href="#About" id="link" class="scroll-arrow"><i class="fa fa-chevron-circle-down fa-3x white-text"
-            aria-hidden="true"></i></a>
+        <a href="#About" id="link" class="scroll-arrow"><i class="material-icons"
+            aria-hidden="true">keyboard_arrow_down</i></a>
       </div>
     </div>
   </div>
@@ -29,120 +29,81 @@
   </div>
 
   <!-- About Me -->
-  <div class="container-fluid scrollspy" id="About">
-    <div class="section about ">
+  <div class="container scrollspy" id="About">
+    <div class="section about">
 
-
-      <ul class="collapsible expandable">
-        <li>
-          <div class="collapsible-header"><i class="material-icons">keyboard</i>Experience</div>
-          <div class="collapsible-body">
-
-            <ul>
-
-              <li>Innovative Software Engineer with 7+ years of creating and managing software and leading cross-functional
-          teams.</li>
+        <div class="experience row">
+          <div class="about-sub-category"><i class="material-icons">keyboard</i><span>Experience</span></div>
+            <ul class="row experience-list">
+              <li>Innovative Software Engineer with 7+ years of creating and managing software and leading cross-functional teams.</li>
               <li> Skilled in javascript and python frameworks and technologies.</li>
-              <li> Regularly exceed performance targets and possess advanced
-          analytical and problem-solving skills. 
-</li>
-              <li>        Adept at leveraging cutting-edge digital tools and platforms to
-          achieve software
-          development objectives.</li>
+              <li> Regularly exceed performance targets and possess advanced analytical and problem-solving skills.</li>
+              <li>Adept at leveraging cutting-edge digital tools and platforms to achieve software development objectives.</li>
             </ul>
           </div>
-        </li>
 
+          <br />
 
-        
-        <li>
-          <div class="collapsible-header"><i class="material-icons">whatshot
-</i>Technology Stack</div>
-          <div class="collapsible-body">
-            <div class="icon-row">
-
-              <div class="icon">
-                <i class="devicon-css3-plain dev-icon"></i>
-                <span>CSS</span>
-              </div>
-
-              <div class="icon">
-                <i class="devicon-html5-plain dev-icon"></i>
-                <span>HTML 5</span>
-              </div>
-
-              <div class="icon">
-                <i class="devicon-javascript-plain dev-icon"></i>
-                <span>JavaScript</span>
-              </div>
-
-              <div class="icon">
-                <i class="devicon-react-original dev-icon"></i>
-                <span>React js</span>
-              </div>
+          <div class="technology row">
+            <div class="about-sub-category"><i class="material-icons">whatshot</i><span>Technology Stack</span></div>
+              <div class="icon-row">
+                <div class="icon">
+                  <i class="devicon-css3-plain dev-icon"></i>
+                  <span>CSS</span>
+                </div>
 
                 <div class="icon">
-                <i class="devicon-nodejs-plain dev-icon"></i>
-                <span>Node js</span>
-              </div>
-
-
-                <div class="icon">
-                <i class="devicon-mongodb-plain dev-icon"></i>
-                <span>mongo db</span>
-              </div>
+                  <i class="devicon-html5-plain dev-icon"></i>
+                  <span>HTML 5</span>
+                </div>
 
                 <div class="icon">
-                <i class="devicon-express-original dev-icon"></i>
-                <span>express js</span>
-              </div>
-
-               <div class="icon">
-                <i class="devicon-tailwindcss-original dev-icon"></i>
-                <span>Tailwind css</span>
-              </div>
-
-               <div class="icon">
-                <i class="devicon-python-plain dev-icon"></i>
-                <span>Python</span>
-              </div>
+                  <i class="devicon-javascript-plain dev-icon"></i>
+                  <span>JavaScript</span>
+                </div>
 
                 <div class="icon">
-                              <i class="devicon-mysql-original dev-icon"></i>
+                  <i class="devicon-react-original dev-icon"></i>
+                  <span>React js</span>
+                </div>
 
-                <span>SQL</span>
+                  <div class="icon">
+                  <i class="devicon-nodejs-plain dev-icon"></i>
+                  <span>Node js</span>
+                </div>
+
+              <div class="icon">
+                  <i class="devicon-mongodb-plain dev-icon"></i>
+                  <span>mongo db</span>
+                </div>
+
+                <div class="icon">
+                  <i class="devicon-express-original dev-icon"></i>
+                  <span>express js</span>
+                </div>
+
+                <div class="icon">
+                  <i class="devicon-tailwindcss-original dev-icon"></i>
+                  <span>Tailwind css</span>
+                </div>
+
+                <div class="icon">
+                  <i class="devicon-python-plain dev-icon"></i>
+                  <span>Python</span>
+                </div>
+
+                <div class="icon">
+                  <i class="devicon-mysql-original dev-icon"></i>
+                  <span>SQL</span>
+                </div>
               </div>
-
-
-
-
             </div>
           </div>
-        </li>
-        <li>
-          <div class="collapsible-header"><i class="material-icons">whatshot</i>Hobbies</div>
-          <div class="collapsible-body"></div>
-        </li>
-      </ul>
 
-    </div>
-
-
-
-  </div>
-</div>
-</div>
-
-<div> <br />
-  <!-- Testimonials Offered -->
-  <div class="container-fluid grey lighten-5 scrollspy" id="Testimonials">
-    <div class="section portfolio">
-
-      <h5 class="center  blue-grey-text"> What my clients say about me...</h5>
-      <br />
-
-      <div class=" container">
-        {{#each testimonials }}
+          <div class="reviews row">
+                    <div class="about-sub-category"><i class="material-icons">rate_review</i><span>Reviews</span></div>
+                  </div>
+                        {{#each testimonials }}
         <blockquote class="teal-text"><br />
           <i class="fa fa-quote-left fa-1x" aria-hidden="true"></i>
           <span>{{content}}</span>
@@ -154,10 +115,15 @@
           <br />
         </blockquote>
         {{/each}}
-        <br />
-        <br />
-      </div>
-    </div>
+            </div>
+
+
+
   </div>
+</div>
+</div>
+
+<div> <br />
+
 </div>
 </div>

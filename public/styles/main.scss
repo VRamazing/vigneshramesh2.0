@@ -3,6 +3,8 @@
 	margin:0px;
 	font-size:16px;
 	font-family: 'Roboto', sans-serif;
+  list-style-type: disc !important
+
 }
 
 // Media Query Ranges
@@ -155,7 +157,7 @@ a#link.dropdown-trigger:hover{
 #Home{
     background-color: #242D47;
   	background-image: url(../images/background2.jpeg);
-  	height: 610px;
+  	height: 620px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -185,7 +187,7 @@ a#link.dropdown-trigger:hover{
     font-size: 60px;
     line-height: 67px;
     color: #0d47a1;
-    font-family: 'Playfair Display', 'sans-serif';
+    font-family: "Pacifico", cursive;;
     text-shadow: 2px 3px  $prussian-blue;
     margin-bottom: 1.2rem;
   }
@@ -197,25 +199,12 @@ a#link.dropdown-trigger:hover{
     text-shadow: 1px 2px  $prussian-blue;
 
   }
-  // ul{
-  //   list-style-type: initial;
-  // }
-	// li{
-	// 	font-size: 20px;
-  //   line-height: 40px;
-  //   list-style-type: initial;
-	// }
+
 }
 
 .section.no-pad-bot{
 	text-shadow: 2px 1px 1px #000;
 	margin-top:40px;
-	h1{
-		font-family: 'Playfair Display', sans-serif;
-	}
-  .intro-text{
-    margin-top: 150px;
-  }
 }
 
 .container-fluid.quote{
@@ -226,29 +215,68 @@ a#link.dropdown-trigger:hover{
 	}
 }
 
-.container-fluid .section.about{
-  padding: 8.75rem;
-  font-size: 30px;
-  .icon-row{
-    display: flex;
-    flex-direction: row;
-    .icon{
+.container .section.about{
+  padding: 4.75rem 9.75rem;
+  .experience, .technology, .reviews{
+    font-family: "Lato", sans-serif;
+    color: $prussian-blue;
+    .about-sub-category{
+      margin-bottom: 42px;
+      margin-top: 10px;
       display: flex;
-      flex-direction: column;
+      justify-content: center;
       align-items: center;
-      padding: 20px;
-      .dev-icon{
-        font-size: 30px;
-        color: $bleu-de-france
+      i{
+        font-size: 43px;
       }
       span{
-        margin: 0;
-        margin-top: 10px;
-        font-size: 15px;
-        text-transform: uppercase;
+        padding-left: 10px;
+        font-size: 32px;
+        line-height: 38px;        
+      }
+    }
+ 
+    .experience-list{
+      li{
+        font-size: 20px;
+        line-height: 34px;
       }
     }
   }
+  .technology {
+    .about-sub-category{
+      margin-bottom: 56px;
+    }
+    .icon-row{
+      display: flex;
+      flex-direction: row;
+      .icon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        .dev-icon{
+          font-size: 30px;
+          color: $bleu-de-france;
+          &:hover{
+            color: $prussian-blue;
+          }
+        }
+        span{
+          margin: 0;
+          margin-top: 10px;
+          font-size: 15px;
+          text-transform: uppercase;
+        }
+       
+      }
+    }
+    .about-sub-category {
+      margin-top: 20px;
+    }
+  }
+  
  
 }
 
@@ -474,6 +502,11 @@ span.social{
     animation: MoveUpDown 1s ease-in-out infinite;
     margin-top:30px;
     select: none;
+    font-size: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    border: 1px solid white;
   }
   &:hover{
    opacity: 0.5;
