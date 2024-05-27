@@ -301,15 +301,19 @@ module.exports = {
   testimonials: [
     {
       content: "Vignesh is a keen learner and an excellent resource. He is very creative and has born entrepreneur spirit. I got so impressed with him when I saw his website. Vignesh has an eye for detail and always thrive for success.",
-      author: " — Surabhi Nigam Tula (Co-founder and COO Keizen Training Solutions)"
+      author: "Surabhi Nigam Tula",
+      authorImg: "./images/surbhi.jpeg"
     },
     {
       content: "Vignesh is a great technology friendly person. He is a great web designer and had a big contribution in making our college fests successfull through his websites. Had a great time working with him. Wish him all the good luck for his future endeavours.",
-      author: " — Aakash Bhandari (Relationship Manager at Home First Finance Company (HFFC))"
+      author: "Aakash Bhandari",
+      authorImg: "./images/akash.jpeg"
     },
     {
       content: "Vignesh makes things happen! His ability to listen and understand his clients' needs allows him to consult effectively. He leads by example and is a trusted adviser.",
-      author: " — Aditya Sisodia (Co-Founder RecruitWheels)"
+      author: "Aditya Sisodia",
+      authorImg: "./images/aditya.jpeg"
+
     }
   ],
 }

@@ -215,10 +215,12 @@ div.nav-wrapper.container.right.hide-on-med-and-down{
 	}
 }
 
-.container .section.about{
-  padding: 4.75rem 9.75rem;
-  .experience, .technology, .reviews{
+.section.about{
+  padding: 4.75rem 2.75rem;
+  .experience.row, .technology.row, .reviews.row {
     font-family: "Lato", sans-serif;
+    padding-left: 9.75rem;
+    padding-right: 9.75rem;
     color: $prussian-blue;
     .about-sub-category{
       margin-bottom: 42px;
@@ -243,6 +245,19 @@ div.nav-wrapper.container.right.hide-on-med-and-down{
       }
     }
   }
+
+  .technology.row {
+    padding-left: 5.75rem;
+    padding-right: 5.75rem;
+  }
+
+  .reviews.row  {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+
+
   .technology {
     .about-sub-category{
       margin-bottom: 56px;
@@ -250,6 +265,7 @@ div.nav-wrapper.container.right.hide-on-med-and-down{
     .icon-row{
       display: flex;
       flex-direction: row;
+      flex-wrap: wrap;
       .icon{
         display: flex;
         flex-direction: column;
@@ -275,6 +291,10 @@ div.nav-wrapper.container.right.hide-on-med-and-down{
     .about-sub-category {
       margin-top: 20px;
     }
+  }
+
+  .divider-reviews{
+    margin: 70px 0 80px 0;
   }
   
  
@@ -533,19 +553,45 @@ i.footer-icon{
  }
 }
 
-blockquote{
-  margin: 20px 0 20px 0;
-  color:white;
-  padding-left: 0!important;
-  border-left: none; /* Just change the color value and that's it*/
-  footer{
-    font-weight:700;
-    color:white;
-    margin-top: 5px;
+blockquote {
+  border-color: $flame;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 29px;
+  footer {
+    text-align: right;
+    margin-top: 18px;
   }
-  .fa-1x{
-    font-size: 25px;
-    margin-right:5px;
+  &.reviews{
+    padding: 20px;
+    border-left: none;
+    footer {
+      color: $prussian-blue;
+    }
+    .img-center{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0 26px;
+    }
+    img{
+      height: 90px;
+      width: 90px;
+      border-radius: 50%;
+      border: 2px solid $prussian-blue;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    .flow-text{
+      font-size: 20px;
+      line-height: 28px;
+    }
+    span{
+      color: $prussian-blue;
+      font-size: 18px;
+      line-height: 24px;
+    }
   }
 }
 

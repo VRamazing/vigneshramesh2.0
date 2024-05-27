@@ -31,21 +31,26 @@
   <!-- About Me -->
   <div class="container scrollspy" id="About">
     <div class="section about">
-
         <div class="experience row">
-          <div class="about-sub-category"><i class="material-icons">keyboard</i><span>Experience</span></div>
-            <ul class="row experience-list">
-              <li>Innovative Software Engineer with 7+ years of creating and managing software and leading cross-functional teams.</li>
-              <li> Skilled in javascript and python frameworks and technologies.</li>
-              <li> Regularly exceed performance targets and possess advanced analytical and problem-solving skills.</li>
-              <li>Adept at leveraging cutting-edge digital tools and platforms to achieve software development objectives.</li>
-            </ul>
+          <div class="about-sub-category">
+            <i class="material-icons">keyboard</i>
+            <span>Experience</span>
           </div>
+          <ul class="row experience-list">
+            <li>Innovative Software Engineer with 7+ years of creating and managing software and leading cross-functional teams.</li>
+            <li> Skilled in javascript and python frameworks and technologies.</li>
+            <li> Regularly exceed performance targets and possess advanced analytical and problem-solving skills.</li>
+            <li>Adept at leveraging cutting-edge digital tools and platforms to achieve software development objectives.</li>
+          </ul>
+        </div>
 
           <br />
 
           <div class="technology row">
-            <div class="about-sub-category"><i class="material-icons">whatshot</i><span>Technology Stack</span></div>
+            <div class="about-sub-category">
+              <i class="material-icons">whatshot</i>
+              <span>Technology Stack</span>
+            </div>
               <div class="icon-row">
                 <div class="icon">
                   <i class="devicon-css3-plain dev-icon"></i>
@@ -97,25 +102,31 @@
                   <span>SQL</span>
                 </div>
               </div>
-            </div>
           </div>
 
+          <div class="divider divider-reviews"></div>
+
+
           <div class="reviews row">
-                    <div class="about-sub-category"><i class="material-icons">rate_review</i><span>Reviews</span></div>
-                  </div>
-                        {{#each testimonials }}
-        <blockquote class="teal-text"><br />
-          <i class="fa fa-quote-left fa-1x" aria-hidden="true"></i>
-          <span>{{content}}</span>
-          <footer class="right">
-            <em class="grey-text lighten-5">
-              {{author}}
-            </em>
-          </footer>
-          <br />
-        </blockquote>
-        {{/each}}
+            <div class="about-sub-category">
+              <i class="material-icons">rate_review</i>
+              <span>Reviews</span>
             </div>
+            <div class="row">
+              {{#each testimonials }}
+              <div class="col s12 m4">
+               <blockquote class="blue-text reviews">
+                <div class="img-center">
+                  <img src={{authorImg}} alt={{author}}>
+                  <span >{{author}}</span>
+                </div>
+                {{!-- <i class="fa fa-quote-left fa-1x" aria-hidden="true"></i> --}}
+                <p class="flow-text">{{content}}</p>
+              </blockquote>
+              </div>
+              {{/each}}
+            </div>
+          </div>
 
 
 
