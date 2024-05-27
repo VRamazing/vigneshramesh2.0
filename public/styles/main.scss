@@ -131,9 +131,6 @@ div.nav-wrapper.container.right.hide-on-med-and-down{
   outline: none!important;
 }
 
-a#link.dropdown-trigger:hover{
-  border-bottom:none;
-}
 
 #resume-dropdown,#portfolio-dropdown {
   overflow-y: hidden;
@@ -165,6 +162,9 @@ a#link.dropdown-trigger:hover{
     background-size: cover;
     filter: saturate(0.5) blur(2px);
     -webkit-filter: blur(2px);
+}
+.sidenav li a{
+  font-family: "Lato", sans-serif;
 }
 
 .about-header{
@@ -489,9 +489,15 @@ i.footer-icon{
 #cross-btn{
   float:right;
   font-size: 20px;
-  padding: 5px 10px;
+  padding: 8px 12px;
   color: black;
   cursor: pointer;
+}
+
+.send-icon{
+  position: relative;
+  top: 4px;
+  left: 4px;
 }
 
 #cross-btn:hover{
