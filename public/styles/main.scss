@@ -442,6 +442,14 @@ div.container.contact{
       height: 42px!important;
       padding: 0px 18px!important;
     }
+    h2{
+      color: $prussian-blue;
+      font-size: 30px;
+      font-size: 34px;
+      line-height: 48px;
+      margin-bottom: 0;
+      font-family: "Lato", sans-serif;
+    }
 }
 
 
@@ -452,24 +460,30 @@ p.center.grey-text.touch{
 		font-weight: bold;
 }
 
-footer li a,footer a{
-  color:white;
-  &:hover{
-    text-decoration: underline;
+footer{
+  li a,footer a{
+    color:white;
+    &:hover{
+      opacity: 0.8;
+    }
   }
+
 }
 
-span.social{
-  select:none;
-  // text-align: right;
-	i{
-		font-size:30px;
-		color:white;
-		padding:2px;
-		&:hover{
-			color:#acacac;
-		}
-	}
+.social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+i.footer-icon{
+  font-size:30px;
+  color:white;
+  padding:2px;
+  margin-left: 2px;
+  &:hover{
+    color:#acacac;
+  }
 }
 
 #cross-btn{
