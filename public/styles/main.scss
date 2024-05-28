@@ -266,6 +266,8 @@ div.nav-wrapper.container.right.hide-on-med-and-down{
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
       .icon{
         display: flex;
         flex-direction: column;
@@ -558,7 +560,6 @@ blockquote {
   font-size: 18px;
   line-height: 29px;
   footer {
-    text-align: right;
     margin-top: 18px;
   }
   &.reviews{
@@ -662,6 +663,22 @@ div.container.footer-head {
   
 }
 
+.footer-links{
+  padding-left: 20px!important;
+}
+
+.footer-menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-quote{
+  font-size: 18px;
+}
+
+
+
 ///Animated button
 @keyframes MoveUpDown {
   0% {
@@ -690,9 +707,24 @@ div.container.footer-head {
     .logos.grid{
       grid-template-columns: repeat(3, 1fr);
     }
-  }  
+  } 
+  .section.about 
+  {
+    .experience.row, .technology.row, .reviews.row {
+      padding-left: 2.75rem;
+      padding-right: 2.75rem;
+    }
+  }
 }
 @media only screen and (max-width:668px){
+  .section.about 
+  {
+    .experience.row, .technology.row, .reviews.row {
+      padding-left: 2.75rem;
+      padding-right: 2.75rem;
+    }
+  }
+
   .logo-container{
     margin: 10px auto!important;  
     .logos.grid{
@@ -702,11 +734,27 @@ div.container.footer-head {
 }
 
 @media only screen and (max-width:480px){
+  .section.about 
+  {
+    padding: 3rem 1.5rem 1rem;
+    .experience.row, .technology.row, .reviews.row {
+      padding: 0
+    }
+  }
+  #Home{
+    height: 688px;
+  }
   .logo-container{
     margin: 5px auto!important;  
     .logos.grid{
       grid-template-columns: repeat(1, 1fr);
     }
-  }  
+  } 
+  .quick-links{
+    margin-top: 70px;
+  } 
+  .footer-menu{
+    align-items: flex-start;
+  }
 }
 
