@@ -29,56 +29,27 @@ $prussian-blue: rgba(23, 55, 83, 1);
 $flame: rgba(228, 87, 46, 1);
 $persian-red: rgba(187, 52, 47, 1);
 
-@media only screen and (min-width: 993px) {
-  .container {
-      width: 80%;
-  }
-}
-
 @mixin column-count($ct) {
   -webkit-column-count: $ct;
   -moz-column-count: $ct;
   column-count: $ct;
 }
 
+
+.section.portfolio{
+  p{
+    margin: 50px 0;
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+  }
+}
+
+
 .cards-container {
   column-break-inside: avoid;
   .card {
     display: inline-block!important;
     overflow: visible;
-  }
-}
-
-@media #{$medium-and-down} {
-  footer{
-    span.social{
-      float:none;
-    }
-  }
-}
-
-@media #{$small-and-down} {
-  .cards-container {
-    @include column-count(1);
-  }
-  .container.contact{
-	  padding:0px 10px 30px 10px!important;
-  }
-  .section.portfolio{
-    padding: 20px 10px 10px 10px;
-  }
-}
-
-@media #{$medium-and-up} {
-  .cards-container {
-    @include column-count(2);
-  }
-}
-
-@media #{$large-and-up} {
-  .cards-container {
-    @include column-count(3);
-    column-gap: 35px;
   }
 }
 
@@ -129,6 +100,22 @@ div.nav-wrapper.container.right.hide-on-med-and-down{
 
 .dropdown-trigger{
   outline: none!important;
+}
+
+.btn-livelink{
+  background-color: $bleu-de-france;
+  &:hover{
+    background-color: $bleu-de-france;
+    filter:saturate(0.1)
+  }
+}
+
+.btn-github{
+  background-color: $flame;
+  &:hover{
+    background-color: $flame;
+    filter:saturate(0.1)
+  }
 }
 
 
@@ -404,32 +391,6 @@ div.nav-wrapper.container.right.hide-on-med-and-down{
     margin-top: 14px;
     vertical-align: middle;
     background-color:#a0a0a0;
-}
-
-@media screen and (max-width: 992px) {
-    .art-column {
-        -ms-flex: 33.33%;
-        flex: 33.33%;
-        max-width: 33.33%;
-    }
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 768px) {
-    .art-column {
-        -ms-flex: 50%;
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 480px) {
-    .art-column {
-        -ms-flex: 100%;
-        flex: 100%;
-        max-width: 100%;
-    }
 }
 
 //Technology styles
@@ -758,3 +719,37 @@ div.container.footer-head {
   }
 }
 
+
+
+@media only screen and (min-width: 993px) {
+  .container {
+      width: 80%;
+  }
+}
+
+@media #{$medium-and-down} {
+  footer{
+    span.social{
+      float:none;
+    }
+  }
+}
+
+@media #{$small-and-down} {
+  .cards-container {
+    @include column-count(1);
+  }
+}
+
+@media #{$medium-and-up} {
+  .cards-container {
+    @include column-count(2);
+  }
+}
+
+@media #{$large-and-up} {
+  .cards-container {
+    @include column-count(3);
+    column-gap: 35px;
+  }
+}

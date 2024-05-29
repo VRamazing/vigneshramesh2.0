@@ -1,3 +1,5 @@
+const { shuffle } = require("lodash");
+
 module.exports = {
   techStack: [
     "javascript", "react js", "Adobe Photoshop", "Figma", "Node js", "Mongodb",
@@ -6,133 +8,94 @@ module.exports = {
     {
       image: "./images/sabrang.png",
       title: "Sabrang Official 2015",
-      oneLineDesc: "Official website for JKLU 2015 cultural fest",
       techUsed: ["html5", "css3", "bootstrap", "jquery", "javascript"],
-      liveLink: "",
+      liveLink: "vramazing.github.io/sabrang2015",
       gitLink: "https://github.com/VRamazing/sabrang2015",
       fullDesc: [,
-        "Designed with user experience in mind",
-        "Template coded from scratch",
-        "Coordinated with a group of 5 people",
-        "The site recieved 5000+ Visits"]
+        "Official website for JKLU 2015 cultural fest",
+        "The site recieved 10000+ Visits and recieved 1000+ convertions",
+      ]
     },
 
     {
-      image: "./images/projects/tsms.gif",
+      image: "./images/tsms.png",
       title: "Timestamp Microservice",
-      oneLineDesc: "A handy api to parse timestamp input and get timestamp output",
-      roles: ["Core programming", "UX/UI Design"],
       techUsed: ["Html5", "Css3", "Node.js", "Javascript"],
-      liveLink: "https://tstmp-micro.herokuapp.com/",
+      liveLink: "https://timestampmicro.onrender.com",
       gitLink: "https://github.com/VRamazing/timestampMicro",
-      fullDesc: ["Api takes string as a parameter and checks to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016) and returns likewise",
-        "Created using Node.js"]
+      fullDesc: ["A handy api to parse timestamp input and get timestamp output","Api takes string as a parameter and checks to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016) and returns likewise",
+        "Created using Node.js for FreeCodeCamp Curriculum"]
     },
 
     {
-      image: "./images/projects/quoteApp.gif",
+      image: "./images/quoteApp.png",
       title: "Random Quote Machine",
-      oneLineDesc: "A web app which generates random motivational quotes with a click of button",
-      roles: ["Core programming", "UX/UI Design"],
       techUsed: ["Html5", "Css3", " Jquery", "Node.js", "Angular.js"],
-      liveLink: "https://quotes-gen.herokuapp.com/",
+      liveLink: "https://randomquotegenerator-y9uq.onrender.com/",
       gitLink: "https://github.com/VRamazing/RandomQuoteGenerator",
-      fullDesc: ["Mobile responsive material design",
-        "Ability to tweet directly from application using twitter api",
-        "Feature to fork the project and make personal changes",
+      fullDesc: ["A web app which generates random motivational quotes with a click of button","Mobile responsive material design with an ability to tweet directly from application using twitter api",
       ]
     },
 
     {
-      image: "./images/projects/wiki.gif",
+      image: "./images/wiki.png",
       title: "Wiki Viewer",
-      oneLineDesc: "A web application to browse and search wikipedia articles or view a random article",
-      roles: ["Core programming", "UX/UI Design"],
       techUsed: ["Html5", "Css3", "Bootstrap", "Jquery", "Angular.js"],
-      liveLink: "https://codepen.io/techievignesh/full/dzrpLz/",
+      liveLink: "https://vramazing.github.io/WikiViewer",
       gitLink: "https://github.com/VRamazing/WikiViewer",
-      fullDesc: ["Search button and random button for searching respective articles.",
-        "Mobile responsive design",
-        "Created using mediawiki api",
-        "Designed keeping user experience in mind"
+      fullDesc: [
+        "A web application to browse and search wikipedia articles or view a random article",
+        "Includes ability to Search an article and return random article using mediawiki api",     
       ]
     },
 
     {
-      image: "./images/projects/igp.gif",
+      image: "./images/igp.png",
       title: "Indian Game Project",
-      oneLineDesc: "A personal gaming initiative to help promote games that promote Indian Culture",
-      roles: ["Core programming", "UX/UI Design", "Project Lead"],
       techUsed: ["Html5", "Css3", "Bootstrap", "Jquery"],
-      liveLink: "http://www.igameproject.com",
+      liveLink: "https://igameproject.github.io/",
       gitLink: "https://github.com/igameproject/igameproject.github.io",
-      fullDesc: ["IGP is an initiative started by me to create games catering to create awareness about social and economic cause. ",
+      fullDesc: ["A personal gaming initiative to help promote games that promote Indian Culture",
         "A future goal is to bring in the showcase authentic heritage of India via games",
-        "Includes mobile responsive design",
-        "Template coded from scratch"
       ]
     },
 
     {
-      image: "./images/projects/rhcp.gif",
+      image: "./images/rhcp.png",
       title: "Request Header Parser",
-      oneLineDesc: "A web app which parses request header and displays ip-address, system config and language of user",
-      roles: ["Core programming", "UX/UI Design"],
       techUsed: ["Html5", "Css3", "Node.js", "Javascript"],
-      liveLink: "https://rhpmc.herokuapp.com/",
       gitLink: "https://github.com/VRamazing/RHP-MicroService",
-      fullDesc: ["Mobile responsive design ",
-        "Cross platform compatible"
+      fullDesc: ["A web app which parses request header and displays ip-address, system config and language of user"
       ]
     },
 
     {
-      image: "./images/projects/weatherApi.gif",
+      image: "./images/weatherapi.png",
       title: "Weather Extension",
-      oneLineDesc: "An extension which uses location api to display weather in your region",
-      roles: ["Core programming", "UX/UI Design"],
       techUsed: ["Html5", "Css3", "Materialize-css", "Javascript"],
-      liveLink: "https://codepen.io/techievignesh/full/brZdyV/",
-      gitLink: "https://codepen.io/techievignesh/pen/brZdyV",
-      fullDesc: ["Mobile responsive design",
-        "Cross platform compatible",
+      liveLink: "https://codepen.io/techievignesh/pen/brZdyV",
+      fullDesc: ["An extension which uses location api to display weather in your region",
+        "Cross platform compatible which uses weather stack API for getting current weather data",
       ]
     },
 
     {
-      image: "./images/projects/gameOfViz.gif",
-      title: " Game of Viz ",
-      oneLineDesc: "Game of thrones data visualization for order of character appearence from each club for each season",
-      roles: ["Core Programming", "Data Visualization", "Data Analysis"],
-      techUsed: ["Javasript", "D3.js", "Html"],
-      liveLink: "http://www.vigneshramesh.in/GameofViz/",
-      gitLink: "https://github.com/VRamazing/GameofViz",
-      fullDesc: ["Dataset fetched for grand prix 2016 in csv format and converted it to usable data",
-        "Data munging and data visualization done using d3.js"
-      ]
-    },
-
-    {
-      image: "./images/projects/sankey.gif",
+      image: "./images/sankey.png",
       title: "Sankey Chart",
-      oneLineDesc: "A sankey chart visualization for F1 Racers for 2016 grand prix",
-      roles: ["Core Programming", "Data Visualization", "Data Analysis"],
       techUsed: ["Javasript", "D3.js", "Html"],
-      liveLink: "http://www.vigneshramesh.in/SankeyF1",
+      liveLink: "https://vramazing.github.io/sankeyF1r/",
       gitLink: "https://github.com/VRamazing/SankeyF1",
-      fullDesc: ["Dataset fetched for game of thrones in csv format and converted it to usable data",
+      fullDesc: ["A sankey chart visualization for F1 Racers for 2016 grand prix", "Dataset fetched in csv format and converted it to usable data",
         "Data munging and data visualization done using d3.js"
       ]
     },
 
     {
-      image: "./images/projects/interactive.gif",
+      image: "./images/interactive.png",
       title: "Interactive Visualization",
-      oneLineDesc: "An interactive visualization of premier league team revenues",
-      roles: ["Core Programming", "Data Visualization", "Data Analysis"],
-      techUsed: ["D3js", "Javascript", "Html"],
-      liveLink: "http://www.vigneshramesh.in/InteractiveViz/",
-      gitLink: "",
+      techUsed: ["D3.js", "Javascript", "Html", "CSS"],
+      liveLink: "https://vramazing.github.io/InteractiveVizn/",
+      gitLink: "https://github.com/VRamazing/InteractiveVizn/",
       fullDesc: ["An interactive visualization of premier league team revenues",
         "Tool tip hover produces a different chart for respective bar chart",
         "Data munging done using d3.js"
@@ -140,158 +103,118 @@ module.exports = {
     },
 
     {
-      image: "./images/projects/cloropleth.gif",
+      image: "./images/cloropleth.png",
       title: "Choropleth Map of County Data",
-      oneLineDesc: "Creating a cloropleth map for median earnings of each state in United States",
-      roles: ["Core Programming", "Data Visualization", "Data Analysis"],
       techUsed: ["D3js", "Javascript", "Html"],
-      liveLink: "http://www.vigneshramesh.in/InteractiveViz/",
-      gitLink: "",
-      fullDesc: ["An interactive visualization of premier league team revenues",
+      liveLink: "https://vramazing.github.io/CloroplethUSc/",
+      gitLink: "https://github.com/VRamazing/CloroplethUSc/",
+      fullDesc: ["Creating a cloropleth map for median earnings of each state in United States",
         "Tool tip hover produces a different chart for respective bar chart",
         "Data munging done using d3.js"
       ]
     },
 
     {
-      image: "./images/projects/calculator.gif",
+      image: "./images/calculator.png",
       title: "Calculator",
-      oneLineDesc: "A fun way to calculate with Javascript",
-      roles: ["Core programming", "UX/UI Design"],
       techUsed: ["Html5", "Css3", "Bootstrap", "Jquery"],
-      liveLink: "https://codepen.io/techievignesh/full/JybNZZ/",
+      liveLink: "https://vramazing.github.io/Calc-Extension/",
       gitLink: "https://github.com/VRamazing/Calc-Extension",
-      fullDesc: ["A basic calculator",
-        "Mobile responsive design",
-        "Cross platform compatible",
-        "Coded from scratch"
+      fullDesc: ["A fun way to calculate with Javascript",
+        "Cross platform compatible mobile responsive design",
       ]
     },
 
     {
-      image: "./images/projects/pomodoro.gif",
+      image: "./images/pomodoro.png",
       title: "Pomodoro Timer",
-      oneLineDesc: "An animated pomodoro web app",
-      roles: ["Core programming", "UX/UI Design"],
       techUsed: ["Html5", "Css3", "Bootstrap", "Angular.js"],
-      liveLink: "https://codepen.io/techievignesh/full/PJwXJd/",
-      gitLink: "https://codepen.io/techievignesh/pen/PJwXJd/",
-      fullDesc: ["Mobile responsive design",
-        "Custom pomodoro timer and breaktime",
-        "Includes animated progress bar"
+      liveLink: "https://vramazing.github.io/PomodoroTimer/",
+      gitLink: "https://github.com/VRamazing/PomodoroTimer/",
+      fullDesc: ["An animated pomodoro web app made with angular js",
+        "Includes animated progress bar & Custom pomodoro timer"
       ]
     },
 
     {
-      image: "./images/projects/lineball.gif",
-      title: "Line Ball",
-      oneLineDesc: "A basic 2D game inspired from Line Birds",
-      roles: ["Game programming", "Game Art", "Project Lead"],
+      image: "./images/lineball.png",
+      title: "Line Ball Game",
       techUsed: ["Html5", "Css3", "Javascript"],
-      liveLink: "http://igameproject.com/line-ball/",
+      liveLink: "https://igameproject.github.io/line-ball/",
       gitLink: "https://github.com/igameproject/line-ball",
-      fullDesc: ["Inspired from Line birds",
-        "3 Lives to create highscore",
-        "Unlimited Gameplay",
-        "Playable in browser"
+      fullDesc: ["A basic 2D game inspired from Line Birds",
+        "3 Lives to reach highscore and Unlimited Gameplay",
       ]
     },
 
 
     {
-      image: "./images/projects/breakout.gif",
-      title: "Breakout",
-      oneLineDesc: "A recreation 80's classic using Html canvas 2d",
-      roles: ["Game programming", "Music/Sound Creation", "Game Art", "Project Lead"],
+      image: "./images/breakout.png",
+      title: "Breakout Game",
       techUsed: ["Html5", "Canvas", "Javascript"],
-      liveLink: "http://igameproject.com/Breakout/",
+      liveLink: "https://igameproject.github.io/Breakout/",
       gitLink: "https://github.com/igameproject/Breakout",
-      fullDesc: ["26+ levels ,5+ powerups, 3 lives to create highscore",
-        "Inspired by atari breakout 1980's",
-        "Playable in browser"
+      fullDesc: ["A recreation 80's classic using Html canvas 2d", 
+      "Includes 26+ levels ,5+ powerups, 3 lives to create highscore",
+        "Inspired by atari breakout 1980's and is playable in browser",
       ]
     },
 
 
     {
-      image: "./images/projects/memory.gif",
-      title: "Memory Puzzle",
-      oneLineDesc: "An interactive memory card game inspired by tech - companies",
-      roles: ["Game programming", "Game Art", "Project Lead"],
+      image: "./images/memory.png",
+      title: "Memory Puzzle Game",
       techUsed: ["Html5", "Css3", "JQuery"],
-      liveLink: "http://igameproject.com/Memory-Game/",
+      liveLink: "https://igameproject.github.io/Memory-Game/",
       gitLink: "https://github.com/igameproject/Memory-Game",
-      fullDesc: ["Responsive tileset and design",
-        "Playable in browser",
+      fullDesc: ["An interactive memory card game inspired by tech - companies","Includes Responsive tileset and design",
       ]
     },
 
     {
-      image: "./images/projects/tatooine.gif",
-      title: "Save Tatooine",
-      oneLineDesc: "A space shooter tower defence game",
-      roles: ["Game programming", "Game Art", "Music, SFX"],
-      techUsed: ["Javascript", "PhotoShop", "Audacity"],
-      liveLink: "http://igameproject.com/saveTatooine/",
+      image: "./images/tatooine.png",
+      title: "Save Tatooine Game",
+      techUsed: ["Javascript", "PhotoShop", "Audacity", "HTML 5", "CSS"],
+      liveLink: "https://igameproject.github.io/saveTatooine/",
       gitLink: "https://github.com/igameproject/saveTatooine",
       fullDesc: ["A tower defence space shooter game",
         "Objective of the game is survive the attacks by incoming spaceship",
-        "Includes 5+ powerups",
-        "Includes Multiple enemies and attack modes"
+        "Includes 5+ powerups &  Multiple enemies and attack modes",
       ]
     },
 
 
 
     {
-      image: "./images/projects/excalibur.gif",
+      image: "./images/excalibur.png",
       title: "Excalibur SDS",
-      oneLineDesc: "A JS recreation of DOS classic paratrooper",
-      roles: ["Game programming", "Music production", "Team member", "Game art"],
-      techUsed: ["Javascript", "Sonic Pi", "Html5"],
+      techUsed: ["Javascript", "CSS", "Html5"],
       liveLink: "https://gamkedo.itch.io/excalibur-sds",
       gitLink: "",
-      fullDesc: ["Collaborated and created with a team of 19 people @gamkedo.com",
-        "Coordinated round the clock and provided remote assistance",
-        "Created Menu Screen, Enemy spaceship and aliens",
-        "12 week project",
-        "Music produced to suit the theme",
-        "Cross platform support"
+      fullDesc: ["A JS recreation of DOS classic paratrooper",
+      "Collaborated and created with a team of 19 people @gamkedo.com",
       ]
     },
 
     {
-      image: "./images/projects/clashTracks.gif",
+      image: "./images/clashtracks.png",
       title: "Clash Tracks",
-      oneLineDesc: "A top down obstacle racing game made in js",
-      roles: ["Game programming", "Music production", "Team Lead", "Game art"],
-      techUsed: ["Javascript", "Casutic 3", "Html5", "Audacity", "Adobe photoshop"],
+      techUsed: ["Javascript", "CSS", "Html5", "Adobe Photoshop"],
       liveLink: "https://techievignesh.itch.io/clash-tracks",
       gitLink: "",
-      fullDesc: ["Collaborated and created with a team of 13 people @gamkedo.com",
-        "8 week project",
-        "Created game art and core game mechanics",
-        "Provided multiple music tracks according to requirement",
-        "Coordinated round the clock and provided remote assistance",
-        "Cross platform support"
+      fullDesc: ["A top down obstacle racing game made in js", "Collaborated and created with a team of 13 people @gamkedo.com",
       ]
     },
 
 
 
     {
-      image: "./images/projects/slick_punch.gif",
+      image: "./images/slickpunch.png",
       title: "Slick Punch",
-      oneLineDesc: "A side scroller action game",
-      roles: ["Game programming", "Music production", "Game art", "Level design", "Core gameplay mechanics"],
       techUsed: ["Casutic 3", "Javacript", "Level design", "HTML5", "Canvas", "Asperite"],
       liveLink: "https://gamkedo.itch.io/slick-punch",
       gitLink: "",
-      fullDesc: ["Collaborated and created with a team of 13 people @gamkedo.com",
-        "12 week project",
-        "Made multiple soundtracks from scratch",
-        "Made multiple levels and artwork for the game",
-        "Created core mechanics in vanila js",
+      fullDesc: ["A side scroller action punching platformer game", "Collaborated and created with a team of 13 people @gamkedo.com",
       ]
     },
 
@@ -316,4 +239,20 @@ module.exports = {
 
     }
   ],
+  shuffleArray
+}
+
+function shuffleArray(arr){
+  for (let i = arr.length - 1; i > 0; i--)
+    {
+     
+        // Pick a random index from 0 to i inclusive
+        let j = Math.floor(Math.random() * (i + 1)); 
+  
+        // Swap arr[i] with the element 
+        // at random index 
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+    } 
+
+    return arr;
 }

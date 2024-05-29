@@ -20,7 +20,7 @@ app.get("/about", (req, res) => {
 });
 
 app.get("/portfolio", (req, res) => {
-  res.render('portfolio.hbs', {projects: data.web_apps, category_name: "web apps"});
+  res.render('portfolio.hbs', {projects: data.shuffleArray(data.web_apps), category_name: "web apps"});
 });
 
 app.get("/hireme", (req, res) => {

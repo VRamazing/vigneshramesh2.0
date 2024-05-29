@@ -1,7 +1,7 @@
  <div class="container-fluid portfolio-main scrollspy" id="Portfolio" > 
 
   <div class="section portfolio">
-    <h5 class="center  blue-text">My Portfolio includes {{projects.length}} +  Web and mobile apps </h5>
+    <p class="center  blue-text flow-text">My Portfolio includes {{projects.length}} +  Web and Mobile Apps </p>
   </div>
 
 
@@ -16,7 +16,7 @@
           <div class="card-image  waves-block waves-light">
            
 
-            <img alt={{title}} src={{image}}>
+            <img alt={{title}} src={{image}} />
 </a>
 
           </div>
@@ -27,6 +27,7 @@
 
 
              <p class="light"><ul class = "browser-default" style = "padding-left:20px;">
+              {{!-- {{oneLineDesc}} --}}
               {{#each fullDesc}}
               <li >{{this}}</li>
               {{/each}}
@@ -45,9 +46,21 @@
 
             <br>
 
-            <div style="display:inline-block">   <span class = "card-link" v-if = "project.liveLink != ''"><a href={{liveLink}} target = "_blank">Live Link</a></span> | 
-            <span v-if = "project.gitLink != ''" ><a href = {{gitLink}} target = "_blank">Github Code</a></span>
-</div>
+            <div style="display:inline-block">
+              
+              {{#if liveLink}}
+                <span class = "card-link">
+                  <a href={{liveLink}} target = "_blank" class="btn btn-livelink waves"><i class="material-icons left ">wb_cloudy</i>Live Link</a>
+                </span> 
+              {{/if}}
+              
+              {{#if gitLink}}
+                <span  >
+                  <a href = {{gitLink}} target = "_blank" class="btn btn-github waves"> <i class="devicon-github-original left"></i>
+  Code</a>
+                </span>
+              {{/if}}
+            </div>
           
           </div>
 
