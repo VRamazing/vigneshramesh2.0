@@ -1,9 +1,4 @@
-const { shuffle } = require("lodash");
-
 module.exports = {
-  techStack: [
-    "javascript", "react js", "Adobe Photoshop", "Figma", "Node js", "Mongodb",
-  ],
   web_apps: [
     {
       image: "./images/sabrang.png",
