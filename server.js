@@ -27,6 +27,20 @@ app.get("/hireme", (req, res) => {
   res.render('hireme.hbs')
 });
 
+app.get("/login", (req, res) => {
+  res.render('login.hbs')
+});
+
+//temp route remove after creating user
+app.get("/signup", (req, res) => {
+  res.render('signup.hbs')
+});
+
+
+app.get("/upload", (req, res) => {
+  res.render('upload.hbs')
+});
+
 app.get('/resume', function (req, res, next) {
     var filePath = __dirname + "/public/resume/resume.pdf";
     res.download(filePath, 'resume_vignesh_ramesh.pdf', function(err){

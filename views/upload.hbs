@@ -1,0 +1,53 @@
+    <div class="container upload" id="Login">
+      <div class="row">
+        <form  >
+            <div class="input-field col s12">
+                <input id="title" name="title" type="text" class="validate" required placeholder="Enter project title" />
+                <label for="title" class="blue-text">Project Title</label>
+            </div>
+
+            <div class="input-field col s12 ">
+              <input id="techUsed" name="techUsed" type="text" class="validate" required placeholder="Enter tech used in comma seperated string" />
+              <label for="techUsed" class="blue-text">Tech Used (in commas)</label>
+            </div>
+
+            <div class="input-field col s12">
+              <input id="livelink" name="livelink" type="text" class="validate" placeholder="Enter git link in string" required />
+              <label for="livelink" class="blue-text">Live link</label>
+            </div>
+
+            <div class="input-field col s12 ">
+              <input id="gitlink" name="gitlink" type="text" class="validate" placeholder="Enter git link in string" required />
+              <label for="gitlink" class="blue-text">Git link</label>
+            </div>
+
+            <div class="input-field col s12">
+              <textarea id="fulldesc" name="fulldesc" class="materialize-textarea" placeholder="Enter full description. Each line seperated using comma" required></textarea>
+              <label for="fulldesc" class="blue-text">Full desc (in commas for lines)</label>
+            </div>
+
+            {{!-- <div>
+                Image display
+            </div> --}}
+
+            <div class="input-field col s12">
+                <div class="file-field input-field">
+                    <div class="btn red">
+                        <span>Image</span>
+                        <input type="file" filetype="jpg">
+                    </div>
+                    <div class="file-path-wrapper">
+                        <input class="file-path validate" type="text" placeholder="Upload image png/jpeg/jpg">
+                    </div>
+                </div>
+           
+            </div>
+          <br />
+          <button class="btn waves-effect waves-dark blue submit-btn" type="submit" name="action">Upload
+            <i class="material-icons send-icon" aria-hidden="true" >arrow_upward
+
+</i>
+          </button>
+        </form>
+      </div>
+</div>

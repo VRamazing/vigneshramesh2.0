@@ -7,7 +7,7 @@
     "start-all-dev": "npm-run-all --parallel start-server-dev sass-build-watch",
     "start-prod": "node server.js",
     "start-server-dev": "nodemon --watch views --watch scripts server.js",
-    "uglify-js": "uglifyjs public/scripts/data.js public/scripts/main.js  -o public/scripts/data.min.js",
+    "uglify-js": "uglifyjs public/scripts/main.js  -o public/scripts/main.min.js",
     "sass-build": "sass public/styles/main.scss public/styles/main.css --style=compressed",
     "sass-build-watch": "sass public/styles/main.scss public/styles/main.css --style=compressed --watch"
   },
